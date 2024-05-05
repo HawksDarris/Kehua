@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wheel Game</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body>
+    <script src="../../js/vocab.js"></script>
+    <!-- <script>const vocab = vocabSix</script> -->
+    <script>
+    const vocab = vocabSeven;
+    const stories = storiesSeven;
+    </script>
+    <div class="container">
+      <div id="app">
+        <img class="marker" src="marker.png" />
+        <img class="wheel" src="emojiWheel.png" />
+        <img class="button" src="button.png" />
+        <div class="display">-</div>
+
+        <div>
+          <button class="choose-challenge" data-challenge-type="listening">Listening Challenge</button>
+          <button class="choose-challenge" data-challenge-type="speaking">Speaking Challenge</button>
+          <button class="choose-challenge" data-challenge-type="reading">Reading Challenge</button>
+        </div>
+        <audio id="wheelSound" src="../../audio/CasinoWheel.wav"></audio>
+      </div>
+      <!-- <span id="story"></span> -->
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

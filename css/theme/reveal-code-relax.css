@@ -1,0 +1,85 @@
+@import "reveal-zenika-light.css";
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              center url('../backgrounds/la-so-unsplash.jpg');
+  background-size: 3%, cover, cover;
+  font-size: 100%;
+}
+
+.present h2 {
+    margin-inline: auto; 
+    text-align: center;
+    padding: 1em 0 0 0;
+}
+
+.present p{
+    margin: 1em 0 1em 0;
+    font-size: 2.5rem;
+}
+
+.present table{
+    margin-inline: auto; 
+    text-align: center;
+}
+
+.centered dl dt{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.centered dl dd{
+    font-size: 1.2em;
+}
+
+.leftcol p {
+    margin: 0.5em 1em 0em 0;
+}
+
+.rightcol p {
+    margin: 0.5em 1em 0em 0;
+}
+
+.large p {
+    font-size: 1.5em;
+}
+
+.bigh2 h2{
+  font-size: 90px !important;
+  height: 60%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  float: none;
+}
+
+h1{
+  font-size: 90px !important;
+  height: 60% !important;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  float: none;
+}
+
+/* .reveal .slides section:not(.title):not(.stack), */
+/* .reveal .slides section > section,   */
+/* .reveal .slides section.stack > section.stack { */
+/*   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); */
+/*   background: transparent; */
+/* } */
+
+.nobox {
+    background: white;
+    width: fit-content;
+    position: absolute;
+    top: 0%;
+}
+
+.reveal .slides section:has(h2.nobox) {
+    background: none !important;
+}
+
+img {
+    max-height: 500px;
+}

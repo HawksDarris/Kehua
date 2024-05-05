@@ -1,0 +1,64 @@
+* {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+.buttoncontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-gap: 10px;
+}
+.button {
+  min-width: 100px;
+  min-height: 50px;
+  background-color: #eee;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.button:hover {
+  background-color: #ddd;
+}
+.button:active {
+  background-color: #ccc;
+}
+.button.darken {
+  background-color: #333;
+  color: #fff;
+}
+.button.transparent {
+  opacity: 0.5;
+}
+.reset {
+  background-color: black;
+  color: white;
+}
+/* Define color classes */
+.skyblue {
+  background-color: skyblue;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.magenta {
+  background-color: magenta;
+}
+
+.lightgreen {
+  background-color: lightgreen;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.wheelbtn {
+  background: black;
+}

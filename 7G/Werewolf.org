@@ -1,0 +1,142 @@
+#+TITLE: Werewolf
+b = (body)guard
+c = cupid
+g = ghost
+h = hunter
+j = joker
+k = kid
+m = mason
+s = seer
+v = count
+w = witch
+x = dead
+
+
+* C1
+|   | A | B | C | D | E | F |
+| 1 |   |   |   |   |   |   |
+| 2 |   |   |   |   |   |   |
+| 3 |   |   |   |   |   |   |
+| 4 |   |   |   |   |   |   |
+| 5 |   |   |   |   |   |   |
+| 6 |   |   |   |   |   |   |
+| 7 |   |   |   |   |   |   |
+| 8 |   |   |   |   |   |   |
+* C2
+|   | A | B | C | D | E | F |
+| 1 |   |   |   |   |   |   |
+| 2 |   |   |   |   |   |   |
+| 3 |   |   |   |   |   |   |
+| 4 |   |   |   |   |   |   |
+| 5 |   |   |   |   |   |   |
+| 6 |   |   |   |   |   |   |
+| 7 |   |   |   |   |   |   |
+| 8 |   |   |   |   |   |   |
+* C3
+37
+Facing the class, Row 1 on Left.
+1. Joker 🃏
+2. Ghost 👻
+3. Little Kid🍼
+4. Cupid💘
+5. Mason 👷
+6. Guard 💂
+7. Hunter 🔫
+8. Witch🧙
+9. Dracula🧛
+10. Werewolf 🐺
+11. Seer🔮
+
+#+HEADER: :var seats=C3-Seats
+#+BEGIN_SRC python :results output
+import random
+
+def seat(array):
+    rows, cols = len(array), len(array[0])
+
+    row = random.randint(0, rows -1)
+    col = random.randint(0, cols -1)
+    print(row, col)
+    return array[row][col]
+
+print(seat(seats))
+
+#+END_SRC
+
+#+RESULTS:
+: 4 3
+: 
+
+Pass cards to whole row, one by one, starting from the door-side of the class. First row, second row, etc.
+Draw the class grid on the board. Draw the door to make it clear. 
+
+1. w - werewolf kill
+2. d - dracula kill
+3. c - cupid target
+4. h - hunter target
+5. g - guard target
+-------------------------------I stand here---------------
+#+NAME: C3-Seats
+|----+----+----+----+----+----+----+---|
+| 🚪 | 1  |  2 | 3  | 4  | 5  | 6  |   |
+|  1 |    |    | 🃏 | 🧛 |    | 👷 | 1 |
+|  2 | 🐺 | 👷 |    | 🐺 |    | 🐺 | 2 |
+|  3 |    |    |    | 🔮 | 💘 |    | 3 |
+|  4 |    | 🔫 | 🧙 | 👻 | 🐺 | 🍼 | 4 |
+|  5 | 🐺 |    | 🐺 |    |    |    | 5 |
+|  6 | 👷 |    | 🐺 | 🐺 | 👷 | 💂 | 6 |
+|  7 |    |    |    |    |    |    | 7 |
+|    | 1  |  2 | 3  | 4  | 5  | 6  |   |
+|----+----+----+----+----+----+----+---|
+
+* C4
+| 1 |   |   |   |   |   |   |
+| 2 |   |   |   |   |   |   |
+| 3 |   |   |   |   |   |   |
+| 4 |   |   |   |   |   |   |
+| 5 |   |   |   |   |   |   |
+| 6 |   |   |   |   |   |   |
+| 7 |   |   |   |   |   |   |
+| 8 |   |   |   |   |   |   |
+* C5
+|   | A | B | C | D | E | F |
+| 1 |   |   |   |   |   |   |
+| 2 |   |   |   |   |   |   |
+| 3 |   |   |   |   |   |   |
+| 4 |   |   |   |   |   |   |
+| 5 |   |   |   |   |   |   |
+| 6 |   |   |   |   |   |   |
+| 7 |   |   |   |   |   |   |
+| 8 |   |   |   |   |   |   |
+* C6
+|   | A | B | C | D | E | F |
+| 1 |   |   |   |   |   |   |
+| 2 |   |   |   |   |   |   |
+| 3 |   |   |   |   |   |   |
+| 4 |   |   |   |   |   |   |
+| 5 |   |   |   |   |   |   |
+| 6 |   |   |   |   |   |   |
+| 7 |   |   |   |   |   |   |
+| 8 |   |   |   |   |   |   |
+* C7
+lbd
+|   | A | B | C | D | E | F |
+|   | A | B | C | D | E | F |
+| 1 |   |   |   |   |   |   |
+| 2 |   |   |   |   |   |   |
+| 3 |   |   |   |   |   |   |
+| 4 |   |   |   |   |   |   |
+| 5 |   |   |   |   |   |   |
+| 6 |   |   |   |   |   |   |
+| 7 |   |   |   |   |   |   |
+| 8 |   |   |   |   |   |   |
+* C8
+|   | A | B | C | D | E | F |
+| 1 |   |   |   |   |   |   |
+| 2 |   |   |   |   |   |   |
+| 3 |   |   |   |   |   |   |
+| 4 |   |   |   |   |   |   |
+| 5 |   |   |   |   |   |   |
+| 6 |   |   |   |   |   |   |
+| 7 |   |   |   |   |   |   |
+| 8 |   |   |   |   |   |   |

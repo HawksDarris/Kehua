@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Classroom Seating</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  button {
+    width: 100px;
+    height: 75px;
+    border: none;
+    cursor: pointer;
+    background-color: #ddd;
+    font-size: 20px;
+  }
+</style>
+</head>
+<body>
+<div class="grid">
+  <!-- Generating buttons with row and column numbers -->
+  <!-- Rows -->
+  <button disabled style="font-size:30px">🚪</button>
+  <button disabled>1</button>
+  <button disabled>2</button>
+  <button disabled>3</button>
+  <button disabled>4</button>
+  <button disabled>5</button>
+  <button disabled>6🪟</button>
+  <!-- Columns -->
+  <button disabled>A</button>
+  <button id="1A"></button>
+  <button id="2A"></button>
+  <button id="3A"></button>
+  <button id="4A"></button>
+  <button id="5A"></button>
+  <button id="6A"></button>
+  <!-- Second row of columns -->
+  <button disabled>B</button>
+  <button id="1B"></button>
+  <button id="2B"></button>
+  <button id="3B"></button>
+  <button id="4B"></button>
+  <button id="5B"></button>
+  <button id="6B"></button>
+  <!-- Third row of columns -->
+  <button disabled>C</button>
+  <button id="1C"></button>
+  <button id="2C"></button>
+  <button id="3C"></button>
+  <button id="4C"></button>
+  <button id="5C"></button>
+  <button id="6C"></button>
+  <!-- Fourth row of columns -->
+  <button disabled>D</button>
+  <button id="1D"></button>
+  <button id="2D"></button>
+  <button id="3D"></button>
+  <button id="4D"></button>
+  <button id="5D"></button>
+  <button id="6D"></button>
+  <!-- Fifth row of columns -->
+  <button disabled>E</button>
+  <button id="1E"></button>
+  <button id="2E"></button>
+  <button id="3E"></button>
+  <button id="4E"></button>
+  <button id="5E"></button>
+  <button id="6E"></button>
+  <!-- Sixth row of columns -->
+  <button disabled>F</button>
+  <button id="1F"></button>
+  <button id="2F"></button>
+  <button id="3F"></button>
+  <button id="4F"></button>
+  <button id="5F"></button>
+  <button id="6F"></button>
+  <!-- Seventh row of columns -->
+  <button disabled>G</button>
+  <button id="1G"></button>
+  <button id="2G"></button>
+  <button id="3G"></button>
+  <button id="4G"></button>
+  <button id="5G"></button>
+  <button id="6G"></button>
+</div>
+
+<div>
+<p style="color:white; background:red;">Target</p>
+<p style="color:white; background:green;">Protected</p>
+<p style="color:white; background:skyblue;">Saved</p>
+<p style="color:white; background:black;">No Student</p>
+<p style="color:white; background:pink;">In Love</p>
+<p style="color:black; background:yellow;">Reminder</p>
+</div>
+
+<button id="toggleEmojis">Hide Roles</button>
+
+<script>
+  const buttons = document.querySelectorAll('.grid button:not([disabled])');
+  const emojis = {
+      '1B': '🐺',
+      '1E': '🐺',
+      '1F': '👷',
+      '2B': '👷',
+      '2D': '🔫',
+      '3A': '🃏',
+      '3D': '🧙',
+      '3E': '🐺',
+      '3F': '🐺',
+      '4A': '🧛',
+      '4B': '🐺',
+      '4C': '🔮',
+      '4D': '👻',
+      '4E': '🐺',
+      '5C': '💘',
+      '5D': '🐺',
+      '5E': '👷',
+      '6A': '👷',
+      '6B': '🐺',
+      '6D': '🍼',
+      '6F': '💂'
+  }
+  
+  buttons.forEach(button => {
+      let colorIndex = 0;
+      const colors = ['#ddd', 'red', 'green', 'skyblue', 'pink', 'yellow','black']; 
+      
+      // Set emoji if available
+      button.innerHTML = `${button.id}<br>`;
+      if (emojis[button.id]) {
+	  button.innerHTML += `${emojis[button.id]}`;
+      }
+      
+      button.addEventListener('click', () => {
+	  colorIndex = (colorIndex + 1) % colors.length;
+	  button.style.backgroundColor = colors[colorIndex];
+      });
+  });
+  
+  const toggleButton = document.getElementById('toggleEmojis');
+  let emojisEnabled = true;
+
+  toggleButton.addEventListener('click', () => {
+      emojisEnabled = !emojisEnabled;
+
+      if (emojisEnabled) {
+	  toggleButton.innerHTML = "Hide Roles";
+      } else {
+	  toggleButton.innerHTML = "Show Roles";
+      }
+
+      buttons.forEach(button => {
+	  const id = button.id;
+	  if (emojisEnabled && emojis[id]) {
+	      button.innerHTML += "<br>"+emojis[id];
+	  } else {
+	      button.innerHTML = id;
+	  }
+      });
+  });
+  </script>
+
+</body>
+</html>

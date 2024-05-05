@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Word Cloud Generator</title>
+<style>
+  #wordCloud {
+    width: 600px;
+    height: 400px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .word {
+    display: inline-block;
+    margin: 5px;
+    font-size: 16px;
+  }
+</style>
+</head>
+<body>
+
+<div id="wordCloud"></div>
+
+<script src="../js/vocab.js"></script>
+<script>
+  const words = vocabSeven;
+  // Function to count frequency of words
+  function wordFrequency(words) {
+    const frequency = {};
+    words.forEach(word => {
+      frequency[word] = (frequency[word] || 0) + 1;
+    });
+    return frequency;
+  }
+
+  // Function to generate word cloud
+  function generateWordCloud(words) {
+    const wordCloudDiv = document.getElementById("wordCloud");
+    const frequency = wordFrequency(words);
+
+    for (let word in frequency) {
+      const wordSpan = document.createElement("span");
+      wordSpan.textContent = word;
+      wordSpan.classList.add("word");
+      wordSpan.style.fontSize = frequency[word] * 10 + "px";
+      wordCloudDiv.appendChild(wordSpan);
+    }
+  }
+
+  // Generate word cloud on page load
+  window.onload = function() {
+    generateWordCloud(words);
+  };
+</script>
+
+</body>
+</html>

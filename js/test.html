@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Word Cloud Generator</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  canvas {
+    display: block;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+</style>
+</head>
+<body>
+
+<canvas id="wordCloudCanvas" width="600" height="400"></canvas>
+
+<script src="vocab.js"></script>
+<script>const words = vocabSeven;</script>
+<script>
+  // const words = ["grape", "banana", "mango", "apple", "orange", "banana"];
+
+  // Function to check collision between two rectangles
+  function isColliding(rect1, rect2) {
+    return !(rect1.x + rect1.width < rect2.x ||
+             rect1.x > rect2.x + rect2.width ||
+             rect1.y + rect1.height < rect2.y ||
+             rect1.y > rect2.y + rect2.height);
+  }
+
+  // Function to generate word cloud
+  function generateWordCloud(words) {
+    const canvas = document.getElementById('wordCloudCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // Clear canvas
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Count word frequency
+    const wordCount = {};
+    for (let word of words) {
+      wordCount[word] = (wordCount[word] || 0) + 1;
+    }
+
+    // Sort words by frequency
+    const sortedWords = Object.keys(wordCount).sort((a, b) => wordCount[b] - wordCount[a]);
+
+    // Calculate font sizes based on frequency
+    const minSize = 10;
+    const maxSize = 60;
+    const maxFrequency = wordCount[sortedWords[0]];
+    const sizeFactor = (maxSize - minSize) / maxFrequency;
+
+    // Render words on canvas
+    const centerX = canvas.width / 2;
+    const centerY = canvas.height / 2;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillStyle = 'black';
+    const renderedWords = [];
+    for (let i = 0; i < sortedWords.length; i++) {
+      const word = sortedWords[i];
+      const fontSize = minSize + (wordCount[word] * sizeFactor);
+      ctx.font = fontSize + 'px Arial';
+
+      // Random position
+      let collisionDetected = true;
+      let x, y;
+      while (collisionDetected) {
+        const angle = Math.random() * Math.PI * 2;
+        const radius = Math.random() * (canvas.width / 3);
+        x = centerX + Math.cos(angle) * radius;
+        y = centerY + Math.sin(angle) * radius;
+
+        // Check collision with previously rendered words
+        const rect1 = {x: x - ctx.measureText(word).width / 2, y: y - fontSize / 2, width: ctx.measureText(word).width, height: fontSize};
+        collisionDetected = false;
+        for (let j = 0; j < renderedWords.length; j++) {
+          const rect2 = renderedWords[j];
+          if (isColliding(rect1, rect2)) {
+            collisionDetected = true;
+            break;
+          }
+        }
+      }
+
+      // Draw word
+      ctx.fillText(word, x, y);
+
+      // Store the rectangle of the rendered word for collision detection
+      renderedWords.push({x: x - ctx.measureText(word).width / 2, y: y - fontSize / 2, width: ctx.measureText(word).width, height: fontSize});
+    }
+  }
+
+  // Generate word cloud on page load
+  window.onload = function() {
+    generateWordCloud(words);
+  };
+</script>
+
+</body>
+</html>

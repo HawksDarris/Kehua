@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#jeopardy-board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.category {
+    background-color: #3366cc;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.question {
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}

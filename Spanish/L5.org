@@ -1,0 +1,186 @@
+#+TITLE: ¿Cómo como? Como como como.
+#+AUTHOR: Darris Hawks
+#+SUBTITLE: Spanish stuff
+:reveal_properties: 
+#+STARTUP: indent fold
+# #+PROPERTY: HEADER-ARGS+ :eval no-export
+# #+date: <2024-03-30 Sat>
+# #+subtitle: hello
+# #+REVEAL_TITLE_SLIDE:<h1>%t</h1><h2>%s%d</h2>
+# #+REVEAL_TITLE_SLIDE:<h1 class="r-fit-text">%t</h1>
+# #+EXPORT_FILE_NAME: test.html
+#+REVEAL_INIT_OPTIONS: hash: true
+#+options: timestamp:nil toc:1 num:nil
+#+REVEAL_SLIDE_HEADER: <span class="questionwords">¿Dónde?<br>在哪里？</span> <span class="questionwords">¿Por qué?<br>为什么？</span> <span class="questionwords">¿Cómo?<br>如何？</span>
+#+REVEAL_SLIDE_FOOTER:<span class="questionwords">¿Quién? <br>谁?</span> <span class="questionwords">¿Qué?<br>什么？</span> <span class="questionwords">¿Cuántos?<br>多少？</span>
+# #+OPTIONS: reveal_embed_local_resources
+# #+reveal_theme: ../../css/theme/reveal-code-relax
+# #+reveal_theme: none
+#+OPTIONS: reveal_single_file:t
+#+REVEAL_TITLE_SLIDE_BACKGROUND: ../css/backgrounds/la-so-unsplash.jpg
+#+REVEAL_TOC_SLIDE_BACKGROUND: ../css/backgrounds/la-so-unsplash.jpg
+#+REVEAL_DEFAULT_SLIDE_BACKGROUND: ../css/backgrounds/la-so-unsplash.jpg
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika-light.css
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
+#+REVEAL_EXTRA_CSS: ../dist/headerfooter.css
+#+REVEAL_EXTRA_CSS: ../dist/utils.css
+:end:
+
+* ¿Cómo están? 
+#+ATTR_REVEAL: :frag fade-left
+| *你*            | *你们/他们/她们* |
+| ¿Cómo estás? | ¿Cómo están? |
+#+ATTR_REVEAL: :frag fade-left
+#+begin_centered
+- Yo estoy bien :: 我很好
+- ¿Y tú? :: 你呢？
+#+end_centered
+
+* 是 y 在 
+| *是*            |        | *在*            |        |
+| yo soy       | 我是    | yo estoy     | 我在    |
+| tú eres      | 你是    | tú estás     | 你在    |
+| él/ella es   | 他/她是 | él/ella está | 他/她在 |
+| yo estoy     | 我是    |              |        |
+| tú estás     | 你是    |              |        |
+| él/ella está | 他/她是 |              |        |
+
+* Es y está
+| *es*  |   |   |   |   |   |   |   |   | *está*        |
+| 本质 |   |   |   |   |   |   |   |   | 在/暂时的情况 |
+
+*How you feel and where you are*,
+*that is when you use estar*
+
+* Vocabulario 
+  :PROPERTIES:
+  :CUSTOM_ID: vocabulario
+  :END:
+#+begin_centered
+#+REVEAL_HTML: <div style="text-align:center;margin: -10px 0 10px 0;width: 400px;background-color:green;color:white;">verde</div>
+#+REVEAL_HTML: <div style="text-align:center;margin: 10px 0 10px 0;background-color:pink;color:white;">rosa</div>
+#+REVEAL_HTML: <div style="text-align:center;margin: 10px 0 10px 0;background-color:blue;color:white;">azul</div>
+#+REVEAL_HTML: <div style="text-align:center;margin: 10px 0 10px 0;background-color:red;color:white;">rojo</div>
+#+REVEAL_HTML: <div style="text-align:center;margin: 10px 0 10px 0;background-color:white;color:black;border: 1px solid;">blanco</div>
+#+REVEAL_HTML: <div style="text-align:center;margin: 10px 0 10px 0;background-color:gold;color:white;">amarillo</div>
+#+REVEAL_HTML: <div style="text-align:center;margin: 10px 0 10px 0;background-color:black;color:white;">negro</div>
+#+end_centered
+
+** Vocabulario
+#+begin_leftcol
+- *chico/chica* :: 👦/👧
+- *este/esta*  :: 👉❌
+- *eso/esa*  :: 👉-----❌    
+- *otro* :: other
+- *importante* :: 重要的  
+- *porque* :: 因为   (*note:* porque, not por qué.) 
+#+end_leftcol
+#+begin_rightcol
+- *aquí/allí*  :: 👉📍🗺️/ 👉-----📍🗺️
+- *persona* :: 🧍
+- *asesino* :: 🧍🔪🩸☠️
+- *lo/la* :: him/her/it
+- *flor* :: 🌷🌼🌸 
+- *rey* :: 👑
+#+end_rightcol
+# 🤴🏻🤴🏼🤴🏽🤴🏾🤴🏿 
+
+
+** Verbos
+   | *yo*     | *tú*      | *él/ella* | *ellos/ellas/ustedes [你们]* | *nosotros [我们]* | ​*含义*      |
+   | quiero | quieres | quiere  | quieren                   | queremos       | 想要      |
+   | puedo  | puedes  | puede   | pueden                    | podemos        | 会/能/可以 |
+   | muero  | mueres  | muere   | mueren                    | morimos        | 💀       |
+   | hago   | haces   | hace    | hacen                     | hacemos        | do/make  |
+   | como   | comes   | come    | comen                     | comemos        | 🍽️       |
+   | mato   | matas   | mata    | matan                     | matamos        | 🔪🩸->💀 |
+   | hablo  | hablas  | habla   | hablan                    | hablamos       | 🗣️       |
+   
+*** What does it mean?
+#+ATTR_REVEAL: :frag (fade-left)
+- *Lo mato.* 
+- 我杀了他 
+- *¿Qué haces?* 
+- 你在干什么？
+- *¿Qué quieres?* 
+- 你想要什么？
+- *Quiero ser un rey*
+- 我想成为国王
+
+*** 尝试弄清楚它的含义。
+#+ATTR_REVEAL: :frag (fade-left)
+- 👦 *Quiero hacerlo.*
+- 👧 *¿Qué quieres hacer?* 
+- 👦 *Quiero comer*
+- 👧 *¿Qué quieres comer?* 
+- 👦 *Quiero comer comida*
+- 👧 *¿Cómo comes?* 
+- 👦 *¿Cómo como? ¡Como como como!* 
+
+
+** Verbos                                                         :noexport:
+   | *yo*     | *tú*      | *él/ella* | *ellos/ellas/ustedes [你们]* | *nosotros [我们]* | ​*含义*      |
+   | quiero | quieres | quiere  | quieren                   | queremos       | 想要      |
+   | puedo  | puedes  | puede   | pueden                    | podemos        | 会/能/可以 |
+   | como   | comes   | come    | comen                     | comemos        | 🍽️       |
+   | mato   | matas   | mata    | matan                     | matamos        | 🔪🩸->💀 |
+   | hablo  | hablas  | habla   | hablan                    | hablamos       | 🗣️       |
+   | muero  | mueres  | muere   | mueren                    | morimos        | 💀       |
+
+* 验证你是否理解。
+#+begin_leftcol
+#+ATTR_REVEAL: :frag fade-right
+[[../images/Spanish/Chica.png]]
+#+ATTR_REVEAL: :frag fade-right
+¿De qué color es esta chica?
+#+end_leftcol
+
+#+begin_rightcol
+#+ATTR_REVEAL: :frag fade-right
+[[../images/Spanish/Chico.png]]
+#+ATTR_REVEAL: :frag fade-right
+¿De qué color es este chico?
+#+end_rightcol
+
+** 验证你是否理解。
+#+begin_leftcol
+[[../images/Spanish/Chica.png]]
+#+end_leftcol
+#+begin_rightcol
+[[../images/Spanish/Chico.png]]
+#+end_rightcol
+
+#+reveal_html:<div style="text-align:center">
+#+ATTR_REVEAL: :frag fade-right
+¿De qué colores *son* estos chicos?
+#+reveal_html:</div>
+
+* El mosquito importante
+#+begin_leftcol
+[[../images/Spanish/dos-chicas-un-chico.png]]
+#+end_leftcol
+#+begin_rightcol
+[[../images/Spanish/important-Mosquito.jpeg]] 
+#+end_rightcol
+
+** El cuento
+Hay un mosquito🦟. El mosquito 🦟 es un mosquito importante. ¿Por qué es un mosquito importante? ¡Porque este 👉mosquito🦟 es el rey👑de todos los mosquitos del mundo 🌏! Él no es un presidente 👨‍💼. Él es un rey👑. ¿Dónde está el rey👑 de todos los mosquitos del mundo? Está aquí👉📍🗺 en china.
+
+*** Otro Mosquito
+¡Hay otro mosquito 🦟! Este mosquito 🦟es el hermano [弟弟] del rey👑y no es importante porque no es el rey👑 de todos los mosquitos del mundo. El hermano del rey👑 quiere ser [是] importante y es un asesino🧍🔪🩸☠️. El hermano del rey👑 de todos los mosquitos 🦟 en el mundo 🌏quiere ser el rey👑de todos los mosquitos 🦟 en el mundo 🌏. 
+** El cuento
+Hay un mosquito. El mosquito es un mosquito importante. ¿Por qué es un mosquito importante? ¡Porque este mosquito es el rey de todos los mosquitos del mundo! Él no es un presidente. Él es un rey. ¿Dónde está el rey de todos los mosquitos del mundo? Está aquí en china.
+
+¡Hay otro mosquito! Este mosquito es el hermano del rey y no es importante. El hermano del rey quiere ser importante y es un asesino. El hermano del rey de todos los mosquitos del mundo quiere ser el rey de todos los mosquitos en el mundo. 
+** ¿Cómo puede ser el rey? 
+#+ATTR_REVEAL: :frag (fade-right)
+- ¿Cómo puede ser el rey? 
+    - ¿Puede matar al rey?
+- ¿Cuántos mosquitos hay?
+- ¿Dónde está el rey de todos los mosquitos del mundo?
+* Setup                                                     :noexport:
+# Local variables:
+# after-save-hook: org-re-reveal-export-to-html
+# org-re-reveal-progress: nil
+# end:

@@ -1,0 +1,87 @@
+* {
+  color: white;
+  }
+
+body{
+  background-color: #282A36;
+}
+
+em {
+  font-style:normal;
+  font-weight:bold;
+  color: gold;
+}
+
+h2{
+  font-size:2.1rem;
+}
+
+h3{
+  font-size:2.1rem;
+  color:red;
+  text-shadow:cornflowerblue;
+}
+
+img {
+  max-width:400px;
+}
+
+li{
+  font-size:3rem;
+}
+
+p{
+  font-size:2rem;
+}
+
+ul *{
+  list-style-type: none;
+  color: gold;
+}
+
+.reveal .slides {
+  height: 100%;
+  top: 0;
+  margin-top: 0;
+}
+
+.reveal .slides>section {
+  min-height: 90%;
+}
+
+.reveal .slides>section>section {
+  min-height: 100%;
+}
+
+.container{
+    display: flex;
+}
+.col{
+    flex: 1;
+    margin-right:50px;
+}
+.col figcaption {
+  margin-top:-30px;
+  font-size:22px;
+}
+.top50{
+  margin-top:50px;
+}
+.top100{
+  margin-top:100px;
+}
+.top150{
+  margin-top:150px;
+}
+.questions h2 {
+  color: lightcoral;
+}
+.questions ol li {
+  color: lightgreen;
+  font-size: 40px;
+}
+.vcenter {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%)
+}

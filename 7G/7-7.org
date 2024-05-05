@@ -1,0 +1,157 @@
+#+title: Lesson 7
+#+Author: Darris
+#+startup: inlineimages
+:reveal_properties: 
+# #+date: <2024-03-30 Sat>
+# #+subtitle: hello
+# #+REVEAL_TITLE_SLIDE:<h1>%t</h1><h2>%s%d</h2>
+#+REVEAL_TITLE_SLIDE:<h1 class="r-fit-text">%t</h1>
+#+reveal_theme: beige
+# #+REVEAL_INIT_OPTIONS: slideNumber:true
+#+REVEAL_INIT_OPTIONS: hash:true,autoPlayMedia:true,transition:'convex',backgroundTransition:'zoom'
+#+options: timestamp:nil toc:1 num:nil
+#+REVEAL_SLIDE_HEADER:
+#+REVEAL_SLIDE_FOOTER:
+# #+OPTIONS: reveal_single_file:t
+#+REVEAL_EXTRA_CSS: ../dist/headerfooter.css
+#+REVEAL_EXTRA_CSS: ../dist/utils.css
+#+REVEAL_EXTRA_JS: { ../js/image-size.js }
+:end:
+# #+REVEAL: split
+# ^ Split an overflowing slide into two without making a new header (why not just make a new header?)
+* COMMENT Sweet 16 Verbs
+| be at   | there is |  have    | be       |
+| like    | go       |  want    | leave    |
+| do/make | put      |  can     | give     |
+| say     | know     |  return  | see      |
+* Plan for the lesson
+We are going to learn "be doing"
+** Key Words
+| reply  | foolish       | connected   |
+| moment | batteries     | turn it off |
+| cable  | power station | wire        |
+
+** We are using it too much today, like Russians
+- How are you feeling?
+- I am teaching this class
+  - You must be learning!
+- Are you learning? 
+- What is using electricity in this room? 
+** Rules for points
+1. I will be giving you more points if you were doing "be doing" in your answer
+2. I will not be caring if you do it right today
+#+ATTR_REVEAL: :frag fade-left
+- ^(That is doing it wrong)^
+
+* Rules
+:PROPERTIES:
+:REVEAL_EXTRA_ATTR: data-auto-animate
+:END:
+** Rules
+:PROPERTIES:
+:REVEAL_EXTRA_ATTR: data-auto-animate
+:END:
+1. Tidy your desk
+
+** Rules
+:PROPERTIES:
+:REVEAL_EXTRA_ATTR: data-auto-animate
+:END:
+1. Tidy your desk
+2. You must not be doing homework 
+** Rules
+:PROPERTIES:
+:REVEAL_EXTRA_ATTR: data-auto-animate
+:END:
+1. Tidy your desk
+2. You must not be doing homework 
+3. You must not be sleeping
+** Rules
+#+Begin_leftcol
+[[../images/homework.png]]   
+#+End_leftcol
+#+Begin_rightcol
+[[../images/sleeping.jpg]]
+#+End_rightcol
+
+* Your book is wrong about vowels.
+#+BEGIN_QUOTE
+A syllable usually has a vowel sound. However, the consonant sounds in bold... [are] syllables too.
+#+END_QUOTE 
+(p. 80)
+
+#+ATTR_REVEAL: :frag fade-left
+- We say "litt/ul /" not "litt/le /".
+#+ATTR_REVEAL: :frag fade-left
+- ~L~ /*is*/ a vowel here.
+#+ATTR_REVEAL: :frag fade-left
+- (Also the vowel in "pencil" is ~i~ 哈哈 )
+  
+* Games
+Grab the pen?
+** 
+:PROPERTIES:
+:reveal_background_iframe: ../Games/Exploding-Kittens/index.html
+:reveal_background: rgb(0,0,0)
+:reveal_background_opacity: 0.8
+:END:
+* Continuing the Story
+
+| Student of the day | A famous person        |
+
+#+BEGIN_NOTES
+Famous person only goes to cities with very clean electricity. Lights camera action.
+#+END_NOTES
+
+** 
+:PROPERTIES:
+:reveal_background_iframe: ../Games/PickerWheel/index.html
+:reveal_background: rgb(0,0,0)
+:reveal_background_opacity: 0.8
+:END:
+
+* Stories
+** 
+:PROPERTIES:
+:reveal_background_iframe: C2-Story.html
+:reveal_background: rgb(0,0,0)
+:reveal_background_opacity: 0.8
+:END:
+** 
+:PROPERTIES:
+:reveal_background_iframe: C3-Story.html
+:reveal_background: rgb(0,0,0)
+:reveal_background_opacity: 0.8
+:END:
+** 
+:PROPERTIES:
+:reveal_background_iframe: C4-Story.html
+:reveal_background: rgb(0,0,0)
+:reveal_background_opacity: 0.8
+:END:
+** 
+:PROPERTIES:
+:reveal_background_iframe: C5-Story.html
+:reveal_background: rgb(0,0,0)
+:reveal_background_opacity: 0.8
+:END:
+** 
+:PROPERTIES:
+:reveal_background_iframe: C6-Story.html
+:reveal_background: rgb(0,0,0)
+:reveal_background_opacity: 0.8
+:END:
+** 
+:PROPERTIES:
+:reveal_background_iframe: C7-Story.html
+:reveal_background: rgb(0,0,0)
+:reveal_background_opacity: 0.8
+:END:
+** 
+:PROPERTIES:
+:reveal_background_iframe: C8-Story.html
+:reveal_background: rgb(0,0,0)
+:reveal_background_opacity: 0.8
+:END:
+* Next week
+** I am thinking Werewolf (狼人) for review?

@@ -1,0 +1,276 @@
+/* Imports Pippins from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Hides AnyChart logo */
+.anychart-credits-text, .anychart-credits-logo, .anychart-credits {
+  visibility: hidden;
+}
+
+/* Font Styles */
+h1 {
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.tool-header {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.second-setting {
+  margin: 20px 0px 10px 0px;
+}
+
+/* Body/Container Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  border-radius: 8px;
+  padding: 10px 2px 25px 2px;
+  margin: 0px 15px;
+  background-color: #C2E7FF;
+  width: 1050px;
+  display: flex;
+  flex-direction: row;
+}
+
+.custom-container {
+  width: 500px;
+  margin-left: 15px;
+}
+
+#cloud-container {
+  border: grey 1px solid;
+  margin: 20px auto;
+  width: 1050px;
+  border-radius: 8px;
+  height: 500px;
+  padding: 2px;
+}
+
+.options {
+  display: flex;
+}
+
+.other-settings {
+  margin-left: 50px;
+}
+
+/* Removes outline of interactive HTML elements. 
+Can decrease accessibility so be cautious when doing this. */
+textarea:hover,  
+textarea:active, 
+textarea:focus, 
+input:focus,
+input:active,
+input:hover,
+button:focus,
+button:active,
+button:hover,
+button::after,
+label:focus,
+{
+  outline: none !important;
+  -webkit-appearance:none;
+  box-shadow: none !important;
+}
+
+:focus {
+  outline:none;
+} 
+
+::-moz-focus-inner {
+  border:0;
+}
+
+
+/* Making it ✨responsive✨ */
+@media only screen and (max-width: 1110px) {
+  .row {
+    width: 550px;
+    flex-flow: column;
+  }
+  
+  #cloud-container {
+    width: 550px;
+  }
+
+  .color-picker {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .row, #cloud-container {
+    width: 480px;
+  }
+
+  #container {
+    flex-flow: column wrap;
+  }
+
+  .instructions {
+    width: 60%;
+  }
+
+  .input-group {
+    width: 450px;
+  }
+
+  .color-picker {
+    margin-right: -10px;
+  }
+
+  h1 {
+    font-size: 21px;
+  }
+}
+
+.input-group {
+  width: 450px;
+}
+
+#input-text {
+  width: 90%;
+  height: 245px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px 40px 0px 10px;
+  outline: none !important;
+  font-family: 'Poppins', sans-serif;
+  resize: none;
+}
+
+.button {
+  background-color: #47B6FF;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 15px;
+}
+ 
+.button:active, 
+.button:hover {
+  background-color: #0062A3;
+}
+
+/* Hide the browser's default radio button */
+.radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-container:hover input ~ .checkmark {
+  background-color: #85CEFF;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-container input:checked ~ .checkmark {
+  background-color: #47B6FF;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-container .checkmark:after {
+ 	top: 5px;
+	left: 5px;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: white;
+}
+
+.color-picker {
+  margin-left: 10px;
+}
+
+.radio-container {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.right-settings {
+  display: flex;
+}
+
+.scales {
+  margin-left: 20px;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 250px;
+  height: 10px;
+  background: white;
+  border-radius: 20px;
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #47B6FF;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 17px;
+  height: 17px;
+  background: #47B6FF;
+  cursor: pointer;
+}

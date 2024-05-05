@@ -1,0 +1,131 @@
+#+title: Español 
+#+Author: Darris
+#+startup: inlineimages
+:reveal_properties: 
+# #+date: <2024-03-30 Sat>
+# #+subtitle: hello
+# #+REVEAL_TITLE_SLIDE:<h1>%t</h1><h2>%s%d</h2>
+#+REVEAL_TITLE_SLIDE:<h1 class="r-fit-text">%t</h1>
+#+reveal_theme: beige
+# #+REVEAL_INIT_OPTIONS: slideNumber:true
+#+options: timestamp:nil toc:1 num:nil
+#+REVEAL_SLIDE_HEADER: <span class="questionwords">¿Dónde?<br>在哪里？</span> <span class="questionwords">¿Por qué?<br>为什么？</span> <span class="questionwords">¿Cómo?<br>如何？</span>
+#+REVEAL_SLIDE_FOOTER:<span class="questionwords">¿Quién? <br>在哪里？</span> <span class="questionwords">¿Qué?<br>什么？</span> <span class="questionwords">¿Cuántos?<br>多少？</span>
+# #+OPTIONS: reveal_single_file:t
+#+REVEAL_EXTRA_CSS: ../dist/headerfooter.css
+#+REVEAL_EXTRA_CSS: ../dist/utils.css
+:end:
+* 是 y 在 ... y  是
+#+begin_leftcol
+| yo soy     | 我是    |
+| tú eres    | 你是    |
+| él/ella es | 他/她是 |
+#+end_leftcol
+
+#+begin_rightcol
+| yo estoy     | 我在    |
+| tú estás     | 你在    |
+| él/ella está | 他/她在 |
+#+end_rightcol
+
+* 我对你撒了谎...
+
+#+ATTR_REVEAL: :frag fade-left
+| *1个人*         | *2+个人*        |
+| ¿Cómo estás? | ¿Cómo están? |
+
+#+ATTR_REVEAL: :frag fade-left
+¿¿¿??? 
+
+#+ATTR_REVEAL: :frag fade-left
+/How are you? 你怎么样?/
+
+** 暂时的; 如何记住：
+| yo estoy     | 我是    |我在    |
+| tú estás     | 你是    |你在    |
+| él/ella está | 他/她是 |他/她在 |
+
+
+*How you feel and where you are,*
+*that is when you use "estar"*
+
+* Vocabulario 
+  :PROPERTIES:
+  :CUSTOM_ID: vocabulario
+  :END:
+
+#+REVEAL_HTML: <div style="background-color:green;color:white;">verde</div>
+
+#+REVEAL_HTML: <div style="background-color:pink;color:white;">rosa</div>
+
+#+REVEAL_HTML: <div style="background-color:blue;color:white;">azul</div>
+
+#+REVEAL_HTML: <div style="background-color:red;color:white;">rojo</div>
+
+#+REVEAL_HTML: <div style="background-color:gold;color:white;">amarillo</div>
+
+#+REVEAL_HTML: <div style="background-color:black;color:white;">negro</div>
+
+** Vocabulario
+| chico/chica | 男孩/女孩 |   | este/esta | 这个     |
+| persona     | 🧍      |   | eso/esa   | 那个     |
+| asesino     | 🧍🔪🩸  |   | aquí/allí | 这里/那里 |
+
+** Vocabulario 
+| importante | 重要的  |   | otro  | other      |
+| porque     | 因为    |   | lo/la | him/her    |
+| flor       | 🌷🌼🌸 |   | rey   | 🤴🏻🤴🏼🤴🏽🤴🏾🤴🏿 |
+
+#+ATTR_REVEAL: :frag fade-left
+*note:* porque, not por qué. 
+
+** Verbos
+| *1个人*      | *2+个人*      |         |
+| come      | comen      | 吃       |
+| mata      | matan      | 🔪🩸>💀 |
+| muere     | mueren     | 💀      |
+
+* 验证你是否理解。
+#+ATTR_REVEAL: :frag fade-right
+我说的是什么意思？现在回答。 
+#+begin_leftcol
+[[../images/Spanish/Chico.png]]
+#+end_leftcol
+
+#+ATTR_REVEAL: :frag fade-right
+#+begin_rightcol
+¿De qué color es este chico?
+#+end_rightcol
+
+** 验证你是否理解。
+#+ATTR_REVEAL: :frag fade-right
+我说的是什么意思？现在回答。 
+#+begin_leftcol
+[[../images/Spanish/Chica.png]]
+#+end_leftcol
+#+ATTR_REVEAL: :frag fade-right
+#+begin_rightcol
+¿De qué color es esta chica?
+#+end_rightcol
+
+** 验证你是否理解。
+#+ATTR_REVEAL: :frag fade-right
+我说的是什么意思？现在回答。 
+#+begin_leftcol
+[[../images/Spanish/Chica.png]]
+#+end_leftcol
+#+begin_rightcol
+[[../images/Spanish/Chico.png]]
+#+end_rightcol
+#+ATTR_REVEAL: :frag fade-right
+#+begin_center-bottom
+¿De qué colores *son* estos chicos?
+#+end_center-bottom
+
+* El mosquito importante
+#+begin_leftcol
+[[../images/Spanish/dos-chicas-un-chico.png]]
+#+end_leftcol
+#+begin_rightcol
+[[../images/Spanish/important-Mosquito.jpeg]] 
+#+end_rightcol

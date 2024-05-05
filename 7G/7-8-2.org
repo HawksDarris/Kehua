@@ -1,0 +1,882 @@
+#+TITLE: Poetry and History
+#+SUBTITLE: Poems and Werewolves
+#+AUTHOR: Darris Hawks
+#+DATE:2024-04-06 
+:reveal_properties: 
+# #+EXPORT_FILE_NAME: test.html
+#+STARTUP: indent fold
+# #+PROPERTY: HEADER-ARGS+ :eval no-export
+# #+REVEAL_HLEVEL: 2
+#+REVEAL_INIT_OPTIONS: hash:true, history:true
+#+options: timestamp:nil toc:1 num:nil 
+#+REVEAL_SLIDE_HEADER:
+#+REVEAL_SLIDE_FOOTER:
+#+OPTIONS: reveal_embed_local_resources
+#+OPTIONS: reveal_single_file:t
+#+REVEAL_TITLE_SLIDE_BACKGROUND: ../css/backgrounds/la-so-unsplash.jpg
+#+REVEAL_TOC_SLIDE_BACKGROUND: ../css/backgrounds/la-so-unsplash.jpg
+#+REVEAL_DEFAULT_SLIDE_BACKGROUND: ../images/norman-background.jpg
+# #+REVEAL_DEFAULT_SLIDE_BACKGROUND: ../css/backgrounds/la-so-unsplash.jpg
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika-light.css
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
+#+REVEAL_EXTRA_CSS: ../dist/headerfooter.css
+#+REVEAL_EXTRA_CSS: ../dist/utils.css
+# #+REVEAL_HTML: <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+# #+REVEAL_HTML: <link rel="preconnect" href="https://fonts.googleapis.com">
+# #+REVEAL_HTML: <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+# #+REVEAL_HTML: <link href="https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300..700&display=swap" rel="stylesheet">
+# #+REVEAL_HTML: <link rel="stylesheet" href=".css">
+#+REVEAL_HTML: <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script> <script> window.onload = function() {twemoji.parse(document.body, {folder: 'svg', ext: '.svg'});} </script>
+:end:
+
+* COMMENT Sweet 16 Verbs
+| to be at      | there is/are | to have             | to be    |
+| to like       | to go        | to want             | to leave |
+| to do/to make | to put       | to be able to (can) | to give  |
+| to say        | to know      | to return           | to see   |
+
+#+begin_center-text
+Know these verbs 100% and you can say almost anything in English. 
+#+end_center-text
+
+* Test
+#+REVEAL_HTML: <span style='font-size:100px;'>⚾😃</span>
+#+REVEAL_HTML: <br>
+#+REVEAL_HTML: <span style='font-size:100px;'>&#9918;&#128515;</span>
+* Rules
+# #+REVEAL_HTML: <p>&#128512;</p>
+# 😃
+
+#+ATTR_REVEAL: :frag (fade-in) 
+1. When I say "Class," you say "Yes?"
+2. When I tell you something, you say "Ohhh"
+3. You must not be doing homework 
+4. You must not be sleeping
+
+#+REVEAL_HTML: <br><br>
+#+ATTR_REVEAL: :frag (fade-in) 
+#+Begin_leftcol
+[[../images/homework.png]]   
+#+End_leftcol
+#+ATTR_REVEAL: :frag (fade-in) 
+#+Begin_rightcol
+[[../images/sleeping.jpg]]
+#+End_rightcol
+
+* Poem 1 Vocabulary
+#+begin_centered
+- to wet the bed :: 尿床
+- pajamas :: 睡衣
+- snowball :: ❄️⚾
+- as [adj] could be :: 尽可能[adj]
+- pillow :: 枕头
+#+end_centered
+** Pet Snowball
+#+begin_leftcol
+I made myself a snowball
+
+#+REVEAL_HTML: <div class="emoji">❄️⚾</div>
+
+As perfect as could be.
+
+
+#+REVEAL_HTML: <div class="emoji">😍</div>
+
+I thought I'd keep it as a pet
+
+
+#+REVEAL_HTML: <div class="emoji">🐶</div>
+
+And let it sleep with me.
+
+#+REVEAL_HTML: <div class="emoji">😴</div>
+
+#+end_leftcol
+
+#+begin_rightcol
+I made it some pajamas
+
+And a pillow for its head.
+
+Then last night it ran away,
+
+
+#+REVEAL_HTML: <div class="emoji">🏃‍♂️</div>
+
+But first it wet the bed.
+
+#+REVEAL_HTML: <div class="emoji">🚽🛏️</div>
+#+end_rightcol
+
+
+#+begin_center-bottom
+~ /Shel Silverstein/
+#+end_center-bottom
+** Analysis
+What is this poem about? 
+* Poem 2 Vocabulary
+:PROPERTIES:
+:CUSTOM_ID: poem2
+:END:
+
+- fall down :: 
+- past :: 
+- blend :: ([[#blender][blender]])
+- dizzy :: 🥴
+- throw up :: 🤮
+** Falling Up 🙃
+I tripped on my shoelace👟
+
+And I fell up—
+
+Up to the roof tops🏠, 
+
+Up over the town,
+
+Up past the tree tops,
+
+Up over the mountains🏔️,
+
+Up where the colors
+
+Blend into the sounds.
+
+But it got me so dizzy🥴
+
+When I looked around,
+
+I got sick to my stomach🤒
+
+And I threw down.
+
+* Poem 3 Vocabulary
+- dumb :: stupid
+- beat up :: 🤛🥊
+- poison :: ☠️
+- bolt of lightning :: ⚡
+- kite :: 🪁
+- divorce :: 💔
+- strike :: hit *OR* 突然的，意想不到的想法
+** What If?
+#+begin_leftcol
+Last night, while I lay thinking🤔 here,
+
+some "Whatifs" crawled inside my ear👂
+
+and pranced and partied 🕺 all night long
+
+and sang their same old "What if" song:
+
+What if I'm dumb in school?
+
+What if they've closed the swimming pool?
+
+What if I get beat🤛🥊 up?
+#+end_leftcol
+
+#+begin_rightcol
+What if there's poison☠️ in my cup?
+
+What if I start to cry😢?
+
+What if I get sick🤒 and die💀?
+
+What if I flunk that test?
+
+What if green hair grows on my chest?
+
+What if nobody likes me?
+
+What if a bolt of lightning⚡ strikes me?
+
+#+end_rightcol
+
+#+REVEAL: split
+#+begin_centered
+What if I don't grow taller?
+
+What if my head starts getting smaller?
+
+What if the fish🐟 won't bite?
+
+What if the wind tears up my kite🪁?
+
+What if they start a war🪖?
+
+What if my parents get divorced💔?
+
+What if the bus🚌 is late⌛?
+
+What if my teeth don't grow in straight?
+
+What if I tear my pants👖?
+
+What if I never learn to dance🕺?
+
+Everything seems well, and then
+
+the nighttime Whatifs strike again! 
+#+end_centered
+
+#+begin_center-bottom
+~ /Shel Silverstein/
+#+end_center-bottom
+** Analysis
+What feeling is the poem about?
+
+What does the poem make you feel? 
+
+From whose point of view (角度) is the poem written? 
+* English Language History
+:PROPERTIES:
+:reveal_extra_attr: data-auto-animate
+:CUSTOM_ID: history
+:END:
+In 1066, everything about the English language started to change.
+
+#+ATTR_REVEAL: :frag (fade-up)
+- /When/ did it start to change?
+- Did it /change/ or /start to change/? What is the difference?
+
+* The Changes
+:PROPERTIES:
+:reveal_extra_attr: class="bigh2"
+:CUSTOM_ID: changes
+:END:
+** The Changes
+#+ATTR_REVEAL: :frag (fade-up)
+- Before 1066, English poems did not rhyme. 
+  - (We took that from the French)
+- /Who/ did we take it from? 
+- /What/ did we do? 
+- /When/ did we take it?
+- /What/ did we take?
+** How were poems before?
+:PROPERTIES:
+:CUSTOM_ID: beowulf
+:END:
+#+ATTR_REVEAL: :frag (fade-up)
+1. alliteration [头韵] 
+2. Beowulf [贝奧武夫]
+   - 3,182 alliterative lines
+   - What does /alliterative/ mean?
+
+#+REVEAL_HTML: <div class="fragment fade-up">
+Hwæt! Wē Gār-Dena in geārdagum
+
+þeodcyninga þrym gefrūnon
+
+hū ðā æþelingas ellen fremedon
+
+Oft Scyld Scēfing sceaþena þrēatum
+
+monegum mægþum, meodosetla oftēah
+#+REVEAL_HTML: </div>
+
+** Wow, Darris, that looks nothing like English.
+
+#+begin_leftcol
+#+ATTR_REVEAL: :frag (fade-up)
+Good point, Class. Why? What else did English Take?
+
+#+ATTR_REVEAL: :frag (fade-up)
+[[../images/piechart.png]]
+#+end_leftcol
+
+#+ATTR_REVEAL: :frag (fade-up)
+#+begin_rightcol
+Lots and lots of words. More than 60% of English words are not from English.
+#+end_rightcol
+
+** Wow, Darris, that looks nothing like English.
+:PROPERTIES:
+:CUSTOM_ID: germanic
+:END:
+
+#+ATTR_REVEAL: :frag (fade-up)
+- /A few/ words or /a lot of/ words? 
+- /What percent/? 
+#+ATTR_REVEAL: :frag (fade-up)
+*Note*: We say "What percent" not "How many percent" nor "How much percent" 
+
+#+ATTR_REVEAL: :frag (fade-down)
+- Common words are from English: give🫳, take🫴,  sweat 💦
+- Fancy words are from French: deliver, acquire,  perspire
+- Other English words: 
+  - he, she, it
+  - and, but, or
+  - the, a
+  - blahblahblah
+
+** Even food!
+:PROPERTIES:
+:CUSTOM_ID:  food
+:END:
+
+| *English*    | *French*    |
+|------------+-----------|
+| cow 🐮     | beef 🥩   |
+| sheep 🐑   | mutton    |
+| pig 🐖     | pork      |
+| chicken 🐔 | poultry   |
+| deer 🦌    | venison   |
+| -          | butter 🧈 |
+
+* Why???
+:PROPERTIES:
+:CUSTOM_ID: why
+:END:
+
+In 1066, France 🇫🇷 conquered England 🇬🇧, and French people did not want to learn English. English was the poor people's language. French was the rich💰 people's language. The new king of England did not even speak English. In /official situations/, people /were not allowed/ to speak English. Even until the 1700s, many "English" courts 🧑‍⚖️ did everything in French. 
+
+Basically, if the animal was alive in the field, the only person talking about it was the poor farmer speaking English. If the animal was dead ☠️ and on the plate 🍽️, the important, rich, French people were talking about it. 
+
+#+ATTR_REVEAL: :frag (fade-left)
+- Did the French /want to learn/ English? 
+- Were English speakers /rich/ or /poor/?
+- What is an example of an /official situation/?
+- Could people speak English in /official situations/?
+- Describe the history of English to me.
+
+* Movie Talk
+[[https://www.bilibili.com/video/BV1cG411e75o/?spm_id_from=333.788.recommend_more_video.-1][大家久等啦！火柴人 VS 物理 (Physics)来啦]]
+* COMMENT Werewolf
+Write your English name on the paper. I want to be able to see it /(dark and big)/.
+
+Keep the paper in your English book. We will use it every week. 
+
+If you do not like/do not know your English name, write in pinyin
+
+(I am bad at reading Chinese )
+** Werewolf
+  :PROPERTIES:
+  :CUSTOM_ID: werewolf
+  :END:
+#+begin_leftcol
+#+begin_centered
+🐺 *Werewolves*:
+
+Every night: Choose a person. They die.
+#+REVEAL_HTML: <p>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/ace_of_clubs.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/ace_of_diamonds.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/ace_of_hearts.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/ace_of_spades2.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/10_of_clubs.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/10_of_diamonds.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/10_of_hearts.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/10_of_spades.png"/>
+#+REVEAL_HTML: </p>
+#+end_centered
+#+end_leftcol
+
+#+begin_rightcol
+[[../images/werewolf.jpeg]]
+#+end_rightcol
+
+*Teacher:* "Werewolves, wake up! Who do you choose?"
+
+** Ghost
+  :PROPERTIES:
+  :CUSTOM_ID: ghost
+  :END:
+#+begin_leftcol
+#+begin_centered
+👻 *Ghost:*
+You are already dead.
+
+Every night: You write one letter as a message to help the village. (No writing names or numbers).
+
+*Teacher:* "Ghost, write your letter."
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="200px" height="250px"  style="display: inline" src="../images/ghost.jpg"/>
+#+REVEAL_HTML: </p>
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/king_of_clubs2.png"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** Mason
+  :PROPERTIES:
+  :CUSTOM_ID: mason
+  :END:
+#+begin_leftcol
+#+begin_centered
+👷 *Mason (石匠):*
+
+At the beginning: Learn who the other masons are.
+
+
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/jack_of_spades2.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/jack_of_clubs2.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/jack_of_diamonds2.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/jack_of_hearts2.png"/>
+#+REVEAL_HTML: </p>
+
+*Teacher:* "Masons, wake up! Look around and see the other masons. They are not werewolves."
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="200px;" height="250px" style="display: inline" src="../images/stonemason.jpg"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** Cupid
+  :PROPERTIES:
+  :CUSTOM_ID: cupid
+  :END:
+#+begin_leftcol
+#+begin_centered
+💘 *Cupid:*
+
+At the beginning: Choose two players to fall in love [相爱]. If one dies, the other dies of a broken heart [心碎了] 😢.
+
+*Teacher:* "Cupid, wake up! Choose two people to fall in love."
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="200px;" height="250px" style="display: inline" src="../images/cupid.jpeg"/>
+#+REVEAL_HTML: </p>
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/king_of_hearts2.png"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** Dracula
+  :PROPERTIES:
+  :CUSTOM_ID: dracula
+  :END:
+#+begin_leftcol
+#+begin_centered
+🧛 *Dracula [德古拉]:*
+
+Every night: Kill someone. You win if you are alive when the game ends.
+
+/You are not a werewolf/
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="100%;" height="300px" style="margin-top: -50px; display: inline" src="../images/dracula.png"/>
+#+REVEAL_HTML: </p>
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/king_of_diamonds2.png"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** COMMENT The Count
+# Class 8
+  :PROPERTIES:
+  :CUSTOM_ID: count
+  :END:
+#+begin_leftcol
+#+begin_centered
+🧛 *The Count [伯爵]:*
+
+At the beginning: I tell you how many werewolves are in one half of the room. 
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="200px;" height="250px" style="display: inline" src="../images/count.jpg"/>
+#+REVEAL_HTML: </p>
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/king_of_diamonds2.png"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** Little Kid
+  :PROPERTIES:
+  :CUSTOM_ID: child
+  :END:
+#+begin_leftcol
+#+begin_centered
+👶 *Little Kid:*
+
+You can open your eyes at night.
+
+*But* if the werewolves tell me they noticed you, you die. 
+
+Be veeeery sneaky (like a ninja)
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="200px;" height="250px" style="display: inline" src="../images/naivegirl.jpg"/>
+#+REVEAL_HTML: </p>
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/queen_of_diamonds2.png"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** Joker
+  :PROPERTIES:
+  :CUSTOM_ID: joker
+  :END:
+#+begin_leftcol
+#+begin_centered
+🃏 *Joker:*
+
+You win if the class kills you.
+
+/You do not win if the werewolves kill you./
+
+You want the class to believe you are a werewolf.
+
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="200px;" height="250px" style="display: inline" src="../images/jester.jpg"/>
+#+REVEAL_HTML: </p>
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/joker_red.png"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** Seer
+  :PROPERTIES:
+  :CUSTOM_ID: seer
+  :END:
+#+begin_leftcol
+#+begin_centered
+🔮 *Seer:*
+
+Every night: Choose a person. I will tell you if they are a werewolf. 
+
+*Teacher:* "Seer, wake up! Who do you want to check?"
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+[[../images/seer.jpg]]
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/king_of_spades2.png"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** Witch
+  :PROPERTIES:
+  :CUSTOM_ID: witch
+  :END:
+#+begin_leftcol
+#+begin_centered
+🧙 *Witch:*
+
+You have 2 potions [魔法圣水]. One potion kills a player. One potion saves a player. 
+
+Twice per game: Use a potion.
+
+*Teacher:* "Witch, wake up! Do you want to use a potion? Do you want to kill someone? Do you want to save someone?"
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="200px;" height="250px" style="display: inline" src="../images/witch.jpg"/>
+#+REVEAL_HTML: </p>
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/queen_of_spades2.png"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** Guard
+  :PROPERTIES:
+  :CUSTOM_ID: guard
+  :END:
+#+begin_leftcol
+#+begin_centered
+💂 *Guard:*
+
+Every night: Choose a /different/ person to protect [保护].
+
+*Teacher:* "Guard, wake up! Who will you protect tonight?"
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="200px;" height="250px" style="display: inline" src="../images/bodyguard.jpg"/>
+#+REVEAL_HTML: </p>
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/queen_of_clubs2.png"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** Hunter
+  :PROPERTIES:
+  :CUSTOM_ID: hunter
+  :END:
+#+begin_leftcol
+#+begin_centered
+🔫 *Hunter:*
+
+Once per game: If you die, you choose a person. They die.
+
+*Teacher:* "Hunter, wake up. Someone killed you. Who do you kill?"
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+[[../images/hunter.jpg]]
+#+end_rightcol
+
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/queen_of_hearts2.png"/>
+#+REVEAL_HTML: </p>
+** COMMENT Villager
+  :PROPERTIES:
+  :CUSTOM_ID: villager
+  :END:
+#+begin_leftcol
+#+begin_centered
+🧑‍🌾 *Villager:*
+
+Find the werewolves before they get you! 
+
+*Teacher:* "Everyone, wake up! The night is over..."
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+[[../images/peasant.jpg]]
+#+end_rightcol
+
+* COMMENT Werewolf (狼人) First Night
+The first night, I will say:
+
+1. "Werewolves, wake up! Look at each other. This is your team. Werewolves, go to sleep."
+2.  "Masons, wake up! Look around and see the other masons. They are not werewolves."
+3. "Cupid, wake up! Choose two people to fall in love."
+4. "Count, wake up! This half of the room has 🖐️ werewolves"
+5. "Ghost, write your letter."
+
+** Werewolf (狼人) Other Nights
+Other nights, I will always say: 
+1. Werewolves, wake up! Who do you choose?
+2. Seer, wake up! Who do you want to check?
+3. Witch, wake up! Do you want to use a potion? Do you want to kill someone? Do you want to save someone?
+4. Guard, wake up! Who will you protect tonight?
+
+If the Hunter dies, I will say
+- Hunter, wake up. Someone killed you. Who do you kill?
+
+** Werewolf (狼人) Morning
+In the morning, you learn who died. Point 👉 at the student you want to kill.
+
+- 51% = ☠️
+
+** You must have the coin 🪙 to talk 🗣️
+- No coin 🪙? No talking 🚫🗣️.
+- Everyone can vote. 
+
+* COMMENT Werewolf Cards List
+  :PROPERTIES:
+  :CUSTOM_ID: cardlist
+  :END:
+#+begin_leftcol
+*[[#werewolf]]*
+#+REVEAL_HTML: <p>
+#+REVEAL_HTML: <img width="40px" style="display: inline" src="../images/Games/ace_of_clubs.png"/>
+#+REVEAL_HTML: <img width="40px" style="display: inline" src="../images/Games/ace_of_diamonds.png"/>
+#+REVEAL_HTML: <img width="40px" style="display: inline" src="../images/Games/ace_of_hearts.png"/>
+#+REVEAL_HTML: <img width="40px" style="display: inline" src="../images/Games/ace_of_spades2.png"/>
+#+REVEAL_HTML: <img width="40px" style="display: inline" src="../images/Games/10_of_clubs.png"/>
+#+REVEAL_HTML: <img width="40px" style="display: inline" src="../images/Games/10_of_diamonds.png"/>
+#+REVEAL_HTML: <img width="40px" style="display: inline" src="../images/Games/10_of_hearts.png"/>
+#+REVEAL_HTML: <img width="40px" style="display: inline" src="../images/Games/10_of_spades.png"/>
+#+REVEAL_HTML: </p>
+*[[#mason]]*
+#+REVEAL_HTML: <p>
+#+REVEAL_HTML: <img width="50px" style="display: inline" src="../images/Games/jack_of_spades2.png"/>
+#+REVEAL_HTML: <img width="50px" style="display: inline" src="../images/Games/jack_of_clubs2.png"/>
+#+REVEAL_HTML: <img width="50px" style="display: inline" src="../images/Games/jack_of_diamonds2.png"/>
+#+REVEAL_HTML: <img width="50px" style="display: inline" src="../images/Games/jack_of_hearts2.png"/>
+#+REVEAL_HTML: </p>
+*[[Joker]]*
+#+REVEAL_HTML: <p>
+#+REVEAL_HTML: <img width="50px" style="display: inline" src="../images/Games/joker_red.png"/>
+#+REVEAL_HTML: </p>
+#+end_leftcol
+
+#+begin_rightcol
+- *[[#cupid]]* (红心之王),
+# - *[[#count]]* (钻石之王),
+- *[[#dracula]]* (钻石之王),
+- *[[#ghost]]* (俱乐部之王), 
+- *[[#seer]]* (黑桃国王)
+#+REVEAL_HTML: <p>
+#+REVEAL_HTML: <img width="50px" style="display: inline" src="../images/Games/king_of_hearts2.png"/>
+#+REVEAL_HTML: <img width="50px" style="display: inline" src="../images/Games/king_of_diamonds2.png"/>
+#+REVEAL_HTML: <img width="50px" style="display: inline" src="../images/Games/king_of_clubs2.png"/>
+#+REVEAL_HTML: <img width="50px" style="display: inline" src="../images/Games/king_of_spades2.png"/>
+#+REVEAL_HTML: </p>
+- *[[#witch]]* (黑桃皇后), 
+- *[[#guard]]* (梅花皇后), 
+- *[[#hunter]]* (红桃皇后), 
+- *[[#child]]* (钻石皇后)
+#+REVEAL_HTML: <p>
+#+REVEAL_HTML: <img width="50px" style="display: inline" src="../images/Games/queen_of_spades2.png"/>
+#+REVEAL_HTML: <img width="50px" style="display: inline" src="../images/Games/queen_of_clubs2.png"/>
+#+REVEAL_HTML: <img width="50px" style="display: inline" src="../images/Games/queen_of_hearts2.png"/>
+#+REVEAL_HTML: <img width="50px" style="display: inline" src="../images/Games/queen_of_diamonds2.png"/>
+#+REVEAL_HTML: </p>
+
+# *Villager*
+
+# #+begin_centered
+# /Any other card/
+# #+end_centered
+
+#+end_rightcol
+
+* Blender
+:PROPERTIES:
+:CUSTOM_ID:  blender
+:END:
+[[#poem2][Back to Vocab]]
+[[../images/blender.jpg]]
+* Student of the Day
+:PROPERTIES:
+:CUSTOM_ID: sotd
+:REVEAL_EXTRA_ATTR: data-background-iframe="../Games/PickerWheel/index.html" data-background-interactive
+:reveal_background: none
+:END:
+
+* Stories
+#+begin_leftcol
+#+begin_centered
+[[#C1-Story]]
+
+[[#C2-Story]]
+
+[[#C3-Story]]
+
+[[#C4-Story]]
+#+end_centered
+#+end_leftcol
+
+#+begin_rightcol
+#+begin_centered
+[[#C5-Story]]
+
+[[#C6-Story]]
+
+[[#C7-Story]]
+
+[[#C8-Story]]
+#+end_centered
+#+end_rightcol
+
+
+** C1 Story
+:PROPERTIES:
+:reveal_extra_attr: class="story"
+:CUSTOM_ID: C1-Story
+:END:
+
+There is a student named Miki. Miki is in a small house in a forest. One day, Miki goes into the forest because she wants to go to the lake. There is a mini green duck in the lake. The duck has no eyes, so the duck is blind. Kobe is swimming with the duck. He is the duck's dog and helper. The duck can talk. He says "Kobe is my eyes." Miki says "...Huh? A talking duck?!"
+
+** C2 Story
+:PROPERTIES:
+:reveal_extra_attr: class="story"
+:CUSTOM_ID: C2-Story
+:END:
+There is a student named Baby. Baby is in a small house in a forest. Baby goes out to look for something. She goes back into her house. She goes back out again. She goes back in and out three times. She sees a wolf. /~Lucky~/ she's hungry. She wants to eat the wolf. She goes back in the house /~again~/ because she wants a knife so she can eat the wolf. 
+
+
+OH NO the wolf went away. She goes inside /AGAIN/ to get her shoes so she can /track/ the wolf. The wolf /leads/ her to a vineyard.
+
+Baby does not eat grapes because wolves are more delicious. 
+** C3 Story
+:PROPERTIES:
+:reveal_extra_attr: class="story"
+:CUSTOM_ID: C3-Story
+:END:
+There is a student named Evia. Evia is in a small house in a forest. Her house is in the center of France in a vineyard underground. She grows grapes and makes excellent elephant wine.
+*** What is Elephant Wine?
+Evia is blind. She has a /guide elephant/. Her guide elephant is her eyes. She gets on top of her guide elephant and they go to a big elevator. The elevator takes Evia and her guide elephant underground. Evia gets off her guide elephant, which is named /Tiger/, and leads the elephant to a big barrel of grapes. The elephant steps on the grapes. That's why it's called "Elephant Wine".
+** C4 Story
+:PROPERTIES:
+:reveal_extra_attr: class="story"
+:CUSTOM_ID: C4-Story
+:END:
+#+begin_leftcol
+There is a student named Teresa. Teresa is in a small house in a forest. Teresa wants to explore the forest. Teresa found a rabbit. She wants to bake it. The rabbit does not want to be baked. The rabbit has a gun (it is an AK-47)! The rabbit uses his AK-47 to shoot at Teresa.
+#+end_leftcol
+
+#+begin_rightcol
+[[../images/AK-47-Bunny.jpg]]
+#+end_rightcol
+*** Oh no, she's dead
+Teresa /DIES/ the rabbit drags her to a vineyard in the center of France. He digs a hole to bury her body and leaves her there...
+
+#+REVEAL_HTML: <br><br><br><br>
+/JUST KIDDING/ she's alive! It was just a 60-second advertisement.
+
+
+
+** C5 Story
+:PROPERTIES:
+:reveal_extra_attr: class="story"
+:CUSTOM_ID: C5-Story
+:END:
+#+begin_leftcol
+There is a student named Simon. Simon is in a small house in a forest. Simon goes into the forest. OH NO! He sees some tigers. 
+
+Ethan and Corry are in the forest too because they want to hunt tigers. Corry has a gun, but Ethan does not have a gun because he wants to make a rifle himself in the forest. When Corry sees the tigers, he shoots one! 
+#+end_leftcol
+
+#+begin_rightcol
+But Ethan did not shoot a tiger because he is slow at making a gun himself. Now Jack is here. OMG, he's so hungry, but he doesn't want to shoot anything because he hates guns. He saw that Corry had just killed a tiger, so he begged: "PLEASE, Corry! Please let me have a piece of your tiger to eat! I am so hungry!" 
+#+end_rightcol
+
+*** The Tigers are Maaaad 😡
+#+begin_leftcol
+Ethan made his gun, but there is a problem. He does not make a rifle! He made an RPG! (How???) He does not want an RPG, he wants a rifle! 
+#+end_leftcol
+
+#+begin_rightcol
+The tigers see Corry shoot their friend, so the tigers are mad! (Oh no!) Everyone runs away from the tigers. 
+[[../images/angryTiger.jpeg]]
+#+end_rightcol
+*** The Tigers are Sloooow 😌
+#+begin_leftcol
+[[../images/Tiger.jpeg]]
+#+end_leftcol
+#+begin_rightcol
+The tigers are slow because one tiger is blind (he has no eyes), and the other tiger has no tail. /(Not very 跑得快.)/ Because the tigers are not fast, everyone gets away. Everyone runs until they are tired. 
+#+end_rightcol
+
+
+** C6 Story
+:PROPERTIES:
+:reveal_extra_attr: class="story"
+:CUSTOM_ID: C6-Story
+:END:
+Once upon a time, there was a student named Simone. Simone lived in a small house beside a forest. One day, Simone decided to explore the forest... Simone was hungry, so she looked around and found a fruit tree. But OH NO, a tiger was there! She ignored the tiger while she chopped down the tree, which was a banana tree. Fortunately, the tiger likes bananas, so she /distracts/ the tiger with a banana. The tiger takes the banana, and now it can talk. The tiger leads Simone to a little house, where Amy is waiting along with a lot of treasure. The tiger starts coughing; oh no! He was allergic to bananas so he suddenly dies. 
+
+*** Oh no, they're sick...
+Amy and Simone are hungry so they eat the tiger, but they forgot to cook it, so they get sick and throw up. It was *not* /easy peasy lemon squeezy/.       
+** C7 Story
+:PROPERTIES:
+:reveal_extra_attr: class="story"
+:CUSTOM_ID: C7-Story
+:END:
+There is a student named Eric. Eric is in a small house in a forest. Eric goes into the forest. He does not like the forest. He /prefers to/ go to the toilet. But he cannot find the toilet because he is /blind/. He is blind because his teacher got angry at him for his bad /marks/ and /poked/ his eyes! So now he has an animal to help him. 
+** C8 Story
+:PROPERTIES:
+:reveal_extra_attr: class="story"
+:CUSTOM_ID: C8-Story
+:END:
+There is a student named Jerry. Jerry lives in a small house in the forest, and he went into the forest. Jerry does not want to be in the forest; he wants to play videogames, but he doesn't have any videogames because he's in the forest. 
+
+Kobe Bryant has a videogame. He has Mario, and he does not want to go to the forest because it is too big. He prefers to play videogames at home. But Kobe Bryant is so /nice/! He goes to the forest, /even though/ it is so big, because he wants to give Mario to Jerry. He goes to the forest, even though it is so big, because he wants to give Mario to Jerry. Jerry loves Mario because it is an excellent game. Jerry gives Kobe a bottle of wine to say thanks. 
+
+* Setup                                                     :noexport:
+# Local variables:
+# after-save-hook: org-re-reveal-export-to-html
+# org-re-reveal-progress: true
+# end:

@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.memory-game {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+}
+
+.memory-card {
+    width: calc(25% - 20px);
+    height: calc(33.33% - 20px);
+    margin: 10px;
+    background-color: #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    perspective: 1000px;
+}
+
+.memory-card[data-card="1"] {
+    background-color: #ff5733;
+}
+
+.memory-card[data-card="2"] {
+    background-color: #33ff57;
+}
+
+.memory-card[data-card="3"] {
+    background-color: #3357ff;
+}
+
+.memory-card[data-card="4"] {
+    background-color: #ffff33;
+}
+
+.memory-card[data-card="5"] {
+    background-color: #ff33ff;
+}
+
+.memory-card[data-card="6"] {
+    background-color: #33ffff;
+}
+
+.memory-card[data-card="7"] {
+    background-color: #ff5733;
+}
+
+.memory-card[data-card="8"] {
+    background-color: #33ff57;
+}
+
+.memory-card[data-card="9"] {
+    background-color: #3357ff;
+}
+
+.memory-card[data-card="10"] {
+    background-color: #ffff33;
+}
+
+.memory-card[data-card="11"] {
+    background-color: #ff33ff;
+}
+
+.memory-card[data-card="12"] {
+    background-color: #33ffff;
+}
+
+.memory-card.flip {
+    transform: rotateY(180deg);
+}
+
+.memory-card.front,
+.memory-card.back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.memory-card.front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.memory-card.back {
+    transform: rotateY(180deg);
+}

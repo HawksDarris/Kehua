@@ -1,0 +1,3 @@
+[submodule "skulpt-dist"]
+	path = skulpt-dist
+	url = https://github.com/skulpt/skulpt-dist.git

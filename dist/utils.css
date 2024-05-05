@@ -1,0 +1,157 @@
+@import "../css/theme/reveal-zenika.css";
+@import "../css/theme/reveal-code-relax.css";
+
+/* Phase out container and col for begin and end blocks of a single class (no nested) in org mode */
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.col {
+    padding-bottom: -2vh;
+}
+
+* figure{
+    margin-top: -4vh;
+    margin-bottom: -3vh;
+}
+
+* figure img{
+    width:100%;
+}
+
+.reveal table{
+    margin-bottom: 4vh;
+}
+
+.left-column {
+    width: fit-content;
+    float: left;
+}
+
+.right-column {
+    width: 50%;
+    float: right;
+}
+
+.center-bottom {
+    padding-top: 1em;
+    clear: both;
+}
+
+.reveal .leftcol {
+    float: left;
+    width: 50%;
+}
+
+.reveal .rightcol {
+    float: right;
+    width: 50%;
+    margin-inline: auto;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    /* align-content: center; */
+    /* align-items: center; */
+}
+
+.reveal .rightcol figure{
+    margin-inline: auto;
+}
+
+.reveal .leftcol30 {
+    float: left;
+    width: 28%;
+}
+
+.reveal .rightcol30 {
+    float: right;
+    width: 28%;
+}
+
+.reveal .leftcol40 {
+    float: left;
+    width: 38%;
+}
+
+.reveal .rightcol40 {
+    float: right;
+    width: 38%;
+}
+
+.reveal .leftcol60 {
+    float: left;
+    width: 58%;
+}
+
+.reveal .rightcol60 {
+    float: right;
+    width: 58%;
+}
+
+.reveal .leftcol70 {
+    float: left;
+    width: 68%;
+}
+
+.reveal .rightcol70 {
+    float: right;
+    width: 68%;
+}
+
+
+.centered{
+  max-width: fit-content;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  justify-items: space-between;
+  align-items: space-between;
+}
+
+.centered audio{
+    padding-top: 200px;
+}
+
+.center-text {
+    text-align: center;
+    width: 70%;
+    margin-inline: auto;
+}
+
+
+.story em{
+    color: darkgoldenrod;
+}
+
+* i{
+    color: darkgoldenrod;
+}
+
+.story figcaption{
+    padding-top: 0.5em;
+}
+
+.story figure {
+  width: 60%;
+}
+
+.large {
+    font-size: 1.5em;
+}
+
+/* twemoji bit */
+img.emoji {
+   display: inline !important;
+   border: none !important;
+   box-shadow: none !important;
+   height: 1em !important;
+   width: 1em !important;
+   margin: 0 .07em !important;
+   vertical-align: -0.1em !important;
+   background: none !important;
+   padding: 0 !important;
+   pointer-events: none
+}
+

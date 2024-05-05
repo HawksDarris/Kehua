@@ -1,0 +1,21 @@
+.slide-header {
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    position: sticky;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.slide-footer{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.questionwords{
+    color: blue;
+    flex:1;
+}

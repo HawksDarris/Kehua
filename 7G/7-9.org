@@ -1,0 +1,347 @@
+#+TITLE: Werewolf
+#+SUBTITLE: Werewolves
+#+AUTHOR: Darris Hawks
+#+DATE:2024-12-04
+:reveal_properties: 
+# #+EXPORT_FILE_NAME: test.html
+#+STARTUP: indent fold
+# #+PROPERTY: HEADER-ARGS+ :eval no-export
+# #+REVEAL_HLEVEL: 2
+#+REVEAL_INIT_OPTIONS: hash:true, history:true
+#+options: timestamp:nil toc:1 num:nil 
+#+REVEAL_SLIDE_HEADER:
+#+REVEAL_SLIDE_FOOTER:
+#+OPTIONS: reveal_embed_local_resources
+#+OPTIONS: reveal_single_file:t
+#+REVEAL_TITLE_SLIDE_BACKGROUND: ../css/backgrounds/la-so-unsplash.jpg
+#+REVEAL_TOC_SLIDE_BACKGROUND: ../css/backgrounds/la-so-unsplash.jpg
+#+REVEAL_DEFAULT_SLIDE_BACKGROUND: ../images/norman-background.jpg
+# #+REVEAL_DEFAULT_SLIDE_BACKGROUND: ../css/backgrounds/la-so-unsplash.jpg
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika-light.css
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
+#+REVEAL_EXTRA_CSS: ../dist/headerfooter.css
+#+REVEAL_EXTRA_CSS: ../dist/utils.css
+#+REVEAL_HTML: <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script> <script> window.onload = function() {twemoji.parse(document.body, {folder: 'svg', ext: '.svg'});} </script>
+:end:
+
+* Class Seating
+:PROPERTIES:
+:CUSTOM_ID: class-grid
+:END:
+Fill all seats from the front so I can keep track of the werewolves 🙂
+* Story Mountain
+Stories have a beginning, a middle, and an end.
+
+[[../videos/PlotMountain.mp4][Story Mountain Song]]
+* The Giving Tree
+:PROPERTIES:
+:CUSTOM_ID: giving-tree
+:END:
+
+#+begin_centered
+#+REVEAL_HTML: <img style="margin-inline: auto" src="../images/giving tree.jpg" width="40%"/>
+#+end_centered
+
+** Open Book
+[[../../TEFL/Books/the-giving-tree.pdf][Go to the Book]]
+
+* Plot Mountain for The Giving Tree
+
+[[https://prezi.com/kdbhf8xn4ivq/the-giving-tree-plot-chart/?fallback=1][Plot Mountain for The Giving Tree]]
+* Werewolf
+Name tags.
+
+** Werewolf
+  :PROPERTIES:
+  :CUSTOM_ID: werewolf
+  :END:
+#+begin_leftcol
+#+begin_centered
+🐺 *Werewolves*:
+
+Every night: Choose a person. They die.
+#+REVEAL_HTML: <p>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/ace_of_clubs.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/ace_of_diamonds.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/ace_of_hearts.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/ace_of_spades2.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/10_of_clubs.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/10_of_diamonds.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/10_of_hearts.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/10_of_spades.png"/>
+#+REVEAL_HTML: </p>
+#+end_centered
+#+end_leftcol
+
+#+begin_rightcol
+[[../images/werewolf.jpeg]]
+#+end_rightcol
+
+*Teacher:* "Werewolves, wake up! Who do you choose?"
+
+** Medium
+  :PROPERTIES:
+  :CUSTOM_ID: ghost
+  :END:
+#+begin_leftcol
+#+begin_centered
+👻 *Medium (Ghost Speaker):*
+(I changed it.)
+
+At night, you talk to dead people. Be careful. If the werewolves hear you, they might kill you.
+
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="200px" height="250px"  style="display: inline" src="../images/ghost.jpg"/>
+#+REVEAL_HTML: </p>
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/king_of_clubs2.png"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** Mason
+  :PROPERTIES:
+  :CUSTOM_ID: mason
+  :END:
+#+begin_leftcol
+#+begin_centered
+👷 *Mason (石匠):*
+
+At the beginning: Learn who the other masons are.
+
+
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/jack_of_spades2.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/jack_of_clubs2.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/jack_of_diamonds2.png"/>
+#+REVEAL_HTML: <img width="80px" style="display: inline" src="../images/Games/jack_of_hearts2.png"/>
+#+REVEAL_HTML: </p>
+
+*Teacher:* "Masons, wake up! Look around and see the other masons. They are not werewolves."
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="200px;" height="250px" style="display: inline" src="../images/stonemason.jpg"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** Cupid
+  :PROPERTIES:
+  :CUSTOM_ID: cupid
+  :END:
+#+begin_leftcol
+#+begin_centered
+💘 *Cupid:*
+
+At the beginning: Choose two players to fall in love [相爱]. If one dies, the other dies of a broken heart [心碎了] 😢.
+
+*Teacher:* "Cupid, wake up! Choose two people to fall in love."
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="200px;" height="250px" style="display: inline" src="../images/cupid.jpeg"/>
+#+REVEAL_HTML: </p>
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/king_of_hearts2.png"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** Dracula
+  :PROPERTIES:
+  :CUSTOM_ID: dracula
+  :END:
+#+begin_leftcol
+#+begin_centered
+🧛 *Dracula [德古拉]:*
+
+Every night: Kill someone. You win if you are alive when the game ends.
+
+/You are not a werewolf/
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="100%;" height="300px" style="margin-top: -50px; display: inline" src="../images/dracula.png"/>
+#+REVEAL_HTML: </p>
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/king_of_diamonds2.png"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** COMMENT The Count
+# Class 8
+  :PROPERTIES:
+  :CUSTOM_ID: count
+  :END:
+#+begin_leftcol
+#+begin_centered
+🧛 *The Count [伯爵]:*
+
+At the beginning: I tell you how many werewolves are in one half of the room. 
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="200px;" height="250px" style="display: inline" src="../images/count.jpg"/>
+#+REVEAL_HTML: </p>
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/king_of_diamonds2.png"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** Little Kid
+  :PROPERTIES:
+  :CUSTOM_ID: child
+  :END:
+#+begin_leftcol
+#+begin_centered
+👶 *Little Kid:*
+
+You can open your eyes at night.
+
+*But* if the werewolves tell me they noticed you, you die. 
+
+Be veeeery sneaky (like a ninja)
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="200px;" height="250px" style="display: inline" src="../images/naivegirl.jpg"/>
+#+REVEAL_HTML: </p>
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/queen_of_diamonds2.png"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** Joker
+  :PROPERTIES:
+  :CUSTOM_ID: joker
+  :END:
+#+begin_leftcol
+#+begin_centered
+🃏 *Joker:*
+
+You win if the class kills you.
+
+/You do not win if the werewolves kill you./
+
+You want the class to believe you are a werewolf.
+
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="200px;" height="250px" style="display: inline" src="../images/jester.jpg"/>
+#+REVEAL_HTML: </p>
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/joker_red.png"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** Seer
+  :PROPERTIES:
+  :CUSTOM_ID: seer
+  :END:
+#+begin_leftcol
+#+begin_centered
+🔮 *Seer:*
+
+Every night: Choose a person. I will tell you if they are a werewolf. 
+
+*Teacher:* "Seer, wake up! Who do you want to check?"
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+[[../images/seer.jpg]]
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/king_of_spades2.png"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** Witch
+  :PROPERTIES:
+  :CUSTOM_ID: witch
+  :END:
+#+begin_leftcol
+#+begin_centered
+🧙 *Witch:*
+
+You have 2 potions [魔法圣水]. One potion kills a player. One potion saves a player. 
+
+Twice per game: Use a potion.
+
+*Teacher:* "Witch, wake up! Do you want to use a potion? Do you want to kill someone? Do you want to save someone?"
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="200px;" height="250px" style="display: inline" src="../images/witch.jpg"/>
+#+REVEAL_HTML: </p>
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/queen_of_spades2.png"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** Guard
+  :PROPERTIES:
+  :CUSTOM_ID: guard
+  :END:
+#+begin_leftcol
+#+begin_centered
+💂 *Guard:*
+
+Every night: Choose a /different/ person to protect [保护].
+
+*Teacher:* "Guard, wake up! Who will you protect tonight?"
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="200px;" height="250px" style="display: inline" src="../images/bodyguard.jpg"/>
+#+REVEAL_HTML: </p>
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/queen_of_clubs2.png"/>
+#+REVEAL_HTML: </p>
+#+end_rightcol
+
+** Hunter
+  :PROPERTIES:
+  :CUSTOM_ID: hunter
+  :END:
+#+begin_leftcol
+#+begin_centered
+🔫 *Hunter:*
+
+Once per game: If you die, you choose a person. They die.
+
+*Teacher:* "Hunter, wake up. Someone killed you. Who do you kill?"
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+[[../images/hunter.jpg]]
+#+end_rightcol
+
+#+REVEAL_HTML: <p style="text-align:center">
+#+REVEAL_HTML: <img width="150px" style="display: inline" src="../images/Games/queen_of_hearts2.png"/>
+#+REVEAL_HTML: </p>
+** COMMENT Villager
+  :PROPERTIES:
+  :CUSTOM_ID: villager
+  :END:
+#+begin_leftcol
+#+begin_centered
+🧑‍🌾 *Villager:*
+
+Find the werewolves before they get you! 
+
+*Teacher:* "Everyone, wake up! The night is over..."
+#+end_centered
+#+end_leftcol
+#+begin_rightcol
+[[../images/peasant.jpg]]
+#+end_rightcol
