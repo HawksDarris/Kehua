@@ -7,3 +7,21 @@
   2px -2px 0 #000,
   -2px -2px 0 #000;
 }
+
+.story > p {
+  text-align: left;
+}
+.story > * em {
+  color: goldenrod;
+  background-color: black;
+}
+
+figure {
+  margin-inline: auto;
+  width: 30%;
+  height: 50%
+}
+
+figure img {
+  object-fit: fill;
+}
