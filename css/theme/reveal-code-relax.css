@@ -70,7 +70,7 @@ h1{
 /* } */
 
 .nobox {
-    background: white !important;
+    background: white;
     width: fit-content;
     position: absolute;
     top: 0%;
