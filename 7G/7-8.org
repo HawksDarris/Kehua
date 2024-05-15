@@ -1,14 +1,14 @@
 #+TITLE: Poetry and History
 #+SUBTITLE: Poems and Werewolves
 #+AUTHOR: Darris Hawks
-#+DATE:2024-04-06 
-:reveal_properties: 
+#+DATE:2024-04-06
+:reveal_properties:
 # #+EXPORT_FILE_NAME: test.html
 #+STARTUP: indent fold
 # #+PROPERTY: HEADER-ARGS+ :eval no-export
 # #+REVEAL_HLEVEL: 2
 #+REVEAL_INIT_OPTIONS: hash:true, history:true
-#+options: timestamp:nil toc:1 num:nil 
+#+options: timestamp:nil toc:1 num:nil
 #+REVEAL_SLIDE_HEADER:
 #+REVEAL_SLIDE_FOOTER:
 #+OPTIONS: reveal_embed_local_resources
@@ -32,25 +32,25 @@
 | to say        | to know      | to return           | to see   |
 
 #+begin_center-text
-Know these verbs 100% and you can say almost anything in English. 
+Know these verbs 100% and you can say almost anything in English.
 #+end_center-text
 
 * Rules
 # #+REVEAL_HTML: <p>&#128512;</p>
 # 😃
 
-#+ATTR_REVEAL: :frag (fade-in) 
+#+ATTR_REVEAL: :frag (fade-in)
 1. When I say "Class," you say "Yes?"
 2. When I tell you something, you say "Ohhh"
-3. You must not be doing homework 
+3. You must not be doing homework
 4. You must not be sleeping
 
 #+REVEAL_HTML: <br><br>
-#+ATTR_REVEAL: :frag (fade-in) 
+#+ATTR_REVEAL: :frag (fade-in)
 #+Begin_leftcol
-[[../images/homework.png]]   
+[[../images/homework.png]]
 #+End_leftcol
-#+ATTR_REVEAL: :frag (fade-in) 
+#+ATTR_REVEAL: :frag (fade-in)
 #+Begin_rightcol
 [[../images/sleeping.jpg]]
 #+End_rightcol
@@ -105,14 +105,14 @@ But first it wet the bed.
 ~ /Shel Silverstein/
 #+end_center-bottom
 ** Analysis
-What is this poem about? 
+What is this poem about?
 ** Poem 2 Vocabulary
 :PROPERTIES:
 :CUSTOM_ID: poem2
 :END:
 
-- fall down :: 
-- past :: 
+- fall down ::
+- past ::
 - blend :: ([[#blender][blender]])
 - dizzy :: 🥴
 - throw up :: 🤮
@@ -121,7 +121,7 @@ I tripped on my shoelace👟
 
 And I fell up—
 
-Up to the roof tops🏠, 
+Up to the roof tops🏠,
 
 Up over the town,
 
@@ -207,7 +207,7 @@ What if I never learn to dance🕺?
 
 Everything seems well, and then
 
-the nighttime Whatifs strike again! 
+the nighttime Whatifs strike again!
 #+end_centered
 
 #+begin_center-bottom
@@ -216,9 +216,9 @@ the nighttime Whatifs strike again!
 *** Analysis
 What feeling is the poem about?
 
-What does the poem make you feel? 
+What does the poem make you feel?
 
-From whose point of view (角度) is the poem written? 
+From whose point of view (角度) is the poem written?
 * English Language History
 :PROPERTIES:
 :reveal_extra_attr: data-auto-animate
@@ -237,10 +237,10 @@ In 1066, everything about the English language started to change.
 :END:
 ** The Changes
 #+ATTR_REVEAL: :frag (fade-up)
-- Before 1066, English poems did not rhyme. 
+- Before 1066, English poems did not rhyme.
   - (We took that from the French)
-- /Who/ did we take it from? 
-- /What/ did we do? 
+- /Who/ did we take it from?
+- /What/ did we do?
 - /When/ did we take it?
 - /What/ did we take?
 ** How were poems before?
@@ -248,7 +248,7 @@ In 1066, everything about the English language started to change.
 :CUSTOM_ID: beowulf
 :END:
 #+ATTR_REVEAL: :frag (fade-up)
-1. alliteration [头韵] 
+1. alliteration [头韵]
 2. Beowulf [贝奧武夫]
    - 3,182 alliterative lines
    - What does /alliterative/ mean?
@@ -286,15 +286,15 @@ Lots and lots of words. More than 60% of English words are not from English.
 :END:
 
 #+ATTR_REVEAL: :frag (fade-up)
-- /A few/ words or /a lot of/ words? 
-- /What percent/? 
+- /A few/ words or /a lot of/ words?
+- /What percent/?
 #+ATTR_REVEAL: :frag (fade-up)
-*Note*: We say "What percent" not "How many percent" nor "How much percent" 
+*Note*: We say "What percent" not "How many percent" nor "How much percent"
 
 #+ATTR_REVEAL: :frag (fade-down)
 - Common words are from English: give🫳, take🫴,  sweat 💦
 - Fancy words are from French: deliver, acquire,  perspire
-- Other English words: 
+- Other English words:
   - he, she, it
   - and, but, or
   - the, a
@@ -319,12 +319,12 @@ Lots and lots of words. More than 60% of English words are not from English.
 :CUSTOM_ID: why
 :END:
 
-In 1066, France 🇫🇷 conquered England 🇬🇧, and French people did not want to learn English. English was the poor people's language. French was the rich💰 people's language. The new king of England did not even speak English. In /official situations/, people /were not allowed/ to speak English. Even until the 1700s, many "English" courts 🧑‍⚖️ did everything in French. 
+In 1066, France 🇫🇷 conquered England 🇬🇧, and French people did not want to learn English. English was the poor people's language. French was the rich💰 people's language. The new king of England did not even speak English. In /official situations/, people /were not allowed/ to speak English. Even until the 1700s, many "English" courts 🧑‍⚖️ did everything in French.
 
-Basically, if the animal was alive in the field, the only person talking about it was the poor farmer speaking English. If the animal was dead ☠️ and on the plate 🍽️, the important, rich, French people were talking about it. 
+Basically, if the animal was alive in the field, the only person talking about it was the poor farmer speaking English. If the animal was dead ☠️ and on the plate 🍽️, the important, rich, French people were talking about it.
 
 #+ATTR_REVEAL: :frag (fade-left)
-- Did the French /want to learn/ English? 
+- Did the French /want to learn/ English?
 - Were English speakers /rich/ or /poor/?
 - What is an example of an /official situation/?
 
@@ -333,7 +333,7 @@ Basically, if the animal was alive in the field, the only person talking about i
 * Werewolf
 Write your English name on the paper. I want to be able to see it /(dark and big)/.
 
-Keep the paper in your English book. We will use it every week. 
+Keep the paper in your English book. We will use it every week.
 
 Name tags
 ** Werewolf
@@ -467,7 +467,7 @@ Every night: Kill someone. You win if you are alive when the game ends.
 #+begin_centered
 🧛 *The Count [伯爵]:*
 
-At the beginning: I tell you how many werewolves are in one half of the room. 
+At the beginning: I tell you how many werewolves are in one half of the room.
 #+end_centered
 #+end_leftcol
 #+begin_rightcol
@@ -489,7 +489,7 @@ At the beginning: I tell you how many werewolves are in one half of the room.
 
 You can open your eyes at night.
 
-*But* if the werewolves tell me they noticed you, you die. 
+*But* if the werewolves tell me they noticed you, you die.
 
 Be veeeery sneaky (like a ninja)
 #+end_centered
@@ -536,7 +536,7 @@ You want the class to believe you are a werewolf.
 #+begin_centered
 🔮 *Seer:*
 
-Every night: Choose a person. I will tell you if they are a werewolf. 
+Every night: Choose a person. I will tell you if they are a werewolf.
 
 *Teacher:* "Seer, wake up! Who do you want to check?"
 #+end_centered
@@ -556,7 +556,7 @@ Every night: Choose a person. I will tell you if they are a werewolf.
 #+begin_centered
 🧙 *Witch:*
 
-You have 2 potions [魔法圣水]. One potion kills a player. One potion saves a player. 
+You have 2 potions [魔法圣水]. One potion kills a player. One potion saves a player.
 
 Twice per game: Use a potion.
 
@@ -622,7 +622,7 @@ Once per game: If you die, you choose a person. They die.
 #+begin_centered
 🧑‍🌾 *Villager:*
 
-Find the werewolves before they get you! 
+Find the werewolves before they get you!
 
 *Teacher:* "Everyone, wake up! The night is over..."
 #+end_centered
@@ -641,7 +641,7 @@ The first night, I will say:
 5. "Ghost, write your letter."
 
 ** Werewolf (狼人) Other Nights
-Other nights, I will always say: 
+Other nights, I will always say:
 1. Werewolves, wake up! Who do you choose?
 2. Seer, wake up! Who do you want to check?
 3. Witch, wake up! Do you want to use a potion? Do you want to kill someone? Do you want to save someone?
@@ -657,7 +657,7 @@ In the morning, you learn who died. Point 👉 at the student you want to kill.
 
 ** You must have the coin 🪙 to talk 🗣️
 - No coin 🪙? No talking 🚫🗣️.
-- Everyone can vote. 
+- Everyone can vote.
 
 * Werewolf Cards List
   :PROPERTIES:
@@ -692,7 +692,7 @@ In the morning, you learn who died. Point 👉 at the student you want to kill.
 - *[[#cupid]]* (红心之王),
 # - *[[#count]]* (钻石之王),
 - *[[#dracula]]* (钻石之王),
-- *[[#ghost]]* (俱乐部之王), 
+- *[[#ghost]]* (俱乐部之王),
 - *[[#seer]]* (黑桃国王)
 #+REVEAL_HTML: <p>
 #+REVEAL_HTML: <img width="50px" style="display: inline" src="../images/Games/king_of_hearts2.png"/>
@@ -700,9 +700,9 @@ In the morning, you learn who died. Point 👉 at the student you want to kill.
 #+REVEAL_HTML: <img width="50px" style="display: inline" src="../images/Games/king_of_clubs2.png"/>
 #+REVEAL_HTML: <img width="50px" style="display: inline" src="../images/Games/king_of_spades2.png"/>
 #+REVEAL_HTML: </p>
-- *[[#witch]]* (黑桃皇后), 
-- *[[#guard]]* (梅花皇后), 
-- *[[#hunter]]* (红桃皇后), 
+- *[[#witch]]* (黑桃皇后),
+- *[[#guard]]* (梅花皇后),
+- *[[#hunter]]* (红桃皇后),
 - *[[#child]]* (钻石皇后)
 #+REVEAL_HTML: <p>
 #+REVEAL_HTML: <img width="50px" style="display: inline" src="../images/Games/queen_of_spades2.png"/>
@@ -772,12 +772,12 @@ There is a student named Miki. Miki is in a small house in a forest. One day, Mi
 :reveal_extra_attr: class="story"
 :CUSTOM_ID: C2-Story
 :END:
-There is a student named Baby. Baby is in a small house in a forest. Baby goes out to look for something. She goes back into her house. She goes back out again. She goes back in and out three times. She sees a wolf. /~Lucky~/ she's hungry. She wants to eat the wolf. She goes back in the house /~again~/ because she wants a knife so she can eat the wolf. 
+There is a student named Baby. Baby is in a small house in a forest. Baby goes out to look for something. She goes back into her house. She goes back out again. She goes back in and out three times. She sees a wolf. /~Lucky~/ she's hungry. She wants to eat the wolf. She goes back in the house /~again~/ because she wants a knife so she can eat the wolf.
 
 
 OH NO the wolf went away. She goes inside /AGAIN/ to get her shoes so she can /track/ the wolf. The wolf /leads/ her to a vineyard.
 
-Baby does not eat grapes because wolves are more delicious. 
+Baby does not eat grapes because wolves are more delicious.
 ** C3 Story
 :PROPERTIES:
 :reveal_extra_attr: class="story"
@@ -812,22 +812,22 @@ Teresa /DIES/ the rabbit drags her to a vineyard in the center of France. He dig
 :CUSTOM_ID: C5-Story
 :END:
 #+begin_leftcol
-There is a student named Simon. Simon is in a small house in a forest. Simon goes into the forest. OH NO! He sees some tigers. 
+There is a student named Simon. Simon is in a small house in a forest. Simon goes into the forest. OH NO! He sees some tigers.
 
-Ethan and Corry are in the forest too because they want to hunt tigers. Corry has a gun, but Ethan does not have a gun because he wants to make a rifle himself in the forest. When Corry sees the tigers, he shoots one! 
+Ethan and Corry are in the forest too because they want to hunt tigers. Corry has a gun, but Ethan does not have a gun because he wants to make a rifle himself in the forest. When Corry sees the tigers, he shoots one!
 #+end_leftcol
 
 #+begin_rightcol
-But Ethan did not shoot a tiger because he is slow at making a gun himself. Now Jack is here. OMG, he's so hungry, but he doesn't want to shoot anything because he hates guns. He saw that Corry had just killed a tiger, so he begged: "PLEASE, Corry! Please let me have a piece of your tiger to eat! I am so hungry!" 
+But Ethan did not shoot a tiger because he is slow at making a gun himself. Now Jack is here. OMG, he's so hungry, but he doesn't want to shoot anything because he hates guns. He saw that Corry had just killed a tiger, so he begged: "PLEASE, Corry! Please let me have a piece of your tiger to eat! I am so hungry!"
 #+end_rightcol
 
 *** The Tigers are Maaaad 😡
 #+begin_leftcol
-Ethan made his gun, but there is a problem. He does not make a rifle! He made an RPG! (How???) He does not want an RPG, he wants a rifle! 
+Ethan made his gun, but there is a problem. He does not make a rifle! He made an RPG! (How???) He does not want an RPG, he wants a rifle!
 #+end_leftcol
 
 #+begin_rightcol
-The tigers see Corry shoot their friend, so the tigers are mad! (Oh no!) Everyone runs away from the tigers. 
+The tigers see Corry shoot their friend, so the tigers are mad! (Oh no!) Everyone runs away from the tigers.
 [[../images/angryTiger.jpeg]]
 #+end_rightcol
 *** The Tigers are Sloooow 😌
@@ -835,7 +835,7 @@ The tigers see Corry shoot their friend, so the tigers are mad! (Oh no!) Everyon
 [[../images/Tiger.jpeg]]
 #+end_leftcol
 #+begin_rightcol
-The tigers are slow because one tiger is blind (he has no eyes), and the other tiger has no tail. /(Not very 跑得快.)/ Because the tigers are not fast, everyone gets away. Everyone runs until they are tired. 
+The tigers are slow because one tiger is blind (he has no eyes), and the other tiger has no tail. /(Not very 跑得快.)/ Because the tigers are not fast, everyone gets away. Everyone runs until they are tired.
 #+end_rightcol
 
 
@@ -844,24 +844,24 @@ The tigers are slow because one tiger is blind (he has no eyes), and the other t
 :reveal_extra_attr: class="story"
 :CUSTOM_ID: C6-Story
 :END:
-Once upon a time, there was a student named Simone. Simone lived in a small house beside a forest. One day, Simone decided to explore the forest... Simone was hungry, so she looked around and found a fruit tree. But OH NO, a tiger was there! She ignored the tiger while she chopped down the tree, which was a banana tree. Fortunately, the tiger likes bananas, so she /distracts/ the tiger with a banana. The tiger takes the banana, and now it can talk. The tiger leads Simone to a little house, where Amy is waiting along with a lot of treasure. The tiger starts coughing; oh no! He was allergic to bananas so he suddenly dies. 
+Once upon a time, there was a student named Simone. Simone lived in a small house beside a forest. One day, Simone decided to explore the forest... Simone was hungry, so she looked around and found a fruit tree. But OH NO, a tiger was there! She ignored the tiger while she chopped down the tree, which was a banana tree. Fortunately, the tiger likes bananas, so she /distracts/ the tiger with a banana. The tiger takes the banana, and now it can talk. The tiger leads Simone to a little house, where Amy is waiting along with a lot of treasure. The tiger starts coughing; oh no! He was allergic to bananas so he suddenly dies.
 
 *** Oh no, they're sick...
-Amy and Simone are hungry so they eat the tiger, but they forgot to cook it, so they get sick and throw up. It was *not* /easy peasy lemon squeezy/.       
+Amy and Simone are hungry so they eat the tiger, but they forgot to cook it, so they get sick and throw up. It was *not* /easy peasy lemon squeezy/.
 ** C7 Story
 :PROPERTIES:
 :reveal_extra_attr: class="story"
 :CUSTOM_ID: C7-Story
 :END:
-There is a student named Eric. Eric is in a small house in a forest. Eric goes into the forest. He does not like the forest. He /prefers to/ go to the toilet. But he cannot find the toilet because he is /blind/. He is blind because his teacher got angry at him for his bad /marks/ and /poked/ his eyes! So now he has an animal to help him. 
+There is a student named Eric. Eric is in a small house in a forest. Eric goes into the forest. He does not like the forest. He /prefers to/ go to the toilet. But he cannot find the toilet because he is /blind/. He is blind because his teacher got angry at him for his bad /marks/ and /poked/ his eyes! So now he has an animal to help him.
 ** C8 Story
 :PROPERTIES:
 :reveal_extra_attr: class="story"
 :CUSTOM_ID: C8-Story
 :END:
-There is a student named Jerry. Jerry lives in a small house in the forest, and he went into the forest. Jerry does not want to be in the forest; he wants to play videogames, but he doesn't have any videogames because he's in the forest. 
+There is a student named Jerry. Jerry lives in a small house in the forest, and he went into the forest. Jerry does not want to be in the forest; he wants to play videogames, but he doesn't have any videogames because he's in the forest.
 
-Kobe Bryant has a videogame. He has Mario, and he does not want to go to the forest because it is too big. He prefers to play videogames at home. But Kobe Bryant is so /nice/! He goes to the forest, /even though/ it is so big, because he wants to give Mario to Jerry. He goes to the forest, even though it is so big, because he wants to give Mario to Jerry. Jerry loves Mario because it is an excellent game. Jerry gives Kobe a bottle of wine to say thanks. 
+Kobe Bryant has a videogame. He has Mario, and he does not want to go to the forest because it is too big. He prefers to play videogames at home. But Kobe Bryant is so /nice/! He goes to the forest, /even though/ it is so big, because he wants to give Mario to Jerry. He goes to the forest, even though it is so big, because he wants to give Mario to Jerry. Jerry loves Mario because it is an excellent game. Jerry gives Kobe a bottle of wine to say thanks.
 
 * Setup                                                     :noexport:
 # Local variables:
