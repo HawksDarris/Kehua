@@ -20,7 +20,7 @@ rose : 239/82/91
 }
 
 .reveal .slides section:not(.title):not(.stack),
-.reveal .slides section > section,  
+.reveal .slides section > section,
 .reveal .slides section.stack > section.stack {
   background: white;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
@@ -86,8 +86,8 @@ rose : 239/82/91
 }
 
 /***********************
-* last slide 
-************************/ 
+* last slide
+************************/
 
 /* .bubbles */
 
