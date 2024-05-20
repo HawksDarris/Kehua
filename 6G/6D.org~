@@ -1,0 +1,19 @@
+#+title: Story Mountain
+#+startup: inlineimages
+:reveal_properties:
+#+STARTUP: indent fold
+#+PROPERTY: HEADER-ARGS+ :eval no-export
+#+REVEAL_INIT_OPTIONS: hash: true
+#+REVEAL_THEME: beige
+#+options: timestamp:nil toc:1 num:nil
+#+OPTIONS: reveal_single_file:t
+:end:
+* Would You Rather
+** Horse-Sized Duck or Duck-Sized Horse?
+[[file:~/share/Teaching/reveal.js-master/images/angry-duck.jpg][Horse-Sized Duck]]
+
+* Setup                                                     :noexport:
+# Local variables:
+# after-save-hook: org-re-reveal-export-to-html
+# org-re-reveal-progress: true
+# end:

@@ -1,0 +1,54 @@
+#+title: Would You Rather
+#+REVEAL_TOC_SLIDE_TITLE: Plan
+#+author:
+#+startup: inlineimages
+:reveal_properties:
+#+STARTUP: indent fold
+#+PROPERTY: HEADER-ARGS+ :eval no-export
+#+REVEAL_INIT_OPTIONS: hash: true history: true
+#+OPTIONS: reveal_history:t
+#+REVEAL_THEME: beige
+#+options: timestamp:nil toc:nil num:nil
+#+REVEAL_EXTRA_CSS: ../dist/utils.css
+:end:
+* Rule
+Answer in complete sentences, like this:
+- "I would rather... because ..."
+* Would You Rather
+** Fight 1 Horse-Sized Duck or 100 Duck-Sized Horses?
+#+BEGIN_leftcol
+[[../images/angry-duck.jpg]]
+#+REVEAL_HTML: <figcaption>Horse-Sized Duck</figcaption>
+#+END_leftcol
+#+BEGIN_rightcol
+[[../images/duckhorse.jpg]]
+#+REVEAL_HTML: <figcaption>Duck Horse</figcaption>
+#+END_rightcol
+** Psychic
+1. Be able to hear everyone else's thoughts; or
+2. Have everyone else be able to hear your thoughts
+** Delicious.
+1. Eat only cat food; or
+2. Eat whatever you want, *BUT* it has to be 'baby-birded' to you by someone you don't know.
+** Be a superhero! 🦸
+1. Be a superhero, but you fly reeeeeally slowly; or
+2. Be a superhero, fly very fast, but you cannot change direction while flying
+   - Thor (雷神索尔)
+
+** Weird Body Parts
+1. Have a giant hand; or
+2. Have a tiiiny foot
+
+** Pretty
+1. Have wooden teeth; or
+2. Have a clown 🤡 nose
+
+** Moving
+1. Only be able to walk backward; or
+2. Only be able to crawl around on all fours
+
+* Setup                                                     :noexport:
+# Local variables:
+# after-save-hook: org-re-reveal-export-to-html
+# org-re-reveal-progress: true
+# end:
