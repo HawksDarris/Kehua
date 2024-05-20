@@ -2,7 +2,7 @@ const categories = ["djeetyet?, and others",
     "Would you rather...",
     "Plot Mountain Questions",
     "Vocabulary from Old Lessons",
-    "From the Story"];
+    "Get Creative"];
 const questions = [
   // Each array is the column in the above categories
     [ // Column One
@@ -34,9 +34,9 @@ const questions = [
     "Divorce"
   ],
     [ // Column Five
-    "Question 5-1",
-    "Question 5-2",
-    "Question 5-3",
+    "What do you wish happened in The Giving Tree?",
+    "How would the story change if the tree could move?",
+    "Do you think the tree can talk to other people too? Is she a magic tree? Can all trees talk to people in this world?",
     "Question 5-4",
     "Question 5-5"
   ]
