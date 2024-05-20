@@ -1,36 +1,105 @@
-const categories = ["Category 1", "Category 2", "Category 3", "Category 4", "Category 5"];
+const categories = ["djeetyet?, and others",
+    "Would you rather...",
+    "Plot Mountain Questions",
+    "Vocabulary from Old Lessons",
+    "From the Story"];
 const questions = [
-    ["Question 1-1", "Question 1-2", "Question 1-3", "Question 1-4", "Question 1-5"],
-    ["Question 2-1", "Question 2-2", "Question 2-3", "Question 2-4", "Question 2-5"],
-    ["Question 3-1", "Question 3-2", "Question 3-3", "Question 3-4", "Question 3-5"],
-    ["Question 4-1", "Question 4-2", "Question 4-3", "Question 4-4", "Question 4-5"],
-    ["Question 5-1", "Question 5-2", "Question 5-3", "Question 5-4", "Question 5-5"]
+  // Each array is the column in the above categories
+    [ // Column One
+    "Never gonna give you up. Gonna means...",
+    "Djeet yet? /dj/ means...",
+    "I'mma be here later",
+    "Wheredja go?",
+    "Shoulda, coulda, woulda, butdja didn't"
+  ],
+    [ // Column two
+    "Would you rather fight 100 duck-sized horses or one horse-sized duck?",
+    "Would you rather wet the bed every night or pee your pants every week?",
+    "Would you rather hear everyone else's thoughts or have everyone else hear your thoughts?",
+    "Would you rather shoot steam out of your ears when you're mad or bark like a dog when you're excited?",
+    "Would you rather eat only cat food for the rest of your life or eat whatever you want, but the food has to be 'baby-birded' to you by a stranger?"
+  ],
+    [ // Column three
+    "The part where the characters and setting are described.",
+    "The part with all the action, where the stakes are raised",
+    "The part where the story starts to end",
+    "The turning point",
+    "The end"
+  ],
+    [ // Column Four
+    "Sneaky",
+    "Ninja",
+    "Poison",
+    "Literal / Metaphor",
+    "Divorce"
+  ],
+    [ // Column Five
+    "Question 5-1",
+    "Question 5-2",
+    "Question 5-3",
+    "Question 5-4",
+    "Question 5-5"
+  ]
 ];
 
 const jeopardyBoard = document.getElementById('jeopardy-board');
+const modal = document.getElementById('question-modal');
+const modalCategory = document.getElementById('modal-category');
+const modalValue = document.getElementById('modal-value');
+const modalQuestion = document.getElementById('modal-question');
+const span = document.getElementsByClassName('close')[0];
+const clickSound = document.getElementById('click-sound');
 
 // Generate game board
-categories.forEach((category, index) => {
+categories.forEach((category, categoryIndex) => {
+    const columnElement = document.createElement('div');
+    columnElement.classList.add('category-column');
+
     const categoryElement = document.createElement('div');
     categoryElement.classList.add('category');
     categoryElement.textContent = category;
-    jeopardyBoard.appendChild(categoryElement);
+    columnElement.appendChild(categoryElement);
 
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < questions[categoryIndex].length; i++) {
         const questionElement = document.createElement('div');
         questionElement.classList.add('question');
         questionElement.textContent = `$${(i + 1) * 100}`;
-        questionElement.dataset.category = index;
+        questionElement.dataset.category = categoryIndex;
         questionElement.dataset.value = (i + 1) * 100;
         questionElement.addEventListener('click', showQuestion);
-        jeopardyBoard.appendChild(questionElement);
+        columnElement.appendChild(questionElement);
     }
+
+    jeopardyBoard.appendChild(columnElement);
 });
 
 // Handle click event for questions
 function showQuestion() {
+    clickSound.play();
+    
     const categoryIndex = this.dataset.category;
     const questionValue = this.dataset.value;
     const question = questions[categoryIndex][questionValue / 100 - 1]; // Retrieve question
-    alert(`Category: ${categories[categoryIndex]}\nValue: $${questionValue}\n\n${question}`);
+
+    modalCategory.textContent = `Category: ${categories[categoryIndex]}`;
+    modalValue.textContent = `Value: $${questionValue}`;
+    modalQuestion.textContent = question;
+
+    modal.style.display = 'block';
+
+  this.classList.add('question-answered');
+  this.removeEventListener('click', showQuestion);
 }
+
+// Close the modal
+span.onclick = function() {
+    modal.style.display = 'none';
+}
+
+// Close the modal when clicking outside of it
+window.onclick = function(event) {
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+}
+
