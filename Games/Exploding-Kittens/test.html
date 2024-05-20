@@ -1,215 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card Deck</title>
-    <style>
-        /* CSS for modal */
-        .modal {
-            display: none; /* Hidden by default */
-            position: fixed; /* Stay in place */
-            z-index: 1; /* Sit on top */
-            left: 0;
-            top: 0;
-            width: 100%; /* Full width */
-            height: 100%; /* Full height */
-            overflow: auto; /* Enable scroll if needed */
-            background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
-        }
-
-        /* Modal content */
-        .modal-content {
-            background-color: #fefefe;
-            margin: 15% auto; /* 15% from the top and centered */
-            padding: 20px;
-            border: 1px solid #888;
-            width: 80%; /* Could be more or less, depending on screen size */
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-            position: relative;
-        }
-
-        /* Close button */
-        .close {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-        }
-
-        .close:hover,
-        .close:focus {
-            color: black;
-            text-decoration: none;
-            cursor: pointer;
-        }
-
-        .options {
-            text-align: center;
-        }
-
-        /* Card styles */
-        .card figcaption {
-            margin: 150px 0 0 50px;
-            color: white;
-            font-size: 14px;
-        }
-
-        body {
-            background: #333;
-        }
-
-        .cardContainer {
-            position: relative;
-        }
-
-        .card {
-            width: 100px;
-            height: 150px;
-            background-image: url('ExplodingKittensCardback.png');
-            background-size: cover;
-            display: inline-block;
-            margin: 5px;
-            cursor: pointer;
-        }
-
-        .card.flipped {
-            background-image: none;
-        }
-
-        /* Keyframes for shaking effect */
-        @keyframes shake {
-            0% { transform: translate(0, 0); }
-            10%, 30%, 50%, 70%, 90% { transform: translate(-5px, 0); }
-            20%, 40%, 60%, 80%, 100% { transform: translate(5px, 0); }
-        }
-
-        /* Apply the animation to the card container */
-        .shake {
-            animation: shake 1.5s ease-in-out;
-        }
-    </style>
-</head>
-<body>
-<div id="cardContainer" class="cardContainer">
-    <!-- Cards will be dynamically added here -->
-</div>
-<div class="cardCount"></div>
-
-<audio id="draw" src="draw.wav"></audio>
-<audio id="bombSound" src="explode.wav"></audio>
-<audio id="nuclearSound" src="nuclear.wav"></audio>
-<audio id="changePoints" src="special.wav"></audio>
-<audio id="losePoints" src="ohno.wav"></audio>
-
-<!-- Modal -->
-<div id="myModal" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <p>Do you want 5 points or do you want to reveal the card?</p>
-        <div class="options">
-            <button id="revealBtn">Reveal!</button>
-            <button id="fivePointsBtn">Five points!</button>
-        </div>
+    <link rel="stylesheet" type="" href="styles.css">
+  </head>
+  <body>
+    <div id="cardContainer">
+      <div class="cardInner"></div>
     </div>
-</div>
+    <div class="cardCount"></div>
 
-<script>
-    (function () {
-        document.addEventListener("DOMContentLoaded", function () {
-            const cardConfig = {
-                'GrenadeCat.png': 5,
-                'TnTCat.png': 11,
-                '3ptCat.png': 9,
-                'tacocat.png': 6,
-                'AvocadoCat.png': 5,
-                'Nuclear.png': 2,
-                'GrenadeCat.png': 1,
-                'LosePoints.png': 3,
-                'ChangePoints.png': 2,
-                'Bomb.png': 10,
-            };
+    <div id="modal" class="modal"></div>
 
-            let cards = [];
+    <audio id="draw" src="draw.wav"></audio>
+    <audio id="bombSound" src="explode.wav"></audio>
+    <audio id="nuclearSound" src="nuclear.wav"></audio>
+    <audio id="changePoints" src="special.wav"></audio>
+    <audio id="losePoints" src="ohno.wav"></audio>
 
-            for (const [imageName, count] of Object.entries(cardConfig)) {
-                for (let i = 0; i < count; i++) {
-                    cards.push(imageName);
-                }
-            }
-
-            let shuffledCards = [];
-
-            function shuffle(array) {
-                let currentIndex = array.length, temporaryValue, randomIndex;
-
-                while (0 !== currentIndex) {
-                    randomIndex = Math.floor(Math.random() * currentIndex);
-                    currentIndex -= 1;
-
-                    temporaryValue = array[currentIndex];
-                    array[currentIndex] = array[randomIndex];
-                    array[randomIndex] = temporaryValue;
-                }
-
-                return array;
-            }
-
-            function renderCards() {
-                const cardContainer = document.getElementById('cardContainer');
-                cardContainer.innerHTML = '';
-
-                shuffledCards.forEach((card, index) => {
-                    const div = document.createElement('div');
-                    div.className = 'card';
-                    div.dataset.index = index;
-
-                    const figcaption = document.createElement('figcaption');
-                    figcaption.textContent = index + 1;
-
-                    div.appendChild(figcaption);
-
-                    cardContainer.appendChild(div);
-                });
-            }
-
-            function flipCard(index) {
-                const card = document.querySelector(`.card[data-index="${index}"]`);
-                card.classList.add('flipped');
-                setTimeout(() => {
-                    card.style.backgroundImage = `url('${shuffledCards[index]}')`;
-                }, 300);
-
-                if (shuffledCards[index] === 'LosePoints.png' || shuffledCards[index] === 'ChangePoints.png') {
-                    // Display modal
-                    const modal = document.getElementById('myModal');
-                    modal.style.display = "block";
-
-                    // Handle modal buttons
-                    const revealBtn = document.getElementById('revealBtn');
-                    const fivePointsBtn = document.getElementById('fivePointsBtn');
-
-                    revealBtn.onclick = function () {
-                        modal.style.display = "none";
-                        // Player chose to reveal the card
-                        card.classList.add('flipped');
-                        setTimeout(() => {
-                            card.style.backgroundImage = `url('${shuffledCards[index]}')`;
-                        }, 300);
-                    };
-
-                    fivePointsBtn.onclick = function () {
-                        modal.style.display = "none";
-                        // Player chose to get five points
-                        card.style.opacity = "0.5";
-                        card.style.pointerEvents = "none";
-                    };
-                } else {
-                    // Normal card flip
-                    card.classList.add('flipped');
-                    setTimeout(() => {
-                        card.style.backgroundImage = `url('${shuffledCards[index]}')`;
-                    }, 300);
-                }
-
-                if (shuffledCards
+    <!-- <script src="script.js"></script> -->
+    <script src="scriptold.js"></script>
+  </body>
+</html>
