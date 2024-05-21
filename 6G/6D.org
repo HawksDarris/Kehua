@@ -6,10 +6,12 @@
 #+STARTUP: indent fold
 #+PROPERTY: HEADER-ARGS+ :eval no-export
 #+REVEAL_INIT_OPTIONS: hash: true history: true
-#+OPTIONS: reveal_history:t
 #+REVEAL_THEME: beige
-#+options: timestamp:nil toc:nil num:nil
+#+OPTIONS: timestamp:nil toc:nil num:nil reveal_history:t
+# #+OPTIONS: reveal_embed_local_resources:t
 #+REVEAL_EXTRA_CSS: ../dist/utils.css
+# #+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
+# #+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
 :end:
 * Rule
 Answer in complete sentences, like this:
