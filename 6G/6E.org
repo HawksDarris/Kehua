@@ -1,0 +1,182 @@
+#+title: Test Information
+#+REVEAL_TOC_SLIDE_TITLE: Plan
+#+author:
+#+STARTUP: inlineimages
+#+STARTUP: indent fold
+:reveal_properties:
+#+PROPERTY: HEADER-ARGS+ :eval no-export
+#+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
+#+REVEAL_THEME: beige
+#+REVEAL_INIT_OPTIONS: history: true
+#+OPTIONS: timestamp:nil toc:nil num:nil
+#+OPTIONS: reveal_embed_local_resources:t
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
+#+REVEAL_EXTRA_CSS: ../dist/utils.css
+:end:
+* Announcement
+There will be a test. There will be grades.
+* Curve Grade.
+The top 10% will get A++. The next 10% will be A+. The lowest A+ = 100% for the rest of the class. Everyone can get an A.
+
+** Note
+You *must* talk. If you don't talk, you will get a bad grade.
+
+If you do not understand, say "I am sorry, I don't understand." I will always help you understand.
+
+* About the Test
+It will be in two weeks.
+
+** Rubric (评价量规)
+|   | *Understanding*                                      |
+| 5 | Maybe required some help, but generally understood |
+| 4 | Required some help and understood most things      |
+| 3 | Required a lot of help for most questions          |
+| 2 | Required a lot of help for every question          |
+| 1 | Understood 0%, even with help                      |
+
+** Rubric (评价量规)
+|   | *Speaking*                   |
+| 5 | Pronunciation 80+% correct |
+| 4 | Pronunciation 60+% correct |
+| 3 | Pronunciation 40+% correct |
+| 2 | Pronunciation 20+% correct |
+| 1 | Did not speak              |
+
+** Rubric (评价量规)
+|   | *Language Use*                   |
+| 5 | Rarely struggled               |
+| 4 | Struggled occasionally         |
+| 3 | Struggled with most vocabulary |
+| 2 | Struggled with all vocabulary  |
+| 1 | Did not speak                  |
+
+** Topic
+Tell me about something for 1 minute. Answer my questions.
+
+** What will you talk about
+Options:
+
+1. A story;
+2. A game; or
+3. The class story
+#+ATTR_REVEAL: :frag (fade-up)
+   - CLASS 2: We will make a story today
+
+* Stories
+#+begin_centered
+[[#C2-Story]]
+
+[[#C5-Story]]
+
+[[#C6-Story]]
+
+[[#C7-Story]]
+
+[[#C8-Story]]
+#+end_centered
+
+
+** C2 Story
+:PROPERTIES:
+:reveal_extra_attr: class="story"
+:CUSTOM_ID: C2-Story
+:END:
+We have no story yet 😥
+
+Let's make one! 😃
+** C5 Story
+:PROPERTIES:
+:reveal_extra_attr: class="story"
+:CUSTOM_ID: C5-Story
+:END:
+#+begin_leftcol
+There is a student named Thea. Thea is in a small house in a forest. One day, Thea wants to see animals in the forest. She sees elephants, lions, cats, and a panda. Oh no! The animals see Thea. The panda sees Pacino in the forest. It tries to eat Pacino (he is bamboo).
+#+end_leftcol
+
+#+begin_rightcol
+[[../images/Pacino-Bamboo.jpeg]]
+
+#+REVEAL_HTML: <figcaption>Pacino is bamboo</figcaption>
+#+end_rightcol
+
+
+***  Crocodile fight!
+#+begin_leftcol
+Thea goes to the forest center and finds a castle. The castle has a /moat/ (a river). There are crocodiles (!!) in the river! The crocodiles see her and they want to eat her. Thea does not want to be crocodile food. Thea /punches/ the crocodile and runs away.
+#+end_leftcol
+
+#+begin_rightcol
+#+REVEAL_HTML: <video width="400" height="100%" src="../videos/Crocodile-Fight.mp4" controls></video>
+#+end_rightcol
+
+*** "KOBE KOBE KOBE!"
+#+begin_leftcol
+/OH NO!/ Now there's a storm! The storm breaks the castle's walls! Don't worry! Thea has a friend who is magic robot: Magic Robot Kobe Bryant! She calls him to help her and help Pacino (/in the panda's stomach/):
+
+/What does she say?/
+#+end_leftcol
+
+#+begin_rightcol
+[[../images/Castle-Hurricane.jpg]]
+#+end_rightcol
+
+*** Going to Space
+#+begin_leftcol
+Magic Robot Kobe Bryant says "/I have a spaceship in the mountains! I will carry you there!/"
+
+Magic Robot Kobe Bryant carries them on his back to the mountains! They get on his spaceship and fly to 天宫. Now they are in space.
+#+end_leftcol
+
+#+begin_rightcol
+[[../images/Chinese_Tiangong_Space_Station.jpg]]
+#+end_rightcol
+
+** C6 Story
+:PROPERTIES:
+:reveal_extra_attr: class="story"
+:CUSTOM_ID: C6-Story
+:END:
+There is a student named Kobe Bryant. Kobe Bryant is in a small house in a forest. Kobe Bryant goes from his house into the forest. He sees some monkeys! The monkeys say "ooh ooh ah ah!" and scare Kobe Bryant!  Kobe Bryant is so scared that he cries. Justin Bieber hears him crying. Justin Bieber (171 cm) /carries/ Kobe Bryant (195 cm) so far! Justin Bieber /carries/ Kobe Bryant to the mountains! When they get to the top of a mountain Justin Bieber throws Kobe Bryant into the sea. But Kobe is magic! He flies out of the sea to Justin Bieber's castle! /(Justin Bieber lives in a castle)/
+*** In Justin's Castle
+Shann is in Justin Bieber's castle. /OH NO!/ a storm /destroys/ the castle! Shann is /in trouble/! But Kobe Bryant is there, and he is a robot! Magic Robot Kobe Bryant gives Shann a wish. Shann wishes to go away from the storm that /destroyed/ Justin Bieber's castle. Shann wishes to be in the mountains. Magic Robot Kobe Bryant also gave Coco a wish. Coco wished that the school would not have homework. Then another student wished that the school would not have teachers!
+*** To the sea!
+Teacher Darris wants them to move to the sea, so Kobe Bryant, Coco, Justin Bieber, and Shann jump off the mountain into the sea. The monkeys do not follow them. They do not have swimming suits. A blue whale eats them. /Are they scared?/ The blue whale can fly too! It flies back to Justin Bieber's castle. But it is bad at flying and it crashes.
+
+Kelly was walking and she saw the flying blue whale. She was so hungry. She followed the blue whale and she saw it crash into the castle. She runs to the whale, adds salt, and starts eating the whale.
+
+** C7 Story
+:PROPERTIES:
+:reveal_extra_attr: class="story"
+:CUSTOM_ID: C7-Story
+:END:
+There is a student named Ryan. Ryan is in a small house in a forest. Ryan goes into the forest, but he does not like it, so he goes back. *Who is there?* Andrew is waiting in the bedroom. Linda is walking in the forest, and she sees Ryan's house. She sees Ryan and Andrew playing football in Ryan's bedroom. She *HATES* football, she only likes videogames, so she turns around and walks away. *Oh no!* She turned around and now Andrew and Ryan are playing videogames! *OH NO!* now there is a thunderstorm! Linda runs back to the house! It is so powerful that it takes the roof off the house! They have to get out of the storm!
+*** Getting out of the storm
+Linda's friend, Magic Robot Kobe Bryant saves them! Magic Robot Kobe Bryant has a /nuke/ and a /spaceship/. He puts Linda, Ryan, and Andrew on his back and carries them to the mountains. Why to the mountains? Because he has a spaceship there. Magic Robot Kobe Bryant, Linda, Andrew, and Ryan get into the spaceship and fly into space! To Tiangong!
+
+From Tiangong, Magic Robot Kobe Bryant gives the class five (so many...) wishes:
+
+1. Magic Robot Kobe Bryant is now the head teacher
+2. Head Teacher Magic Robot Kobe Bryant tells the other teachers that students can do whatever they want.
+3. Head Teacher Magic Robot Kobe Bryant gives $100 million every day they go to school.
+4. Head Teacher Magic Robot Kobe Bryant says students do not have to go to school.
+5. Head Teacher Magic Robot Kobe Bryant says no more homework!
+
+** C8 Story
+:PROPERTIES:
+:reveal_extra_attr: class="story"
+:CUSTOM_ID: C8-Story
+:END:
+There is a student named Chloe. Chloe is in a small house in a forest. One day, Chloe goes into the forest. Chloe found Edward doing archery in the forest. He's /shooting at/ Charlie. Charlie is standing still and he /dodges, just in the nick of time/. Lisa is a beautiful princess in a tower near Edward. She's in the tower because Edward put her there (mean boy [actually very nice]). BUT! Lisa is a ninja princess, she jumps down from the tower window and attacks ****Bruce Lee [李小龙] noise​**** Charlie with a ninja knife.
+
+Chloe calls Magic Robot Kobe Bryant (KOBE! KOBE! KOBE!) and he gives Chloe a wish. She asks Magic Robot Kobe Bryant to carry Lisa, Charlie, Edward, Daisy, and her to space. They go above the storm, soooo far, all the way to Tiangong! At Tiangong, Edward uses Tiangong's /secret weather magic/ to stop the /hurricane/.
+
+*** Two more wishes
+When they get back to school, Magic Robot Kobe Bryant gives the class two more wishes:
+1. No homework, and
+2. a stronger roof for the school.
+* Setup                                                     :noexport:
+# Local variables:
+# after-save-hook: org-re-reveal-export-to-html
+# org-re-reveal-progress: true
+# end:

@@ -15,7 +15,7 @@ body {
 
 .present p{
     margin: 1em 0 1em 0;
-    font-size: 2.5rem;
+    font-size: 200%;
 }
 
 .present table{
@@ -24,12 +24,12 @@ body {
 }
 
 .centered dl dt{
-    font-size: 1.5em;
+    font-size: 150%;
     font-weight: bold;
 }
 
 .centered dl dd{
-    font-size: 1.2em;
+    font-size: 120%;
 }
 
 .leftcol p {
@@ -41,7 +41,7 @@ body {
 }
 
 .large p {
-    font-size: 1.5em;
+    font-size: 150%;
 }
 
 .bigh2 h2{
@@ -82,4 +82,8 @@ h1{
 
 img {
     max-height: 500px;
+}
+
+figcaption {
+    margin-top: 20px;
 }

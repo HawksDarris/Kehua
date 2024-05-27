@@ -1,23 +1,62 @@
 #+title: Would You Rather
 #+REVEAL_TOC_SLIDE_TITLE: Plan
 #+author:
-#+startup: inlineimages
-:reveal_properties:
+#+STARTUP: inlineimages
 #+STARTUP: indent fold
+:reveal_properties:
 #+PROPERTY: HEADER-ARGS+ :eval no-export
-#+REVEAL_INIT_OPTIONS: hash: true history: true
+#+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
 #+REVEAL_THEME: beige
-#+OPTIONS: timestamp:nil toc:nil num:nil reveal_history:t
-# #+OPTIONS: reveal_embed_local_resources:t
+#+REVEAL_INIT_OPTIONS: history: true
+#+OPTIONS: timestamp:nil toc:nil num:nil
+#+OPTIONS: reveal_embed_local_resources:t
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
 #+REVEAL_EXTRA_CSS: ../dist/utils.css
-# #+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
-# #+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
 :end:
 * Rule
+#+BEGIN_centered
 Answer in complete sentences, like this:
-- "I would rather... because ..."
-* Would You Rather
+#+ATTR_REVEAL: :frag grow
+"I would rather... than... because ..."
+#+END_centered
+** Example
+#+ATTR_REVEAL: :frag fade up
+#+BEGIN_large
+*EXAMPLE:*
+"I would rather sleep than eat because I am very tired."
+#+END_large
+* What can I say?
+#+REVEAL_HTML: <div class="large" style="display:inline-inline-block;">
+#+ATTR_REVEAL: :frag (fade-up)
+- *WHAT* can I say?
+- What *CAN* I say?
+- What can *I* say?
+- What can I *SAY*?
+#+REVEAL_HTML: </div>
+
+* What can I say?
+#+REVEAL_HTML: <div style="display:inline-block; font-size:150%">
+#+ATTR_REVEAL: :frag (fade-up)
+- *WHAT* can I say?
+    - Don't know what to say
+
+#+ATTR_REVEAL: :frag (fade-up)
+- What *CAN* I say?
+    - Don't know what is possible to say
+
+#+ATTR_REVEAL: :frag (fade-up)
+- What can *I* say?
+    - Someone else should say it
+
+#+ATTR_REVEAL: :frag (fade-up) :frag_idx()
+- What can I *SAY*?
+    - I should do more than "say" anything.
+#+REVEAL_HTML: </div>
+
+* Would You Rather...
 ** Fight 1 Horse-Sized Duck or 100 Duck-Sized Horses?
+
 #+BEGIN_leftcol
 [[../images/angry-duck.jpg]]
 #+REVEAL_HTML: <figcaption>Horse-Sized Duck</figcaption>
@@ -26,29 +65,91 @@ Answer in complete sentences, like this:
 [[../images/duckhorse.jpg]]
 #+REVEAL_HTML: <figcaption>Duck Horse</figcaption>
 #+END_rightcol
+
 ** Psychic
+#+BEGIN_large
 1. Be able to hear everyone else's thoughts; or
 2. Have everyone else be able to hear your thoughts
+#+END_large
 ** Delicious.
+#+BEGIN_large
 1. Eat only cat food; or
 2. Eat whatever you want, *BUT* it has to be 'baby-birded' to you by someone you don't know.
+#+END_large
 ** Be a superhero! 🦸
+#+BEGIN_large
 1. Be a superhero, but you fly reeeeeally slowly; or
 2. Be a superhero, fly very fast, but you cannot change direction while flying
    - Thor (雷神索尔)
+#+END_large
+* Why does English have names for the days instead of numbers, like in Chinese?
+** Names of the Days of the Week
+#+BEGIN_large
+1. Sun Day
+2. Moon Day
+3. Tiw's Day
+4. Woden's Day (Odin's Day)
+5. Thor's Day
+6. Frigge's Day
+7. Saturn's (🪐) Day
+#+END_large
+** Thor
+** Odin
 
+* Ok, Back to Would You Rather
 ** Weird Body Parts
+#+BEGIN_large
 1. Have a giant hand; or
 2. Have a tiiiny foot
+#+END_large
 
 ** Pretty
+#+BEGIN_large
 1. Have wooden teeth; or
 2. Have a clown 🤡 nose
+#+END_large
 
 ** Moving
+#+BEGIN_large
 1. Only be able to walk backward; or
 2. Only be able to crawl around on all fours
+#+END_large
 
+** Traveling
+#+BEGIN_large
+1. Have a car that can travel anywhere in time; or
+2. Have a ring that, when you touch a book, you read it all in one second.
+#+END_large
+
+** Eating or Sleeping
+#+BEGIN_large
+1. Eat anything and be healthy; or
+2. Only need to sleep one hour per night
+#+END_large
+
+** Cool Trip
+#+BEGIN_large
+1. Climb the tallest mountain; or
+2. Go to the deepest part of the ocean
+#+END_large
+
+** Speaking
+#+BEGIN_large
+1. Talk to animals; or
+2. Speak every language
+#+END_large
+
+** An Arm and a Leg
+#+BEGIN_large
+1. Have an extra arm; or
+2. Have an extra leg
+#+END_large
+
+** Knowledge
+#+BEGIN_large
+1. Know and be able to _apply_ everything in science and math; or
+2. Be able to make an _artistic masterpiece_ with anything you have
+#+END_large
 * Setup                                                     :noexport:
 # Local variables:
 # after-save-hook: org-re-reveal-export-to-html

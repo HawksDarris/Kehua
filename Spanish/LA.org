@@ -1,0 +1,170 @@
+#+title: ¿Un gato?
+#+REVEAL_TOC_SLIDE_TITLE: Plan
+#+author:
+#+STARTUP: inlineimages
+#+STARTUP: indent fold
+:reveal_properties:
+#+PROPERTY: HEADER-ARGS+ :eval no-export
+#+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
+#+REVEAL_THEME: beige
+#+REVEAL_INIT_OPTIONS: history: true
+#+OPTIONS: timestamp:nil toc:nil num:nil
+#+OPTIONS: reveal_embed_local_resources:t
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
+#+REVEAL_EXTRA_CSS: ../dist/utils.css
+:end:
+* Setup                                                     :noexport:
+# Local variables:
+# after-save-hook: org-re-reveal-export-to-html
+# org-re-reveal-progress: nil
+# end:
+* Soy gato
+#+BEGIN_story
+Soy gato 😺.
+
+Tengo (有) un año.
+
+Me gusta comer cosas. También (也) me gusta dormir 😴.
+
+#+END_story
+** No tengo padres
+#+BEGIN_story
+No tengo ni una mamá ni un papá.
+
+#+ATTR_REVEAL: :frag (fade-up)
+(ni x, ni y, ni z = neither x, nor y, nor z)
+#+END_story
+** Lunes
+#+BEGIN_story
+El lunes, voy a la tienda (商店) para comer. Duermo 😴 en la escuela.
+
+#+END_story
+** Martes
+#+BEGIN_story
+El martes, la tienda no tiene comida para comer 😿. Voy a la escuela para comer y duermo en el restaurante.
+#+END_story
+** Miércoles
+#+BEGIN_story
+El miércoles, la tienda no tiene comida ❌🍲️ para comer y la escuela /tampoco/ tiene comida para comer 😥. Como al restaurante porque el restaurante tiene comida. Duermo en el hospital.
+#+END_story
+** Jueves
+#+BEGIN_story
+El jueves, como en el hospital. Duermo en en la tienda.
+
+#+ATTR_REVEAL: :frag (fade-up)
+A veces (有时候), ni la tienda, ni la escuela, ni el restaurante, ni el hospital tienen comida para comer.
+
+#+ATTR_REVEAL: :frag (fade-up)
+No como ❌🍽️ porque no hay comida para comer 😿.
+#+END_story
+** Me gusta comer todo los días
+#+BEGIN_story
+¡Me gusta mucho cuando puedo comer lunes, martes, miércoles, jueves, viernes, sabado, y domingo!
+#+END_story
+
+* No comida
+#+BEGIN_story
+Hoy es viernes. El clima es muy bonito hoy ☀️. Yo voy a buscar 🔍 comida para comer.
+
+Ayer, el clima no fue muy bonito 🌧️. No comí ❌🍽️😿.
+
+#+ATTR_REVEAL: :frag (fade-up)
+¡¡¡Quiero comer!!!
+#+END_story
+
+** No comida
+#+BEGIN_story
+Voy a la tienda. Esta tienda no tiene comida 😿. Esa tienda tampoco tiene comida 😿.
+
+#+ATTR_REVEAL: :frag (fade-up)
+¡¡¡Quiero comer!!!
+#+END_story
+** Una manzana 🍎
+#+BEGIN_story
+Yo veo👀 una tienda que tiene una manzana 🍎. Hay otro gato allí. ¡El otro gato come la manzana! El otro gato me ve 👀.
+
+#+END_story
+** Un amigo 😸
+#+BEGIN_story
+El otro gato me pregunta (❓):
+#+BEGIN_QUOTE
+¿Quieres comer esta manzana?
+#+END_QUOTE
+#+END_story
+** Un amigo 😸
+#+BEGIN_story
+Yo digo
+#+BEGIN_QUOTE
+¡Sí! ¡Quiero!
+#+END_QUOTE
+El sonrie
+#+BEGIN_QUOTE
+Lo comemos juntos. Tu comes un poco, yo como un poco. ¿Está bien?
+#+END_QUOTE
+#+END_story
+** Tan feliz 😸
+#+BEGIN_story
+#+BEGIN_QUOTE
+¡Sí! ¡Muy bien! ¡Estoy tan feliz!
+#+END_QUOTE
+El otro gato me dice
+#+BEGIN_QUOTE
+Me llamo Rusty. ¿Y tú? ¿Cómo te llamas?
+#+END_QUOTE
+#+END_story
+** No sé...
+#+BEGIN_story
+¿Eh? ¿Cómo me llamo?
+#+BEGIN_QUOTE
+No sé... (我不知道)
+#+END_QUOTE
+#+END_story
+** Mucho gusto
+#+BEGIN_story
+Rusty dice
+#+BEGIN_QUOTE
+Tengo 3 años. ¿Y tú?
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Tengo un año.
+#+END_QUOTE
+#+END_story
+** ¿Y tus padres? (你爸妈呢)
+#+BEGIN_story
+¿Y tus padres? ¿Dónde están?
+#+BEGIN_QUOTE
+No tengo ni papá ni mamá
+#+END_QUOTE
+¿Dónde está tu casa🏠?
+#+END_story
+** ¿Casa? ¿Qué es?
+#+BEGIN_story
+¿Casa? ¿Qué es una casa? Digo,
+#+BEGIN_QUOTE
+No sé...
+#+END_QUOTE
+#+END_story
+** 没关系
+#+BEGIN_story
+#+BEGIN_QUOTE
+¡No te preocupes! (don't worry) Tampoco tengo una casa. Esta casa es la casa de mi mamá.
+#+END_QUOTE
+#+END_story
+* Arden's Emojis :noexport:
+🐝
+🍎🍌🍐🍑🍉🍓
+🐈🐕🐔🦆🐄🐇
+👟👞🥿👠👡
+🐎🐐🐑
+* Cleaning Schedule :noexport:
+| Day       | Task 1   | Task 2            |
+|-----------+----------+-------------------|
+| Monday    | Surfaces | Living Room Floor |
+| Tuesday   |          |                   |
+| Wednesday |          |                   |
+| Thursday  |          |                   |
+| Friday    |          |                   |
+| Saturday  |          |                   |
+| Sunday    |          |                   |

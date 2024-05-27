@@ -1,4 +1,8 @@
 /* Phase out container and col for begin and end blocks of a single class (no nested) in org mode */
+@import url(../css/theme/reveal-code-relax.css)
+@import url(../css/theme/reveal-zenika-light.css)
+@import url(../css/theme/reveal-zenika.css)
+@import url(../dist/headerfooter.css)
 .container{
     display: flex;
     justify-content: space-around;
@@ -8,14 +12,19 @@
     padding-bottom: -2vh;
 }
 
-* figure{
+* .figure{
     margin-top: -4vh;
     margin-bottom: -3vh;
 }
 
-* figure img{
+* .figure img{
     width:100%;
 }
+
+img {
+    width:100%;
+}
+
 
 .reveal table{
     margin-bottom: 4vh;
@@ -51,7 +60,7 @@
     /* align-items: center; */
 }
 
-.reveal .rightcol figure{
+.reveal .rightcol .figure{
     margin-inline: auto;
 }
 
@@ -130,7 +139,7 @@
     padding-top: 0.5em;
 }
 
-.story figure {
+.story .figure {
   width: 60%;
 }
 
@@ -138,16 +147,20 @@
     font-size: 1.5em;
 }
 
-/* /\* twemoji bit *\/ */
-/* img.emoji { */
-/*    display: inline !important; */
-/*    border: none !important; */
-/*    box-shadow: none !important; */
-/*    height: 1em !important; */
-/*    width: 1em !important; */
-/*    margin: 0 .07em !important; */
-/*    vertical-align: -0.1em !important; */
-/*    background: none !important; */
-/*    padding: 0 !important; */
-/*    pointer-events: none */
-/* } */
+/* twemoji bit */
+img.emoji {
+   display: inline !important;
+   border: none !important;
+   box-shadow: none !important;
+   height: 1em !important;
+   width: 1em !important;
+   margin: 0 .07em !important;
+   vertical-align: -0.1em !important;
+   background: none !important;
+   padding: 0 !important;
+   pointer-events: none
+}
+
+.large {
+    font-size: 200%;
+}
