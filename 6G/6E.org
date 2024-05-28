@@ -6,7 +6,7 @@
 :reveal_properties:
 #+PROPERTY: HEADER-ARGS+ :eval no-export
 #+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
-#+REVEAL_THEME: beige
+#+REVEAL_THEME: black
 #+REVEAL_HISTORY: true
 #+OPTIONS: timestamp:nil toc:nil num:nil
 #+OPTIONS: reveal_embed_local_resources:t
@@ -16,6 +16,7 @@
 #+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css /css/fonts/font.css
 #+REVEAL_ADD_PLUGIN: customcontrol RevealCustomControls /plugin/customcontrols/plugin.js /plugin/customcontrols/style.css
 :end:
+
 * Announcement
 There will be a test. There will be grades.
 * Curve Grade.
