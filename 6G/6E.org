@@ -7,27 +7,36 @@
 #+PROPERTY: HEADER-ARGS+ :eval no-export
 #+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
 #+REVEAL_THEME: beige
-#+REVEAL_INIT_OPTIONS: history: true
+#+REVEAL_HISTORY: true
 #+OPTIONS: timestamp:nil toc:nil num:nil
 #+OPTIONS: reveal_embed_local_resources:t
 #+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
 #+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
 #+REVEAL_EXTRA_CSS: ../dist/utils.css
+#+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css /css/fonts/font.css
+#+REVEAL_ADD_PLUGIN: customcontrol RevealCustomControls /plugin/customcontrols/plugin.js /plugin/customcontrols/style.css
 :end:
 * Announcement
 There will be a test. There will be grades.
 * Curve Grade.
-The top 10% will get A++. The next 10% will be A+. The lowest A+ = 100% for the rest of the class. Everyone can get an A.
+- Top 10%: A++
+- Next 10%: A+
+- Lowest A+ = 100% for the rest of the class
+
+Everyone can get an A.
 
 ** Note
 You *must* talk. If you don't talk, you will get a bad grade.
 
-If you do not understand, say "I am sorry, I don't understand." I will always help you understand.
+I will help you understand.
 
 * About the Test
 It will be in two weeks.
 
 ** Rubric (评价量规)
+
+Highest weight.
+
 |   | *Understanding*                                      |
 | 5 | Maybe required some help, but generally understood |
 | 4 | Required some help and understood most things      |
@@ -36,20 +45,25 @@ It will be in two weeks.
 | 1 | Understood 0%, even with help                      |
 
 ** Rubric (评价量规)
-|   | *Speaking*                   |
-| 5 | Pronunciation 80+% correct |
-| 4 | Pronunciation 60+% correct |
-| 3 | Pronunciation 40+% correct |
-| 2 | Pronunciation 20+% correct |
-| 1 | Did not speak              |
+
+Middle weight.
+
+|   |                          *Speaking* |
+| 5 | I understand 80+% of what you say |
+| 4 |                              60+% |
+| 3 |                              40+% |
+| 2 |                              20+% |
+| 1 |                     Did not speak |
 
 ** Rubric (评价量规)
-|   | *Language Use*                   |
-| 5 | Rarely struggled               |
-| 4 | Struggled occasionally         |
-| 3 | Struggled with most vocabulary |
-| 2 | Struggled with all vocabulary  |
-| 1 | Did not speak                  |
+Low weight.
+
+|   | *Language Use*     |
+| 5 | Not much trouble |
+| 4 | some trouble     |
+| 3 | a lot of trouble |
+| 2 | so much trouble  |
+| 1 | Did not speak    |
 
 ** Topic
 Tell me about something for 1 minute. Answer my questions.
@@ -175,6 +189,7 @@ Chloe calls Magic Robot Kobe Bryant (KOBE! KOBE! KOBE!) and he gives Chloe a wis
 When they get back to school, Magic Robot Kobe Bryant gives the class two more wishes:
 1. No homework, and
 2. a stronger roof for the school.
+
 * Setup                                                     :noexport:
 # Local variables:
 # after-save-hook: org-re-reveal-export-to-html
