@@ -100,70 +100,70 @@ const initChalkboard = function ( Reveal ) {
 	var chalkEffect = 1.0;
 	var rememberColor = [ true, false ];
 	var eraser = {
-		src: path + 'img/sponge.png',
+		src: path + '../img/sponge.png',
 		radius: 20
 	};
 	var boardmarkers = [ {
 			color: 'rgba(100,100,100,1)',
-			cursor: 'url(' + path + 'img/boardmarker-black.png), auto'
+			cursor: 'url(' + path + '../plugin/chalkboard/img/boardmarker-black.png), auto'
 		},
 		{
 			color: 'rgba(30,144,255, 1)',
-			cursor: 'url(' + path + 'img/boardmarker-blue.png), auto'
+			cursor: 'url(' + path + '../plugin/chalkboard/img/boardmarker-blue.png), auto'
 		},
 		{
 			color: 'rgba(220,20,60,1)',
-			cursor: 'url(' + path + 'img/boardmarker-red.png), auto'
+			cursor: 'url(' + path + '../plugin/chalkboard/img/boardmarker-red.png), auto'
 		},
 		{
 			color: 'rgba(50,205,50,1)',
-			cursor: 'url(' + path + 'img/boardmarker-green.png), auto'
+			cursor: 'url(' + path + '../plugin/chalkboard/img/boardmarker-green.png), auto'
 		},
 		{
 			color: 'rgba(255,140,0,1)',
-			cursor: 'url(' + path + 'img/boardmarker-orange.png), auto'
+			cursor: 'url(' + path + '../plugin/chalkboard/img/boardmarker-orange.png), auto'
 		},
 		{
 			color: 'rgba(150,0,20150,1)',
-			cursor: 'url(' + path + 'img/boardmarker-purple.png), auto'
+			cursor: 'url(' + path + '../plugin/chalkboard/img/boardmarker-purple.png), auto'
 		},
 		{
 			color: 'rgba(255,220,0,1)',
-			cursor: 'url(' + path + 'img/boardmarker-yellow.png), auto'
+			cursor: 'url(' + path + '../plugin/chalkboard/img/boardmarker-yellow.png), auto'
 		}
 	];
 	var chalks = [ {
 			color: 'rgba(255,255,255,0.5)',
-			cursor: 'url(' + path + 'img/chalk-white.png), auto'
+			cursor: 'url(' + path + '../plugin/chalkboard/img/chalk-white.png), auto'
 		},
 		{
 			color: 'rgba(96, 154, 244, 0.5)',
-			cursor: 'url(' + path + 'img/chalk-blue.png), auto'
+			cursor: 'url(' + path + '../plugin/chalkboard/img/chalk-blue.png), auto'
 		},
 		{
 			color: 'rgba(237, 20, 28, 0.5)',
-			cursor: 'url(' + path + 'img/chalk-red.png), auto'
+			cursor: 'url(' + path + '../plugin/chalkboard/img/chalk-red.png), auto'
 		},
 		{
 			color: 'rgba(20, 237, 28, 0.5)',
-			cursor: 'url(' + path + 'img/chalk-green.png), auto'
+			cursor: 'url(' + path + '../plugin/chalkboard/img/chalk-green.png), auto'
 		},
 		{
 			color: 'rgba(220, 133, 41, 0.5)',
-			cursor: 'url(' + path + 'img/chalk-orange.png), auto'
+			cursor: 'url(' + path + '../plugin/chalkboard/img/chalk-orange.png), auto'
 		},
 		{
 			color: 'rgba(220,0,220,0.5)',
-			cursor: 'url(' + path + 'img/chalk-purple.png), auto'
+			cursor: 'url(' + path + '../plugin/chalkboard/img/chalk-purple.png), auto'
 		},
 		{
 			color: 'rgba(255,220,0,0.5)',
-			cursor: 'url(' + path + 'img/chalk-yellow.png), auto'
+			cursor: 'url(' + path + '../plugin/chalkboard/img/chalk-yellow.png), auto'
 		}
 	];
 
   var sponge = 		{
-		cursor: 'url(' + path + 'img/sponge.png), auto'
+		cursor: 'url(' + path + '../plugin/chalkboard/img/sponge.png), auto'
 	}
 
 
@@ -244,7 +244,7 @@ const initChalkboard = function ( Reveal ) {
 		if ( config.theme ) theme = config.theme;
 		switch ( theme ) {
 		case 'whiteboard':
-			background = [ 'rgba(127,127,127,.1)', path + 'img/whiteboard.png' ];
+			background = [ 'rgba(127,127,127,.1)', path + '../plugin/chalkboard/img/whiteboard.png' ];
 			draw = [ drawWithBoardmarker, drawWithBoardmarker ];
 			pens = [ boardmarkers, boardmarkers ];
 			grid = {
@@ -255,7 +255,7 @@ const initChalkboard = function ( Reveal ) {
 			break;
 		case 'chalkboard':
 		default:
-			background = [ 'rgba(127,127,127,.1)', path + 'img/blackboard.png' ];
+			background = [ 'rgba(127,127,127,.1)', path + '../plugin/chalkboard/img/blackboard.png' ];
 			draw = [ drawWithBoardmarker, drawWithChalk ];
 			pens = [ boardmarkers, chalks ];
 			grid = {
