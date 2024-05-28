@@ -164,3 +164,15 @@ img.emoji {
 .large {
     font-size: 200%;
 }
+
+@font-face{
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    src: local("../plugin/menu/font-awesome/webfonts/fa-solid-900.eot");
+    src: local("../plugin/menu/font-awesome/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+	 local("../plugin/menu/font-awesome/webfonts/fa-solid-900.woff2") format("woff2"),
+	 local("../plugin/menu/font-awesome/webfonts/fa-solid-900.woff") format("woff"),
+	 local("../plugin/menu/font-awesome/webfonts/fa-solid-900.ttf") format("truetype"),
+	 local("../plugin/menu/font-awesome/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
