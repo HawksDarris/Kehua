@@ -6,9 +6,12 @@
 #+PROPERTY: HEADER-ARGS+ :eval no-export
 #+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
 #+REVEAL_THEME: beige
-#+REVEAL_INIT_OPTIONS: history: true
+#+REVEAL_HISTORY: true
 #+OPTIONS: timestamp:nil toc:nil num:nil
 #+OPTIONS: reveal_embed_local_resources:t
+#+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css ../plugin/menu/font-awesome/css/all.css
+#+REVEAL_ADD_PLUGIN: customcontrol RevealCustomControls /plugin/customcontrols/plugin.js /plugin/customcontrols/style.css
+# #+REVEAL_ADD_PLUGIN: menu RevealMenu /plugin/menu/plugin.js /plugin/menu/menu.css /plugin/menu/menu.js /plugin/menu/font-awesome/css/all.css
 #+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
 #+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
 #+REVEAL_EXTRA_CSS: ../dist/utils.css
@@ -76,7 +79,7 @@ We will talk about a story.
 3. She wasn't interested in her daughter.
 4. wasn't mother pretty Mary like her.
 5. Indian the spent time with servants all her Mary so.
-6. And she who her a had looked Ayah nurse after.
+6. And she who her a had looked Ayah an nurse after.
 7. girl to job away was her The keep Ayah's as little as possible from much parents the.
 8. very little The selfish became the wanted and Ayah girl gave Mary she everything.
 9. face thin She a thin a body and had
