@@ -388,25 +388,6 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 </style>
 
 <style type="text/css">
-@font-face {
-    font-family: "OpenSans Bold";
-    src: url("../fonts/Open_sans/OpenSans-Bold.ttf") format("truetype");
-}
-@font-face {
-    font-family: "OpenSans Regular";
-    src: url("../fonts/Open_sans/OpenSans-Regular.ttf") format("truetype");
-}
-@font-face {
-    src: url("../fonts/Lato2/Lato-Regular.ttf") format("truetype");
-}
-@font-face {
-    font-family: "M+ 1m";
-    src: url("../fonts/M+1m/mplus-1m-regular.ttf") format("truetype");
-}
-@font-face {
-    font-family: "Noto Color Emoji";
-    src: url("../fonts/Noto_Color_Emoji/NotoColorEmoji-Regular.ttf") format("truetype");
-}
 
 /**
 ZENIKA COLORS :
@@ -1543,6 +1524,10 @@ figcaption {
 @import url(../css/theme/reveal-zenika-light.css);
 @import url(../css/theme/reveal-zenika.css);
 @import url(../dist/headerfooter.css);
+body {
+    font-family: "NotoColorEmoji", "Lato Regular" "OpenSans Bold","OpenSans Regular", "M+ 1m", Arial, sans-serif; /* Fallback fonts */
+}
+
 .container{
     display: flex;
     justify-content: space-around;
@@ -1688,27 +1673,45 @@ img {
 }
 
 @font-face {
-    font-family: 'Noto Emoji';
-    src: url('../css/fonts/Noto_Emoji/static/NotoEmoji-Regular.ttf') format('truetype');
+    font-family: "NotoColorEmoji";
+    src:
+	url("../css/fonts/Noto_Color_Emoji/NotoColorEmoji-Regular.ttf") format("truetype"),
+	url("../css/fonts/Noto_Emoji/static/NotoEmoji-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
+}
+@font-face {
+    font-family: "OpenSans Bold", sans-serif;
+    src: url("../fonts/Open_sans/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "OpenSans Regular";
+    src: url("../fonts/Open_sans/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Lato Regular";
+    src: url("../fonts/Lato2/Lato-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "M+ 1m";
+    src: url("../fonts/M+1m/mplus-1m-regular.ttf") format("truetype");
 }
 
 .emoji {
     font-family: 'Noto Emoji', sans-serif;
 }
 
-@font-face{
-    font-family: "Font Awesome 5 Free";
-    font-style: normal;
-    font-weight: 900;
-    src: url("../plugin/menu/font-awesome/webfonts/fa-solid-900.eot");
-    src: url("../plugin/menu/font-awesome/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
-	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.woff2") format("woff2"),
-	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.woff") format("woff"),
-	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.ttf") format("truetype"),
-	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.svg#fontawesome") format("svg");
-}
+/* @font-face{ */
+/*     font-family: "Font Awesome 5 Free"; */
+/*     font-style: normal; */
+/*     font-weight: 900; */
+/*     src: url("../plugin/menu/font-awesome/webfonts/fa-solid-900.eot"); */
+/*     src: url("../plugin/menu/font-awesome/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), */
+/* 	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.woff2") format("woff2"), */
+/* 	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.woff") format("woff"), */
+/* 	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.ttf") format("truetype"), */
+/* 	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.svg#fontawesome") format("svg"); */
+/* } */
 
 </style>
 
@@ -1844,8 +1847,8 @@ div.boardhandle > ul > li {
 </section>
 
 <section>
-<section id="slide-org60abf03">
-<h2 id="org60abf03">Palabras importantes</h2>
+<section id="slide-org16c6ae1">
+<h2 id="org16c6ae1">Palabras importantes</h2>
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -1905,8 +1908,8 @@ div.boardhandle > ul > li {
 </section>
 </section>
 <section>
-<section id="slide-orgbf18019">
-<h2 id="orgbf18019">Palabras importantes</h2>
+<section id="slide-org1288196">
+<h2 id="org1288196">Palabras importantes</h2>
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -1966,9 +1969,9 @@ div.boardhandle > ul > li {
 </section>
 </section>
 <section>
-<section id="slide-orgd0ba8bb">
-<h2 id="orgd0ba8bb">Messi es un jugador profesional</h2>
-<div class="story" id="org28ccb07">
+<section id="slide-shoes">
+<h2 id="shoes">Messi es un jugador profesional</h2>
+<div class="story" id="org65f5943">
 <div style="background:black; font-weight:bold; font-size: 200%;">
 <span style="color:red">Messi</span>
 <span style="color:lightblue">va</span>
@@ -1995,9 +1998,9 @@ div.boardhandle > ul > li {
 </ul>
 
 </section>
-<section id="slide-org29ead89">
-<h3 id="org29ead89">Messi es un jugador profesional</h3>
-<div class="story" id="org03223a2">
+<section id="slide-org382a6ae">
+<h3 id="org382a6ae">Messi es un jugador profesional</h3>
+<div class="story" id="org45fb0ca">
 <div style="background:black; font-weight:bold; font-size: 200%;">
 <span style="color:red">Messi</span>
 <span style="color:lightblue">va</span>
@@ -2024,9 +2027,9 @@ div.boardhandle > ul > li {
 </ul>
 
 </section>
-<section id="slide-orgeded423">
-<h3 id="orgeded423">Messi es un jugador profesional</h3>
-<div class="story" id="org384247b">
+<section id="slide-orga6cc323">
+<h3 id="orga6cc323">Messi es un jugador profesional</h3>
+<div class="story" id="org2e10e6b">
 <div style="background:black; font-weight:bold; font-size: 200%;">
 <span style="color:red">Messi</span>
 <span style="color:lightblue">compra 💲</span>
@@ -2050,9 +2053,9 @@ div.boardhandle > ul > li {
 </ul>
 
 </section>
-<section id="slide-orga26b6bb">
-<h3 id="orga26b6bb">A Claudia <i>no le gusta</i> fútbol</h3>
-<div class="story" id="orgeaccce5">
+<section id="slide-orgc63aaae">
+<h3 id="orgc63aaae">A Claudia <i>no le gusta</i> fútbol</h3>
+<div class="story" id="orgd5d8015">
 <div style="background:black; font-weight:bold; font-size: 200%;">
 <span style="color:red">A Claudia</span>
 <span style="color:lightblue">no le gusta 💔</span>
@@ -2071,9 +2074,9 @@ div.boardhandle > ul > li {
 </ul>
 
 </section>
-<section id="slide-org9dae6c6">
-<h3 id="org9dae6c6">Juan <i>odia</i> deportes</h3>
-<div class="story" id="org53839ee">
+<section id="slide-orgabffa1c">
+<h3 id="orgabffa1c">Juan <i>odia</i> deportes</h3>
+<div class="story" id="org7c82ba9">
 <div style="background:black; font-weight:bold; font-size: 200%;">
 <span style="color:red">Juan</span>
 <span style="color:lightblue">odia 😡</span>

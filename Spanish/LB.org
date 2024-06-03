@@ -48,6 +48,10 @@
 | Un día...  | 有一天 |
 
 * Messi es un jugador profesional
+:PROPERTIES:
+:CUSTOM_ID: shoes
+:END:
+
 #+BEGIN_story
 #+REVEAL_HTML: <div style="background:black; font-weight:bold; font-size: 200%;">
     #+REVEAL_HTML: <span style="color:red">Messi</span>
