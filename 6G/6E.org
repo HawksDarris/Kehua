@@ -72,14 +72,13 @@ Low weight.
 Tell me about something for 1 minute. Answer my questions.
 
 ** What will you talk about
-Options:
+Whatever you want.
+
+Some ideas:
 
 1. A story;
 2. A game; or
 3. The class story
-#+ATTR_REVEAL: :frag (fade-up)
-   - CLASS 2: We will make a story today
-
 * Stories
 #+begin_centered
 [[#C2-Story]]

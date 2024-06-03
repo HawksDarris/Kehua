@@ -1,4 +1,4 @@
-#+TITLE: Lesson D
+#+TITLE: Lesson F
 #+SUBTITLE:
 #+AUTHOR: Teacher Darris
 #+STARTUP: inlineimages
@@ -38,7 +38,7 @@ I will grade on a curve. The top 10% will get A++. The next highest grade and -1
 You *must* talk. If you don't talk, you will get a bad grade. If you do not understand, say "I am sorry, I don't understand." I will always help you understand.
 
 * About the Test
-It will probably be in two weeks.
+Next week.
 
 ** Rubric (评价量规)
 |   | *Understanding*                                      |
@@ -72,28 +72,16 @@ We will talk about a story.
 * The Secret Garden
 
 ** Unscramble
-
 #+ATTR_REVEAL: :frag (fade-up)
-1. there born India Mary Lennox because government worked her father for was in the.
-2. liked was Her fun having she very beautiful mother and.
-3. She wasn't interested in her daughter.
-4. wasn't mother pretty Mary like her.
-5. Indian the spent time with servants all her Mary so.
-6. And she who her a had looked Ayah an nurse after.
-7. girl to job away was her The keep Ayah's as little as possible from much parents the.
-8. very little The selfish became the wanted and Ayah girl gave Mary she everything.
-9. face thin She a thin a body and had
-10. yellow hair was was and Her was she ill often yellow face because her.
-
-** Questions
-
-#+ATTR_REVEAL: :frag (fade-up)
-1. Where was Mary born?
-2. What was Mary's Ayah's job?
-3. What is an Ayah?
-4. How did Mary's mother look?
-5. How did Mary look?
-6. What do you think about Mary's relationship with her parents?
+1. Then footsteps. Mary heard
+2. door. in uniform was opened a room when in her She the soldier
+3. to The see little there. girl surprised a was man
+4. called outside. He another soldier to
+5. here!' a child 'Barney! There's
+6. asked. he 'Who your name?' are 'What's you?'
+7. the very thought man was Mary rude.
+8. nobody I called? did when come Why
+9. told Mary father and Ayah were mother He and her that dead.
 
 * Stories
 #+BEGIN_center-text
