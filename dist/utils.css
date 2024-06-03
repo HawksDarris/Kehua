@@ -3,6 +3,10 @@
 @import url(../css/theme/reveal-zenika-light.css);
 @import url(../css/theme/reveal-zenika.css);
 @import url(../dist/headerfooter.css);
+body {
+    font-family: "NotoColorEmoji", "Lato Regular" "OpenSans Bold","OpenSans Regular", "M+ 1m", Arial, sans-serif; /* Fallback fonts */
+}
+
 .container{
     display: flex;
     justify-content: space-around;
@@ -15,6 +19,7 @@
 * .figure{
     margin-bottom: -3vh;
     margin-top: -4vh;
+    width: fit-content;
 }
 
 * .figure img{
@@ -148,24 +153,42 @@ img {
 }
 
 @font-face {
-    font-family: 'Noto Emoji';
-    src: url('../css/fonts/Noto_Emoji/static/NotoEmoji-Regular.ttf') format('truetype');
+    font-family: "NotoColorEmoji";
+    src:
+	url("../css/fonts/Noto_Color_Emoji/NotoColorEmoji-Regular.ttf") format("truetype"),
+	url("../css/fonts/Noto_Emoji/static/NotoEmoji-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
+}
+@font-face {
+    font-family: "OpenSans Bold", sans-serif;
+    src: url("../fonts/Open_sans/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "OpenSans Regular";
+    src: url("../fonts/Open_sans/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Lato Regular";
+    src: url("../fonts/Lato2/Lato-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "M+ 1m";
+    src: url("../fonts/M+1m/mplus-1m-regular.ttf") format("truetype");
 }
 
 .emoji {
     font-family: 'Noto Emoji', sans-serif;
 }
 
-@font-face{
-    font-family: "Font Awesome 5 Free";
-    font-style: normal;
-    font-weight: 900;
-    src: url("../plugin/menu/font-awesome/webfonts/fa-solid-900.eot");
-    src: url("../plugin/menu/font-awesome/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
-	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.woff2") format("woff2"),
-	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.woff") format("woff"),
-	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.ttf") format("truetype"),
-	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.svg#fontawesome") format("svg");
-}
+/* @font-face{ */
+/*     font-family: "Font Awesome 5 Free"; */
+/*     font-style: normal; */
+/*     font-weight: 900; */
+/*     src: url("../plugin/menu/font-awesome/webfonts/fa-solid-900.eot"); */
+/*     src: url("../plugin/menu/font-awesome/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), */
+/* 	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.woff2") format("woff2"), */
+/* 	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.woff") format("woff"), */
+/* 	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.ttf") format("truetype"), */
+/* 	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.svg#fontawesome") format("svg"); */
+/* } */
