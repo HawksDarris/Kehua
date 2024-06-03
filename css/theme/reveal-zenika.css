@@ -1,21 +1,21 @@
 @font-face {
     font-family: "OpenSans Bold";
-    src: local("../fonts/Open_sans/OpenSans-Bold.ttf") format("truetype");
+    src: url("../fonts/Open_sans/OpenSans-Bold.ttf") format("truetype");
 }
 @font-face {
     font-family: "OpenSans Regular";
-    src: local("../fonts/Open_sans/OpenSans-Regular.ttf") format("truetype");
+    src: url("../fonts/Open_sans/OpenSans-Regular.ttf") format("truetype");
 }
 @font-face {
-    src: local("../fonts/Lato2/Lato-Regular.ttf") format("truetype");
+    src: url("../fonts/Lato2/Lato-Regular.ttf") format("truetype");
 }
 @font-face {
     font-family: "M+ 1m";
-    src: local("../fonts/M+1m/mplus-1m-regular.ttf") format("truetype");
+    src: url("../fonts/M+1m/mplus-1m-regular.ttf") format("truetype");
 }
 @font-face {
     font-family: "Noto Color Emoji";
-    src: local("../fonts/Noto_Color_Emoji/NotoColorEmoji-Regular.ttf") format("truetype");
+    src: url("../fonts/Noto_Color_Emoji/NotoColorEmoji-Regular.ttf") format("truetype");
 }
 
 /**

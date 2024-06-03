@@ -496,7 +496,7 @@ const G6C7 = [
  "Rolin        | 沈若林 ",
  "William      | 涂建灏 ",
  "Eric         | 王君悦 ",
- "Elsa         | 王文一 ",
+ "Alaiya       | 王文一 ",
  "Cindy        | 王暄   ",
  "Lusy         | 王语泽 ",
  "James        | 王子睿 ",
