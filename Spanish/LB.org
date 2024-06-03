@@ -1,0 +1,185 @@
+#+title: Messi: Jugador Profesional
+#+REVEAL_TOC_SLIDE_TITLE: Plan
+#+author:
+#+STARTUP: inlineimages
+#+STARTUP: indent fold
+:reveal_properties:
+#+PROPERTY: HEADER-ARGS+ :eval no-export
+#+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
+#+REVEAL_THEME: beige
+#+REVEAL_INIT_OPTIONS: history: true
+#+OPTIONS: timestamp:nil toc:nil num:nil
+#+OPTIONS: reveal_embed_local_resources:t
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
+#+REVEAL_EXTRA_CSS: ../dist/utils.css
+#+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css ../plugin/menu/font-awesome/css/all.css
+#+REVEAL_ADD_PLUGIN: customcontrol RevealCustomControls /plugin/customcontrols/plugin.js /plugin/customcontrols/style.css
+#+REVEAL_HTML: <script src="../js/emoji.js"></script>
+#+REVEAL_HTML: <script src="https://cdn.jsdelivr.net/npm/emoji-toolkit@8.0.0/lib/js/joypixels.min.js"></script>
+#+REVEAL_HTML: <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/emoji-toolkit@8.0.0/extras/css/joypixels.min.css"/>
+#+REVEAL_HTML: <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+
+
+
+:end:
+
+* Palabras importantes
+| es     | 是        |
+| esta   | 这        |
+| esa    | 那        |
+| mano   | 🖐️       |
+| cabeza | head     |
+| ojo    | 👀       |
+| oreja  | 👂       |
+| tengo  | 我有      |
+| tiene  | 他/她/它有 |
+|--------+----------|
+
+* Palabras importantes
+| es         | 是    |
+| va         | 去    |
+| quiere     | 想    |
+| compra  💲 | 买    |
+| jugador    | 球员  |
+| zapatos    | 👟👟 |
+| tienda 🏬  | 商店  |
+| fútbol     | ⚽   |
+| Un día...  | 有一天 |
+
+* Messi es un jugador profesional
+#+BEGIN_story
+#+REVEAL_HTML: <div style="background:black; font-weight:bold; font-size: 200%;">
+    #+REVEAL_HTML: <span style="color:red">Messi</span>
+    #+REVEAL_HTML: <span style="color:lightblue">va</span>
+    #+REVEAL_HTML: <span style="color:orange">a la tienda 🏬</span>
+    #+REVEAL_HTML: <span style="color:white">porque</span>
+    #+REVEAL_HTML: <span style="color:red">Messi</span>
+    #+REVEAL_HTML: <span style="color:lightblue">quiere</span>
+    #+REVEAL_HTML: <span style="color:orange">zapatos 👟 de fútbol.</span>
+#+REVEAL_HTML: </div>
+#+END_story
+
+#+ATTR_REVEAL: :frag (fade-in)
+- ¿Lucas va a la tienda?
+- ¿Messi va a la tienda?
+- ¿Messi o Lucas va a la tienda?
+- ¿Quién va a la tienda?
+- ¿Messi mata🔪 a la tienda?
+- ¿Messi come🍽️ a la tienda?
+- ¿Messi va a la tienda?
+- ¿Messi va a la tienda o va al restaurante?
+- ¿Dónde va Messi?
+
+** Messi es un jugador profesional
+#+BEGIN_story
+#+REVEAL_HTML: <div style="background:black; font-weight:bold; font-size: 200%;">
+    #+REVEAL_HTML: <span style="color:red">Messi</span>
+    #+REVEAL_HTML: <span style="color:lightblue">va</span>
+    #+REVEAL_HTML: <span style="color:orange">a la tienda 🏬</span>
+    #+REVEAL_HTML: <span style="color:white">porque</span>
+    #+REVEAL_HTML: <span style="color:red">Messi</span>
+    #+REVEAL_HTML: <span style="color:lightblue">quiere</span>
+    #+REVEAL_HTML: <span style="color:orange">zapatos 👟 de fútbol.</span>
+#+REVEAL_HTML: </div>
+#+END_story
+
+#+ATTR_REVEAL: :frag (fade-in)
+- ¿Lucas quiere zapatos de fútbol?
+- ¿Quién quiere zapatos de fútbol?
+- ¿Lucas o Messi quiere zapatos de fútbol?
+- ¿Messi quiere zapatos de fútbol?
+- ¿Qué quiere Messi?
+- ¿Messi quiere zapatos de ballet 🩰?
+- ¿Messi quiere zapatos 👟 de fútbol ⚽?
+- ¿Messi /odia/ o /quiere/ zapatos de fútbol?
+- ¿Por qué Messi va a la tienda?
+
+** Messi es un jugador profesional
+#+BEGIN_story
+#+REVEAL_HTML: <div style="background:black; font-weight:bold; font-size: 200%;">
+    #+REVEAL_HTML: <span style="color:red">Messi</span>
+    #+REVEAL_HTML: <span style="color:lightblue">compra 💲</span>
+    #+REVEAL_HTML: <span style="color:orange">dos zapatos 👟 de fútbol.</span>
+#+REVEAL_HTML: </div>
+#+END_story
+
+#+ATTR_REVEAL: :frag (fade-in)
+- ¿Tia compra dos zapatos de fútbol?
+- ¿Quién compra dos zapatos de fútbol?
+- ¿Tia o Messi compra dos zapatos de fútbol?
+- ¿Messi /compra/ 💲 o /golpea/ 👊 dos zapatos de fútbol?
+- ¿Messi /golpea/ dos zapatos de fútbol?
+- ¿Messi /compra/ dos zapatos de fútbol?
+- ¿Messi compra tres zapatos de fútbol?
+- ¿Messi compra dos camisas 👕 de fútbol?
+- ¿Messi compra dos camisas 👕 o dos zapatos 👟 de fútbol?
+- ¿Qué compra Messi?
+
+** A Claudia /no le gusta/ fútbol
+#+BEGIN_story
+#+REVEAL_HTML: <div style="background:black; font-weight:bold; font-size: 200%;">
+    #+REVEAL_HTML: <span style="color:red">A Claudia</span>
+    #+REVEAL_HTML: <span style="color:lightblue">no le gusta 💔</span>
+    #+REVEAL_HTML: <span style="color:orange">el fútbol.</span>
+#+REVEAL_HTML: </div>
+#+END_story
+
+#+ATTR_REVEAL: :frag (fade-in)
+- ¿A quién no le gusta 💔️ el fútbol?
+- ¿A quién le gusta ♥️ el fútbol?
+- ¿A Claudia le gusta ♥️ el fútbol?
+- ¿A Messi le gusta ♥️ o no le gusta 💔️ el fútbol?
+- ¿A Claudia le gusta ♥️ o no le gusta 💔️ el fútbol?
+
+** Juan /odia/ deportes
+#+BEGIN_story
+#+REVEAL_HTML: <div style="background:black; font-weight:bold; font-size: 200%;">
+    #+REVEAL_HTML: <span style="color:red">Juan</span>
+    #+REVEAL_HTML: <span style="color:lightblue">odia 😡</span>
+    #+REVEAL_HTML: <span style="color:orange">deportes.</span>
+#+REVEAL_HTML: </div>
+#+END_story
+
+#+ATTR_REVEAL: :frag (fade-in)
+- ¿Juan odia 😡 o ama 😍 deportes (运动)?
+- ¿Juan ama 😍 deportes?
+- ¿Messi odia deportes?
+- ¿Juan odia deportes?
+- ¿Messi o Juan odia deportes?
+- ¿Juan odia gatos 🐈?
+- ¿Juan odia gatos 🐈 o deportes?
+- ¿Juan odia deportes?
+
+* Question Structure :noexport:
+- red
+  - yes/no
+  - this/that
+  - wh
+
+- lightblue
+  - this/that
+  - yes/no
+  - wh
+
+- orange
+  - wh
+  - yes/no
+  - this/that
+
+* Cleaning Schedule :noexport:
+| Day       | Task 1   | Task 2            |
+|-----------+----------+-------------------|
+| Monday    | Surfaces | Living Room Floor |
+| Tuesday   |          |                   |
+| Wednesday |          |                   |
+| Thursday  |          |                   |
+| Friday    |          |                   |
+| Saturday  |          |                   |
+| Sunday    |          |                   |
+
+* Setup                                                     :noexport:
+# Local variables:
+# after-save-hook: org-re-reveal-export-to-html
+# org-re-reveal-progress: true
+# end:
