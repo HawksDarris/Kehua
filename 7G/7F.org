@@ -15,6 +15,7 @@
 #+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
 #+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
 #+REVEAL_EXTRA_CSS: ../dist/utils.css
+#+REVEAL_HEAD_PREAMBLE: <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
 :end:
 
 * About the Test
@@ -49,6 +50,7 @@ We will talk about a story.
 
 ** What story?
 
+
 * The Secret Garden
 
 ** Misselthwaite
@@ -81,7 +83,6 @@ We will talk about a story.
 6. a moor. big It's and the on place it's
 7. There's around and gardens park with big trees. a it
 8. are lot and of furniture. pictures old a There
-
 
 
 * Stories
@@ -176,10 +177,13 @@ There is a student named Teresa. Teresa is in a small house in a forest. Teresa 
 #+END_rightcol
 #+END_story
 
-*** Oh no, she's dead
-:PROPERTIES:
-:reveal_extra_attr: class="r-fit-text nobox" style="background:black; color:white; margin-top:100px" background-color="black"
-:END:
+*** Oh no...
+#+BEGIN_centered
+#+BEGIN_large
+She's dead.
+#+END_large
+#+END_centered
+
 *** What to do with her body?
 #+BEGIN_story
 #+ATTR_REVEAL: :frag fade-up
@@ -275,6 +279,9 @@ Kobe Bryant has a videogame. He has Mario, and he does not want to go to the for
 #+END_story
 
 
+
+
+ #+REVEAL_HTML: <script>twemoji.parse(document.body);</script>
 * Setup                                                     :noexport:
 # Local variables:
 # after-save-hook: org-re-reveal-export-to-html
