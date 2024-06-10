@@ -17,48 +17,9 @@
 #+REVEAL_EXTRA_CSS: ../dist/utils.css
 :end:
 
-* Announcement
-There will be a test. There will be grades.
-* Curve Grade.
-I will grade on a curve. The top 10% will get A++. The next highest grade and -10% will be A+. It will be possible for everyone to get an A.
-
-** Note
-You *must* talk. If you don't talk, you will get a bad grade. If you do not understand, say "I am sorry, I don't understand." I will always help you understand.
-
-* About the Test
-Next week.
-
-** Rubric (评价量规)
-|   | *Understanding*                                      |
-| 5 | Maybe required some help, but generally understood |
-| 4 | Required some help and understood most things      |
-| 3 | Required a lot of help for most questions          |
-| 2 | Required a lot of help for every question          |
-| 1 | Understood 0%, even with help                      |
-
-** Rubric (评价量规)
-|   | *Speaking*          |
-| 5 | I understand 80+% |
-| 4 | I understand 60+% |
-| 3 | I understand 40+% |
-| 2 | I understand 20+% |
-| 1 | Did not speak     |
-
-** Rubric (评价量规)
-|   | *Language Use*                   |
-| 5 | Rarely struggled               |
-| 4 | Struggled occasionally         |
-| 3 | Struggled with most vocabulary |
-| 2 | Struggled with all vocabulary  |
-| 1 | Did not speak                  |
-
-** Topic
-We will talk about a story.
-
-** What story?
-
+* Test
+Next Week
 * The Secret Garden
-
 ** Unscramble
 #+ATTR_REVEAL: :frag (fade-up)
 1. Then footsteps. Mary heard
@@ -70,6 +31,17 @@ We will talk about a story.
 7. the very thought man was Mary rude.
 8. nobody I called? did when come Why
 9. told Mary father and Ayah were mother He and her that dead.
+
+** Unscramble
+#+ATTR_REVEAL: :frag (fade-up)
+1. Yorkshire going Craven,' live 'You're Mary. told Archibald she your with uncle in to
+2. Medlock the Mrs got and on Yorkshire train to Mary
+3. India from was London different very
+4. down. seats housekeeper The they sat found two empty and
+5. about anything Do your know you uncle?
+6. a moor. big It's and the on place it's
+7. There's around and gardens park with big trees. a it
+8. are lot and of furniture. pictures old a There
 
 * Stories
 #+begin_centered
@@ -184,6 +156,11 @@ When they get back to school, Magic Robot Kobe Bryant gives the class two more w
 1. No homework, and
 2. a stronger roof for the school.
 
+* TEST :noexport:
+- Please, go ahead
+- Can you do it yourself, or do you need help
+- Have you gone to space?
+- Are there mountains (in Shenzhen, etc.)
 
 * Setup                                                     :noexport:
 # Local variables:
