@@ -3,6 +3,7 @@
 @import url(../css/theme/reveal-zenika-light.css);
 @import url(../css/theme/reveal-zenika.css);
 @import url(../dist/headerfooter.css);
+
 body {
     font-family: "NotoColorEmoji", "Lato Regular" "OpenSans Bold","OpenSans Regular", "M+ 1m", Arial, sans-serif; /* Fallback fonts */
 }
@@ -179,6 +180,7 @@ img {
 
 .emoji {
     font-family: 'Noto Emoji', sans-serif;
+    width: 10%;
 }
 
 /* @font-face{ */
