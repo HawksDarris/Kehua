@@ -1,0 +1,107 @@
+#+title: Try Something New
+#+REVEAL_TOC_SLIDE_TITLE: Plan
+#+author: No PPT
+#+STARTUP: inlineimages
+#+STARTUP: indent fold
+:reveal_properties:
+#+PROPERTY: HEADER-ARGS+ :eval no-export
+#+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
+#+REVEAL_THEME: black
+#+REVEAL_INIT_OPTIONS: history: true
+#+OPTIONS: timestamp:nil toc:nil num:nil
+#+OPTIONS: reveal_embed_local_resources:t
+#+REVEAL_EXTRA_CSS: ../dist/utils.css
+:end:
+
+* Something New
+1. I will tell you what to do and show you how to do it.
+2. Then I will tell you what to do, without showing you how to do it
+3. Sometimes I will tell you "Do X" but show you how to do "Y"
+
+*Do what I say, not what I do*
+
+* Vocabulario
+Quiere = 想
+#+ATTR_REVEAL: :frag fade-in
+- levántense
+- siéntense
+- camina
+#+ATTR_REVEAL: :frag fade-in
+- busca 🔍
+- rápido
+- lento
+#+ATTR_REVEAL: :frag fade-in
+- triste 😥
+- feliz 😁
+- gato 🐈
+
+* Juan está triste
+Juan quiere un gato. Juan camina a Beijing y busca un gato.
+* ¿?
+#+BEGIN_large
+- o - 还是
+- ¿Quién? - 谁
+- ¿Qué? - 什么
+- ¿Dónde? - 哪里
+- ¿Por qué? - 为什么
+  #+END_large
+
+
+* Vocabulario
+#+ATTR_REVEAL: :frag fade-in
+- toca
+- puerta
+- ventana 🪟
+#+ATTR_REVEAL: :frag fade-in
+- mira 👀
+- techo 天花板
+- suelo 地面
+#+ATTR_REVEAL: :frag fade-in
+- abre la puerta 打开🚪
+- hotel 酒店
+- habitación 酒店客房
+
+* Juan está triste
+Juan quiere un gato. Juan camina a Beijing y busca un gato. Juan camina al hotel y abre 10.2 puertas. No hay gatos en las habitaciones. Juan está triste.
+
+* ¿?
+#+BEGIN_large
+- o - 还是
+- ¿Quién? - 谁
+- ¿Qué? - 什么
+- ¿Dónde? - 哪里
+- ¿Por qué? - 为什么
+  #+END_large
+
+
+* Vocabulario
+#+ATTR_REVEAL: :frag fade-in
+- casa 🏠
+- su 他的/她的/它的
+- cuarto 房间
+#+ATTR_REVEAL: :frag fade-in
+- cama 🛏️
+- escucha 👂
+- manzana 🍎
+#+ATTR_REVEAL: :frag fade-in
+- mañana 🌅
+- duerme 睡觉
+- despierta 醒来
+
+* Juan está feliz
+Juan camina rápido a Shenzhen. Camina a su casa. Abre la puerta de su cuarto y camina a su cama. Juan duerme en su cama. Juan despierta porque juan escucha "miau miau miau." Juan busca en su cuarto. Hay 8.5 gatos en su cuarto. ¡Juan está feliz!
+* ¿?
+#+BEGIN_large
+- o - 还是
+- ¿Quién? - 谁
+- ¿Qué? - 什么
+- ¿Dónde? - 哪里
+- ¿Por qué? - 为什么
+  #+END_large
+
+
+* Setup                                                     :noexport:
+# Local variables:
+# after-save-hook: org-re-reveal-export-to-html
+# org-re-reveal-progress: true
+# end:

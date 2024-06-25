@@ -1,0 +1,26 @@
+#+title: Try Something New
+#+REVEAL_TOC_SLIDE_TITLE: Plan
+#+author: No PPT
+#+STARTUP: inlineimages
+#+STARTUP: indent fold
+:reveal_properties:
+#+PROPERTY: HEADER-ARGS+ :eval no-export
+#+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
+#+REVEAL_THEME: black
+#+REVEAL_INIT_OPTIONS: history: true
+#+OPTIONS: timestamp:nil toc:nil num:nil
+#+OPTIONS: reveal_embed_local_resources:t
+#+REVEAL_EXTRA_CSS: ../dist/utils.css
+:end:
+
+* La pelota ⚽
+Hay una pelota en el suelo. Es una pelota roja. Se hace de goma. El bebé mira la pelota. El gato mira la pelota. El gato es negro. El gato camina a la pelota. El gato golpea la pelota. La pelota va a la puerta. El bebé sonrie.
+
+* La casa en llamas 🏠🔥
+La casa está en llamas. Llamas salen (go out) de las ventanas. Sale humo de las ventanas. Un chico corre de la casa. Lleva un bebé en brazos. Una mujer corre de la casa. Lleva un bebé en brazos. Bomberos 🚒 llegan a la casa.
+
+* Setup                                                     :noexport:
+# Local variables:
+# after-save-hook: org-re-reveal-export-to-html
+# org-re-reveal-progress: true
+# end:

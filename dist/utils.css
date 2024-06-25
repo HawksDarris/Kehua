@@ -1,8 +1,8 @@
 /* Phase out container and col for begin and end blocks of a single class (no nested) in org mode TODO*/
-@import url(../css/theme/reveal-code-relax.css);
-@import url(../css/theme/reveal-zenika-light.css);
-@import url(../css/theme/reveal-zenika.css);
-@import url(../dist/headerfooter.css);
+/* @import url(../css/theme/reveal-code-relax.css); */
+/* @import url(../css/theme/reveal-zenika-light.css); */
+/* @import url(../css/theme/reveal-zenika.css); */
+/* @import url(../dist/headerfooter.css); */
 
 body {
     font-family: "NotoColorEmoji", "Lato Regular" "OpenSans Bold","OpenSans Regular", "M+ 1m", Arial, sans-serif; /* Fallback fonts */
