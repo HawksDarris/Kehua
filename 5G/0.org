@@ -1,0 +1,77 @@
+#+TITLE: Introduction
+#+SUBTITLE:
+#+AUTHOR: Teacher Darris
+#+STARTUP: inlineimages
+:reveal_properties:
+#+PROPERTY: HEADER-ARGS+ :eval no-export
+#+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
+#+REVEAL_THEME: beige
+#+REVEAL_HISTORY: true
+#+OPTIONS: timestamp:nil toc:nil num:nil
+#+OPTIONS: reveal_embed_local_resources:t
+#+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css ../plugin/menu/font-awesome/css/all.css
+#+REVEAL_ADD_PLUGIN: customcontrol RevealCustomControls /plugin/customcontrols/plugin.js /plugin/customcontrols/style.css
+# #+REVEAL_ADD_PLUGIN: menu RevealMenu /plugin/menu/plugin.js /plugin/menu/menu.css /plugin/menu/menu.js /plugin/menu/font-awesome/css/all.css
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
+#+REVEAL_EXTRA_CSS: ../dist/utils.css
+# #+REVEAL_HEAD_PREAMBLE: <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+:end:
+
+
+* Rules
+#+ATTR_REVEAL: :frag (fade-up)
+1. When I say "Class," you say "Yes?"
+2. Only speak English
+   - You speak Chinese four times, I give you homework.
+3. Pay attention
+4. Be nice to me and others
+
+** If I say a fact, you can say
+#+ATTR_REVEAL: :frag fade-up
+   - Ohh!
+   - Ahh!
+   - Wow!
+   - Marvelous!
+   - Stupendous!
+   - Amazing!
+   - Wonderful!
+
+** Three Types of Question
+#+ATTR_REVEAL: :frag (fade-up)
+1. Open Questions
+ - Who?
+ - What?
+ - When?
+ - Where?
+ - Why?
+ - How?
+2. Yes/No
+3. This/That
+
+* Turn = become
+#+BEGIN_leftcol
+[[../images/turn-banana.jpg]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+Green bananas turn yellow. Yellow bananas turn brown. Brown bananas turn black.
+#+END_rightcol
+
+* Who is in the kitchen?
+
+* Homework
+Darris is a pink cat. Pink cats are special because they eat only yellow food. If there is no yellow food, Darris turns brown. Darris likes being a pink cat, so he always has yellow food.
+
+** COMMENT Questions
+1. What kind of cat is Darris?
+2. Do pink cats stay pink with blue food?
+3. What color food must pink cats eat?
+4. What will happen to Darris if he does not eat yellow food?
+5. Does Darris want to be brown or pink?
+
+* Setup                                                     :noexport:
+# Local variables:
+# after-save-hook: org-re-reveal-export-to-html
+# org-re-reveal-progress: true
+# end:
