@@ -1,0 +1,36 @@
+#+TITLE: My name is Darris
+#+SUBTITLE:
+#+AUTHOR:
+# Teacher Darris
+#+STARTUP: inlineimages
+:reveal_properties:
+#+PROPERTY: HEADER-ARGS+ :eval no-export
+#+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
+#+REVEAL_THEME: black
+#+REVEAL_HISTORY: true
+#+OPTIONS: timestamp:nil toc:nil num:nil
+#+OPTIONS: reveal_embed_local_resources:t
+# #+REVEAL_ADD_PLUGIN: countdown RevealCountdown /plugin/reveal_countdown/countdown.js
+# #+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css ../plugin/menu/font-awesome/css/all.css
+# #+REVEAL_ADD_PLUGIN: customcontrol RevealCustomControls /plugin/customcontrols/plugin.js /plugin/customcontrols/style.css
+# #+REVEAL_ADD_PLUGIN: menu RevealMenu /plugin/menu/plugin.js /plugin/menu/menu.css /plugin/menu/menu.js /plugin/menu/font-awesome/css/all.css
+# #+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
+# #+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
+#+REVEAL_EXTRA_CSS: ../dist/utils.css
+# #+REVEAL_HEAD_PREAMBLE: <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+:end:
+
+* Pictionary
+** 1. Draw, do not talk
+** 2. Three minutes
+#+REVEAL_HTML: <countdown time="300" autostart="yes" />
+
+* Charades
+
+* Apples to Apples
+
+* Setup                                                     :noexport:
+# Local variables:
+# after-save-hook: org-re-reveal-export-to-html
+# org-re-reveal-progress: true
+# end:

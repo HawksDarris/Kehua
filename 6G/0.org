@@ -91,26 +91,19 @@ I _used to_ live in Scotland.
 [[../images/antarctica.jpg]]
 #+END_centered
 
-* Big Tip
-#+BEGIN_centered
-Who likes pizza?
-#+END_centered
+* Activity
+Darris is a teacher in Shenzhen. He used to live in Scotland, so he is not used to the heat in Shenzhen. He wakes up at 4 A.M. and drinks 25 cups of coffee. When there is no water, he eats coffee with a spoon instead. It is very crunchy.
 
+* 4x Chinese Homework: Translate (翻译)
+Darris is a teacher in Shenzhen. He used to live in Scotland, so he is not used to the heat in Shenzhen. He wakes up at 4 A.M. and drinks 25 cups of coffee. When there is no water, he eats coffee with a spoon instead. It is very crunchy.
 
-* Homework
-Darris is a teacher in Shenzhen. He used to live in Scotland, so he is not used to the heat in Shenzhen. He wakes up at 4 A.M. and drinks 25 cups of coffee.
-# When there is no water, he eats coffee with a spoon instead. It is very crunchy.
-
-
-** COMMENT Questions
-#+ATTR_REVEAL: :frag (fade-up)
+** Questions
 1. When does Darris wake up every morning?
 2. Does Darris drink coffee every morning?
 3. How much coffee does he drink? How many cups?
 4. Does Darris like the heat in Shenzhen?
 5. Where did Darris live before Shenzhen? (Where did Darris "use to" live?)
-# 6. What does Darris do when there is no water?
-
+6. What does Darris do when there is no water?
 
 * Setup                                                     :noexport:
 # Local variables:

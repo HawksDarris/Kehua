@@ -31,6 +31,10 @@ img {
     width:100%;
 }
 
+p img {
+    margin-bottom: 10%;
+}
+
 
 .reveal table{
     margin-bottom: 4vh;

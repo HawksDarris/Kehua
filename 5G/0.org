@@ -58,17 +58,22 @@
 Green bananas turn yellow. Yellow bananas turn brown. Brown bananas turn black.
 #+END_rightcol
 
-* Who is in the kitchen?
+* Partner Activity
+Darris is a pink cat. Pink cats are special because they eat only yellow food. If there is no yellow food, Darris turns brown. Darris likes being a pink cat, so he always has yellow food.
+
+* Homework for 4x Chinese
+1. Translate to Chinese (翻译)
+2. Answer questions in English
 
 * Homework
 Darris is a pink cat. Pink cats are special because they eat only yellow food. If there is no yellow food, Darris turns brown. Darris likes being a pink cat, so he always has yellow food.
-
-** COMMENT Questions
+** Questions
 1. What kind of cat is Darris?
 2. Do pink cats stay pink with blue food?
 3. What color food must pink cats eat?
 4. What will happen to Darris if he does not eat yellow food?
 5. Does Darris want to be brown or pink?
+
 
 * Setup                                                     :noexport:
 # Local variables:

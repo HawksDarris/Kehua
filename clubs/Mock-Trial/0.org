@@ -1,0 +1,353 @@
+#+TITLE: Fairy Tale
+#+SUBTITLE:
+#+AUTHOR:
+# Teacher Darris
+#+STARTUP: inlineimages
+:reveal_properties:
+#+PROPERTY: HEADER-ARGS+ :eval no-export
+#+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
+#+REVEAL_THEME: black
+#+REVEAL_HISTORY: true
+#+OPTIONS: timestamp:nil toc:nil num:nil
+#+OPTIONS: reveal_embed_local_resources:t
+# #+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css ../plugin/menu/font-awesome/css/all.css
+# #+REVEAL_ADD_PLUGIN: customcontrol RevealCustomControls /plugin/customcontrols/plugin.js /plugin/customcontrols/style.css
+# #+REVEAL_ADD_PLUGIN: menu RevealMenu /plugin/menu/plugin.js /plugin/menu/menu.css /plugin/menu/menu.js /plugin/menu/font-awesome/css/all.css
+# #+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
+# #+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
+#+REVEAL_EXTRA_CSS: ../../dist/utils.css
+# #+REVEAL_HEAD_PREAMBLE: <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+:end:
+
+* Rumpelstiltskin
+#+BEGIN_centered
+[[../../images/rumpelstiltskin-01.jpg]]
+#+END_centered
+
+
+** There is a king and there is a man
+
+
+** The man says his daughter can turn straw into gold
+
+
+** "I don't believe you"
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/02-your-dad-is-a-liar.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+He takes the daughter to a room filled with straw.
+
+If you do not turn all this straw to gold by tomorrow, I will kill you.
+#+END_rightcol
+
+
+** He puts her in the room and locks the door.
+#+BEGIN_centered
+[[./Rumpelstiltskin/03-if-you-do-not-finish-you-will-die.png]]
+#+END_centered
+
+
+** What can I do?
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/04-what-am-i-gonna-do.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+"Oh no, I cannot really turn straw into gold! The king is going to kill me!"
+#+END_rightcol
+
+
+** A strange little man hears her cry.
+#+REVEAL: split
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/05-whats-wrong.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+"Why are you crying?"
+
+"The king is going to kill me if I do not turn this straw into gold tonight! It cannot be done!"
+
+"It can be done! I can do it! What will you give me?"
+#+END_rightcol
+
+** "I can give you my necklace."
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/06-what-will-you-give-me.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+I like this necklace. I will do it for you.
+#+END_rightcol
+
+
+** He starts working
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/07-spin-straw-to-gold.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+The strange man uses a spinning wheel to turn the straw into gold.
+#+END_rightcol
+
+
+** The king wants more.
+#+BEGIN_leftcol
+The king is amazed. But he wants more. He takes her to an even bigger room.
+#+END_leftcol
+
+#+BEGIN_rightcol
+[[./Rumpelstiltskin/08-thats-crazy-do-it-again.png]]
+#+END_rightcol
+
+** Oh no! I will die!
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/09-oh-no-this-time-I-have-no-imp.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+Oh no! This room has more straw than the last room! If only the strange little man could come again!
+#+END_rightcol
+
+
+** So Lucky
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/10-here-I-am-can-I-have-your-ring.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+This time, the strange little man says he will do it for her ring.
+#+END_rightcol
+
+
+** The king wants EVEN MORE
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/11-real-talk-do-this-and-youre-queen.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+Again, the king is amazed! But he wants even more. He takes her to an even bigger room. He tells her, "If you turn all of this straw into gold, I will marry you and you will be the queen"
+#+END_rightcol
+
+
+
+** Now she has nothing to pay the strange little man...
+
+#+REVEAL: split
+
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/12-I-dont-have-anything-else.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+The strange little man comes again. He says, "Do you want me to do it again?"
+
+The woman says, "The king said he would marry me if I could do this, but I do not have anything to give you! I only had that necklace and that ring."
+
+#+END_rightcol
+
+
+** "Hmm... That is a problem. I can still do it if you give me the first baby you have with the king."
+
+** The woman agrees to give the strange little man her first baby.
+#+REVEAL: split
+
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/13-oh-boy-gonna-get-a-baby.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+The strange little man happily starts working again!
+#+END_rightcol
+
+** The king keeps his promise
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/14-queen-time.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+The king marries the woman.
+#+END_rightcol
+
+
+** Soon, they have a baby
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/15-baby-so-sweet.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+The king and queen have their first baby.
+#+END_rightcol
+
+** The strange little man is back
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/16-give-me-the-baby.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+"I am here for my payment, Queen," the strange little man says. "You agreed to give me your first baby, so please give me the baby."
+#+END_rightcol
+
+
+** No, please, I want my baby
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/17-no-please-Ill-give-you-anything-else.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+She says she will give him anything he wants, but not the baby.
+
+He says, "No, I only want the baby."
+
+"Please! I do not want to give you my baby!"
+
+He says, "We can play a game..."
+#+END_rightcol
+
+#+REVEAL: split
+ "If you can /guess/ my name, I will let you keep your baby. You have three days."
+
+** What could his name be???
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/18-how-can-I-find-his-name-in-3-days.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+She lays in bed and tries to think of his name.
+#+END_rightcol
+
+
+** She sends a messenger to get every name in the kingdom.
+#+REVEAL: split
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/19-on-a-quest-for-names.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+The messenger goes to get names.
+#+END_rightcol
+
+
+** No. No. No. Nope.
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/20-lol-no-lol-no.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+The queen reads every name in the kingdom.
+
+"John?"
+
+"No."
+
+"Steven?"
+
+"Nope."
+
+"Am I close?"
+
+"Hahaha. No."
+
+#+END_rightcol
+
+
+** Look again.
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/21-new-quest-again.png]]
+#+END_leftcol
+#+BEGIN_rightcol
+Now the messenger goes to another country to get names.
+
+He sees something very strange.
+#+END_rightcol
+
+** While the messenger looks for names, the Queen guesses again.
+
+** No. No. No. Nope.
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/20-lol-no-lol-no.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+The queen reads every name in the kingdom.
+
+"Gerald?"
+
+"No."
+
+"Harry?"
+
+"Nope."
+
+...
+#+END_rightcol
+
+
+** Dancing and singing
+The messenger sees a strange little man dancing and singing around a fire.
+#+REVEAL: split
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/22-imp-mode.png]]
+#+END_leftcol
+#+BEGIN_rightcol
+/Tonight tonight, my plans I make,/
+
+/Tomorrow tomorrow, the baby I take./
+
+/The Queen will never win the game,/
+
+/Rumpelstiltskin is my name!/
+#+END_rightcol
+
+**  The messenger runs back to the Queen
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/23-no-new-names-but-I-saw-a-creep.png]]
+#+END_leftcol
+#+BEGIN_rightcol
+"I do not have new names, but I saw a strange little man..."
+#+END_rightcol
+
+**  On the third day
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/24-what-how-did-you-know.png]]
+#+END_leftcol
+#+BEGIN_rightcol
+The Queen "guesses" again, "Is your name Stefanapolous?"
+
+"No!"
+
+"Is your name Shamalamafoofoo?"
+
+"Noooo 🙂"
+
+"Is your name Rumpelstiltskin?"
+#+END_rightcol
+
+
+** How did you know?!
+#+BEGIN_leftcol
+[[./Rumpelstiltskin/25-eff-this-im-out.png]]
+#+END_leftcol
+
+#+BEGIN_rightcol
+He gets so mad he grabs his foot and rips himself in half.
+#+END_rightcol
+
+
+** The End
+
+
+
+* COMMENT Witness Statement
+MY first thought was "This woman wants me to work all night for just her necklace and she doesn't even ask my name? That is so rude!" I just wanted to adopt a baby! My wife was so excited!
+
+I could tell she was distraught so I decided to play a little game with her: Guess my name.
+
+
+* Setup                                                     :noexport:
+# Local variables:
+# after-save-hook: org-re-reveal-export-to-html
+# org-re-reveal-progress: true
+# end:

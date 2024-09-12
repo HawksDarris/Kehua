@@ -1,0 +1,113 @@
+#+TITLE: Introduction
+#+SUBTITLE:
+#+AUTHOR: Teacher Darris
+#+STARTUP: inlineimages
+:reveal_properties:
+#+PROPERTY: HEADER-ARGS+ :eval no-export
+#+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
+#+REVEAL_THEME: beige
+#+REVEAL_HISTORY: true
+#+OPTIONS: timestamp:nil toc:nil num:nil
+#+OPTIONS: reveal_embed_local_resources:t
+#+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css ../plugin/menu/font-awesome/css/all.css
+#+REVEAL_ADD_PLUGIN: customcontrol RevealCustomControls /plugin/customcontrols/plugin.js /plugin/customcontrols/style.css
+# #+REVEAL_ADD_PLUGIN: menu RevealMenu /plugin/menu/plugin.js /plugin/menu/menu.css /plugin/menu/menu.js /plugin/menu/font-awesome/css/all.css
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
+#+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
+#+REVEAL_EXTRA_CSS: ../dist/utils.css
+# #+REVEAL_HEAD_PREAMBLE: <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+:end:
+
+* Rules
+#+ATTR_REVEAL: :frag (fade-up)
+1. When I say "Class," you say "Yes?"
+2. Only speak English
+   - If you speak Chinese 4 times, I will give you homework :)
+3. Pay attention
+4. Be nice to me and others
+
+** If I say a fact, you can say
+#+BEGIN_large
+#+BEGIN_centered
+#+ATTR_REVEAL: :frag (fade-up)
+   - Ohh!
+   - Ahh!
+   - Wow!
+   - Marvelous!
+   - Stupendous!
+   - Amazing!
+   - Wonderful!
+#+END_centered
+#+END_large
+
+
+** Three Types of Question
+#+BEGIN_large
+#+BEGIN_leftcol
+#+ATTR_REVEAL: :frag (fade-up)
+- Open Questions
+ - Who?
+ - What?
+ - When?
+ - Where?
+ - Why?
+ - How?
+#+END_leftcol
+
+#+BEGIN_rightcol
+#+ATTR_REVEAL: :frag (fade-up)
+- Yes/No
+- This/That
+#+END_rightcol
+#+END_large
+
+* Used to / Be used to
+#+BEGIN_leftcol
+[[../images/too-hot.jpeg]]
+#+END_leftcol
+
+#+begin_rightcol
+It is too hot. I am not _used to_ it.
+
+太热了， _惯了_ 就好了
+#+end_rightcol
+
+**  Used to / Be used to
+#+BEGIN_leftcol70
+I _used to_ live in Scotland.
+
+[[../images/scotland.jpg]]
+#+END_leftcol70
+
+#+BEGIN_rightcol30
+#+ATTR_REVEAL: :frag (fade-up)
+#+BEGIN_large
+我 *以前* 住在苏格兰
+#+END_large
+#+END_rightcol30
+
+* Who lives in Antarctica?
+#+BEGIN_centered
+[[../images/antarctica.jpg]]
+#+END_centered
+
+* Activity
+Darris is a teacher in Shenzhen. He used to live in Scotland, so he is not used to the heat in Shenzhen. He wakes up at 4 A.M. and drinks 25 cups of coffee. When there is no water, he eats coffee with a spoon instead. It is very crunchy.
+
+** Questions
+#+ATTR_REVEAL: :frag (fade-up)
+1. When does Darris wake up every morning?
+2. Does Darris drink coffee every morning?
+3. How much coffee does he drink? How many cups?
+4. Does Darris like the heat in Shenzhen?
+5. Where did Darris live before Shenzhen? (Where did Darris "use to" live?)
+6. What does Darris do when there is no water?
+
+* Partner Activity
+Darris is a teacher in Shenzhen. He used to live in Scotland, so he is not used to the heat in Shenzhen. He wakes up at 4 A.M. and drinks 25 cups of coffee. When there is no water, he eats coffee with a spoon instead. It is very crunchy.
+
+* Setup                                                     :noexport:
+# Local variables:
+# after-save-hook: org-re-reveal-export-to-html
+# org-re-reveal-progress: true
+# end:
