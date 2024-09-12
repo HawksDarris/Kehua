@@ -20,15 +20,18 @@
 
 
 * Rules
+
 #+ATTR_REVEAL: :frag (fade-up)
 1. When I say "Class," you say "Yes?"
 2. Only speak English
-   - You speak Chinese four times, I give you homework.
+   - If you speak Chinese 4 times, I will give you homework :)
 3. Pay attention
 4. Be nice to me and others
 
 ** If I say a fact, you can say
-#+ATTR_REVEAL: :frag fade-up
+#+BEGIN_large
+#+BEGIN_centered
+#+ATTR_REVEAL: :frag (fade-up)
    - Ohh!
    - Ahh!
    - Wow!
@@ -36,18 +39,29 @@
    - Stupendous!
    - Amazing!
    - Wonderful!
+#+END_centered
+#+END_large
+
 
 ** Three Types of Question
+#+BEGIN_large
+#+BEGIN_leftcol
 #+ATTR_REVEAL: :frag (fade-up)
-1. Open Questions
+- Open Questions
  - Who?
  - What?
  - When?
  - Where?
  - Why?
  - How?
-2. Yes/No
-3. This/That
+#+END_leftcol
+
+#+BEGIN_rightcol
+#+ATTR_REVEAL: :frag (fade-up)
+- Yes/No
+- This/That
+#+END_rightcol
+#+END_large
 
 * Turn = become
 #+BEGIN_leftcol
@@ -57,6 +71,13 @@
 #+BEGIN_rightcol
 Green bananas turn yellow. Yellow bananas turn brown. Brown bananas turn black.
 #+END_rightcol
+
+* Grammar
+#+BEGIN_centered
+turn /[adj.]/
+
+turn into /[n.]/
+#+END_centered
 
 * Partner Activity
 Darris is a pink cat. Pink cats are special because they eat only yellow food. If there is no yellow food, Darris turns brown. Darris likes being a pink cat, so he always has yellow food.

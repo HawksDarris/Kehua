@@ -19,6 +19,7 @@
 :end:
 
 * Rules
+
 #+ATTR_REVEAL: :frag (fade-up)
 1. When I say "Class," you say "Yes?"
 2. Only speak English
@@ -60,6 +61,7 @@
 - This/That
 #+END_rightcol
 #+END_large
+
 
 * Used to / Be used to
 #+BEGIN_leftcol
