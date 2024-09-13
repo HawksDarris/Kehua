@@ -79,6 +79,19 @@ turn /[adj.]/
 turn into /[n.]/
 #+END_centered
 
+
+** Grammar
+A yellow banana _turns brown_
+
+#+BEGIN_large
+*OR*
+#+END_large
+
+
+A yellow banana _turns into a brown banana_
+
+
+
 * Partner Activity
 Darris is a pink cat. Pink cats are special because they eat only yellow food. If there is no yellow food, Darris turns brown. Darris likes being a pink cat, so he always has yellow food.
 
