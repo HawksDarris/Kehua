@@ -1,4 +1,4 @@
-#+TITLE: Introduction
+#+TITLE: Hello
 #+SUBTITLE:
 #+AUTHOR: Teacher Darris
 #+STARTUP: inlineimages
@@ -21,15 +21,19 @@
 * Rules
 #+ATTR_REVEAL: :frag (fade-up)
 1. When I say "Class," you say "Yes?"
-2. Only speak English
-   - If you speak Chinese 4 times, I will give you homework :)
+
+2. When I say a fact, you say something like "Ohh", "Wow!", "Marvelous!"
+
 3. Pay attention
+
 4. Be nice to me and others
+
+5. Only speak English
+   - If you speak Chinese 4 times, I will give you homework :)
 
 ** If I say a fact, you can say
 #+BEGIN_large
 #+BEGIN_centered
-#+ATTR_REVEAL: :frag (fade-up)
    - Ohh!
    - Ahh!
    - Wow!
@@ -41,54 +45,35 @@
 #+END_large
 
 
-** Three Types of Question
-#+BEGIN_large
-#+BEGIN_leftcol
-#+ATTR_REVEAL: :frag (fade-up)
-- Open Questions
- - Who?
- - What?
- - When?
- - Where?
- - Why?
- - How?
-#+END_leftcol
-
-#+BEGIN_rightcol
-#+ATTR_REVEAL: :frag (fade-up)
-- Yes/No
-- This/That
-#+END_rightcol
-#+END_large
-
-* Used to / Be used to
-#+BEGIN_leftcol
-[[../images/too-hot.jpeg]]
-#+END_leftcol
-
-#+begin_rightcol
-It is too hot. I am not _used to_ it.
-
-太热了， _惯了_ 就好了
-#+end_rightcol
-
-**  Used to / Be used to
-#+BEGIN_leftcol70
-I _used to_ live in Scotland.
-
-[[../images/scotland.jpg]]
-#+END_leftcol70
-
-#+BEGIN_rightcol30
-#+ATTR_REVEAL: :frag (fade-up)
-#+BEGIN_large
-我 *以前* 住在苏格兰
-#+END_large
-#+END_rightcol30
-
-* Who lives in Antarctica?
+* Who used to live in Antarctica?
 #+BEGIN_centered
 [[../images/antarctica.jpg]]
+#+END_centered
+
+* English Ear
+
+* Story Time Rule
+#+BEGIN_centered
+#+BEGIN_large
+Actors do only what I say.
+#+END_large
+#+END_centered
+
+** When I say...
+#+BEGIN_centered
+#+BEGIN_large
+1. famous
+2. countryside
+3. during
+4. pretty/handsome
+#+END_large
+#+END_centered
+
+#+REVEAL: split
+#+BEGIN_centered
+#+BEGIN_large
+There is a kid. The kid has a date (去约会) tonight. Who is the kid?
+#+END_large
 #+END_centered
 
 * Activity

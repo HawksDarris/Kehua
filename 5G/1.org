@@ -22,12 +22,14 @@
 #+ATTR_REVEAL: :frag (fade-up)
 1. When I say "Class," you say "Yes?"
 2. Only speak English
-   - You speak Chinese four times, I give you homework.
+   - If you speak Chinese 4 times, I will give you homework :)
 3. Pay attention
 4. Be nice to me and others
 
 ** If I say a fact, you can say
-#+ATTR_REVEAL: :frag fade-up
+#+BEGIN_large
+#+BEGIN_centered
+#+ATTR_REVEAL: :frag (fade-up)
    - Ohh!
    - Ahh!
    - Wow!
@@ -35,28 +37,45 @@
    - Stupendous!
    - Amazing!
    - Wonderful!
+#+END_centered
+#+END_large
+
 
 ** Three Types of Question
+#+BEGIN_large
+#+BEGIN_leftcol
 #+ATTR_REVEAL: :frag (fade-up)
-1. Open Questions
+- Open Questions
  - Who?
  - What?
  - When?
  - Where?
  - Why?
  - How?
-2. Yes/No
-3. This/That
-
-* Frog Prince
-#+BEGIN_leftcol
-[[../
 #+END_leftcol
 
 #+BEGIN_rightcol
-
+#+ATTR_REVEAL: :frag (fade-up)
+- Yes/No
+- This/That
 #+END_rightcol
-* Frog Prince
+#+END_large
+
+* English Ear
+* Story Time Rule
+#+BEGIN_centered
+#+BEGIN_large
+Actors do only what I say.
+#+END_large
+#+END_centered
+#+REVEAL: split
+#+BEGIN_centered
+#+BEGIN_large
+There is a boy. Today is his first day of school.
+#+END_large
+#+END_centered
+
+* COMMENT Frog Prince
 #+BEGIN_leftcol
 [[../images/frog-prince01.jpg]]
 #+END_leftcol
