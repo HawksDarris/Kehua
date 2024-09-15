@@ -69,12 +69,13 @@ Actors do only what I say.
 #+END_large
 #+END_centered
 
-#+REVEAL: split
-#+BEGIN_centered
+
+** Date
 #+BEGIN_large
-There is a kid. The kid has a date (去约会) tonight. Who is the kid?
+There is a boy. The boy has a date (去约会) with a famous person tonight.
+
+Who is the boy?
 #+END_large
-#+END_centered
 
 * Activity
 Darris is a teacher in Shenzhen. He used to live in Scotland, so he is not used to the heat in Shenzhen. He wakes up at 4 A.M. and drinks 25 cups of coffee. When there is no water, he eats coffee with a spoon instead. It is very crunchy.

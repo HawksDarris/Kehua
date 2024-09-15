@@ -17,15 +17,101 @@
 # #+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
 # #+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
 #+REVEAL_EXTRA_CSS: ../dist/utils.css
-# #+REVEAL_HEAD_PREAMBLE: <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
 :end:
 
 * Pictionary
-** 1. Draw, do not talk
-** 2. Three minutes
-#+REVEAL_HTML: <countdown time="300" autostart="yes" />
+** How to play
+1. I give you a word.
+2. No making sounds, no talking.
+3. One person draws the word. The team guesses the word.
 
 * Charades
+    :PROPERTIES:
+    :reveal_background: ./charades-look.gif
+    :reveal_background_trans: slide
+    :END:
+** How to play
+1. I give you a word.
+2. No making sounds, no talking
+3. One person acts out the word. The team guesses the word.
+   #+REVEAL: split
+   #+BEGIN_large
+玩猜词游戏时，一个人表演一个词或短语，不能说话。其他玩家猜这个是什么。第一个猜对的人赢得这一轮。
+   #+END_large
+
+* Lies!
+    :PROPERTIES:
+    :reveal_background: ./lie.gif
+    :reveal_background_trans: slide
+    :END:
+** How to play Lies!
+1. Read the question (阅读问题)
+2. Write a lie (写一个谎言)
+3. Listen to answers (聆听答案)
+4. Choose the answer you like (选择你喜欢的答案)
+** Lies!
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+
+** Lies!
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+What is the biggest animal?
+** Lies!
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+What is the biggest ocean?
+** Lies!
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+How many colors are in the rainbow?
+
+** Lies!
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+What is the slowest animal?
+** Lies!
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+How many teeth do humans have?
+** Lies!
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+What food do pandas eat?
+** Lies!
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+What do cows drink?
+** Lies!
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+How many bones do humans have?
+** Lies!
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+What do caterpillars turn into?
+** Lies!
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+What do you use to cut paper?
+** Lies!
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+What is this?
+
+[[./bus.jpeg]]
 
 * Apples to Apples
 

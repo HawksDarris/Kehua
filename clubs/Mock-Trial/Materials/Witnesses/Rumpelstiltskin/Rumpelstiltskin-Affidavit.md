@@ -1,6 +1,7 @@
 ---
 documentclass: article
 title: ""
+mainfont: "Noto Sans CJK SC"  # Supports Chinese characters
 fontsize: 12pt
 geometry: "letterpaper, margin=1in"
 header-includes:
