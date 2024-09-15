@@ -8,7 +8,7 @@
 #+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
 #+REVEAL_THEME: black
 #+REVEAL_HISTORY: true
-#+OPTIONS: timestamp:nil toc:nil num:nil
+#+OPTIONS: timestamp:nil toc:nil num:t
 #+OPTIONS: reveal_embed_local_resources:t
 # #+REVEAL_ADD_PLUGIN: countdown RevealCountdown /plugin/reveal_countdown/countdown.js
 # #+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css ../plugin/menu/font-awesome/css/all.css
@@ -16,18 +16,12 @@
 # #+REVEAL_ADD_PLUGIN: menu RevealMenu /plugin/menu/plugin.js /plugin/menu/menu.css /plugin/menu/menu.js /plugin/menu/font-awesome/css/all.css
 # #+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
 # #+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
-#+REVEAL_EXTRA_CSS: ../dist/utils.css
+#+REVEAL_EXTRA_CSS: ../../dist/utils.css
 :end:
-
-* Pictionary
-** How to play
-1. I give you a word.
-2. No making sounds, no talking.
-3. One person draws the word. The team guesses the word.
 
 * Charades
     :PROPERTIES:
-    :reveal_background: ./charades-look.gif
+    :reveal_background: ./images/charades-look.gif
     :reveal_background_trans: slide
     :END:
 ** How to play
@@ -41,7 +35,7 @@
 
 * Lies!
     :PROPERTIES:
-    :reveal_background: ./lie.gif
+    :reveal_background: ./images/lie.gif
     :reveal_background_trans: slide
     :END:
 ** How to play Lies!
@@ -111,7 +105,14 @@ What do you use to cut paper?
   :END:
 What is this?
 
-[[./bus.jpeg]]
+[[./images/bus.jpeg]]
+
+* Pictionary
+** How to play
+1. I give you a word. (我给你一个词。)
+2. No making sounds, no talking. (不发出声音，不说话。)
+3. One person draws the word. (一个人画出这个词。)
+4. Guess the word. (各队猜这个词。)
 
 * Apples to Apples
 
