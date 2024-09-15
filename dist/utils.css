@@ -35,6 +35,9 @@ p img {
     margin-bottom: 10%;
 }
 
+span[class|=section-number] {
+  display: none;
+}
 
 .reveal table{
     margin-bottom: 4vh;
