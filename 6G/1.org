@@ -1,24 +1,30 @@
-#+TITLE: Hello
+#+TITLE:
 #+SUBTITLE:
-#+AUTHOR: Teacher Darris
+#+AUTHOR:
 #+STARTUP: inlineimages
 :reveal_properties:
 #+PROPERTY: HEADER-ARGS+ :eval no-export
 #+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
-#+REVEAL_THEME: beige
 #+REVEAL_HISTORY: true
 #+OPTIONS: timestamp:nil toc:nil
 #+OPTIONS: reveal_embed_local_resources:t
 #+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css ../plugin/menu/font-awesome/css/all.css
 #+REVEAL_ADD_PLUGIN: customcontrol RevealCustomControls /plugin/customcontrols/plugin.js /plugin/customcontrols/style.css
-# #+REVEAL_ADD_PLUGIN: menu RevealMenu /plugin/menu/plugin.js /plugin/menu/menu.css /plugin/menu/menu.js /plugin/menu/font-awesome/css/all.css
-#+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
-#+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
 #+REVEAL_EXTRA_CSS: ../dist/utils.css
-# #+REVEAL_HEAD_PREAMBLE: <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+#+REVEAL_THEME: black
+#+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE: contain
 :end:
 
-* Rules
+#+REVEAL_TITLE_SLIDE_BACKGROUND: ../images/off-to-school.gif
+
+* 
+    :PROPERTIES:
+    :reveal_background: ../images/rules.gif
+    :reveal_background_trans: zoom
+    :reveal_background_size: contain
+    :END:
+# to put a nonbreaking space, C-q M-SPC
+** Rules
 #+ATTR_REVEAL: :frag (fade-up)
 1. When I say "Class," you say "Yes?"
 
@@ -28,69 +34,75 @@
 
 4. Be nice to me and others
 
-5. Only speak English
-   - If you speak Chinese 4 times, I will give you homework :)
+5. If you speak Chinese 4 times, I will give you homework
+   ¯\_(ツ)_/¯
 
-** If I say a fact, you can say
-#+BEGIN_large
-#+BEGIN_centered
-   - Ohh!
-   - Ahh!
-   - Wow!
-   - Marvelous!
-   - Stupendous!
-   - Amazing!
-   - Wonderful!
-#+END_centered
-#+END_large
+* Last week, someone lived in Antarctica
+    :PROPERTIES:
+    :reveal_background: ../images/antarctica.gif
+    :reveal_background_trans: zoom
+    :html_headline_class: transparentbox
+    :END:
 
-
-* Who used to live in Antarctica?
-#+BEGIN_centered
-[[../images/antarctica.jpg]]
-#+END_centered
-
-* English Ear
-
-* Story Time Rule
-#+BEGIN_centered
-#+BEGIN_large
-Actors do only what I say.
-#+END_large
-#+END_centered
-
-** When I say...
-#+BEGIN_centered
-#+BEGIN_large
+* English @@html:<br>@@ Ear
+    :PROPERTIES:
+    :reveal_background: ../images/penguin-ear.gif
+    :reveal_background_size: contain
+    :reveal_background_trans: zoom
+    :html_headline_class: transparentbox
+    :END:
+* Vocabulary
+    :PROPERTIES:
+    :reveal_background: ../images/words-trump.gif
+    :reveal_background_size: contain
+    :reveal_background_trans: zoom
+    :html_headline_class: transparentbox
+    :END:
+** Vocabulary
+#+ATTR_REVEAL: :frag (fade-up)
 1. famous
 2. countryside
 3. during
 4. pretty/handsome
-#+END_large
-#+END_centered
+5. go on a date (去约会)
 
+* Story Time
+    :PROPERTIES:
+    :reveal_background: ../images/first-day-of-school.gif
+    :reveal_background_size: contain
+    :reveal_background_trans: zoom
+    :html_headline_class: transparentbox
+    :END:
 
-** Date
-#+BEGIN_large
-There is a boy. The boy has a date (去约会) with a famous person tonight.
+** Counting
+    :PROPERTIES:
+    :reveal_background: ../images/counting.gif
+    :reveal_background_trans: zoom
+    :html_headline_class: transparentbox
+    :END:
 
-Who is the boy?
-#+END_large
+** Vocabulary
+1. famous
+2. countryside
+3. during
+4. pretty/handsome
+
+** First Day of School
+It is someone's first day of school.
 
 * Activity
-Darris is a teacher in Shenzhen. He used to live in Scotland, so he is not used to the heat in Shenzhen. He wakes up at 4 A.M. and drinks 25 cups of coffee. When there is no water, he eats coffee with a spoon instead. It is very crunchy.
+    :PROPERTIES:
+    :reveal_background: ../images/cute-talking.gif
+    :reveal_background_trans: zoom
+    :reveal_background_size: contain
+    :END:
 
-** Questions
-#+ATTR_REVEAL: :frag (fade-up)
-1. When does Darris wake up every morning?
-2. Does Darris drink coffee every morning?
-3. How much coffee does he drink? How many cups?
-4. Does Darris like the heat in Shenzhen?
-5. Where did Darris live before Shenzhen? (Where did Darris "use to" live?)
-6. What does Darris do when there is no water?
+** Partner 1
+You are a little child. Tell the story.
 
-* Partner Activity
-Darris is a teacher in Shenzhen. He used to live in Scotland, so he is not used to the heat in Shenzhen. He wakes up at 4 A.M. and drinks 25 cups of coffee. When there is no water, he eats coffee with a spoon instead. It is very crunchy.
+
+** Partner 2
+You are the mother/father. Your child's story is fun! Say "Oooh. Ahhh. Wow! Cool!"
 
 * Setup                                                     :noexport:
 # Local variables:

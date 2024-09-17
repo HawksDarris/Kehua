@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<title>Hello</title>
-<meta name="author" content="Teacher Darris"/>
 <style type="text/css">
 .underline { text-decoration: underline; }
 </style>
@@ -21,56 +19,49 @@
 
 <style type="text/css">
 /**
- * Beige theme for reveal.js.
+ * Black theme for reveal.js. This is the opposite of the 'white' theme.
  *
- * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ * By Hakim El Hattab, http://hakim.se
  */
-@import url(./fonts/league-gothic/league-gothic.css);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
-section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
-  color: #fff;
+@import url(./fonts/source-sans-pro/source-sans-pro.css);
+section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
+  color: #222;
 }
 
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --r-background-color: #f7f3de;
-  --r-main-font: Lato, sans-serif;
-  --r-main-font-size: 40px;
-  --r-main-color: #333;
+  --r-background-color: #191919;
+  --r-main-font: Source Sans Pro, Helvetica, sans-serif;
+  --r-main-font-size: 42px;
+  --r-main-color: #fff;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
-  --r-heading-font: League Gothic, Impact, sans-serif;
-  --r-heading-color: #333;
+  --r-heading-font: Source Sans Pro, Helvetica, sans-serif;
+  --r-heading-color: #fff;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
   --r-heading-text-transform: uppercase;
   --r-heading-text-shadow: none;
-  --r-heading-font-weight: normal;
-  --r-heading1-text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15);
-  --r-heading1-size: 3.77em;
-  --r-heading2-size: 2.11em;
-  --r-heading3-size: 1.55em;
+  --r-heading-font-weight: 600;
+  --r-heading1-text-shadow: none;
+  --r-heading1-size: 2.5em;
+  --r-heading2-size: 1.6em;
+  --r-heading3-size: 1.3em;
   --r-heading4-size: 1em;
   --r-code-font: monospace;
-  --r-link-color: #8b743d;
-  --r-link-color-dark: #564826;
-  --r-link-color-hover: #c0a86e;
-  --r-selection-background-color: rgba(79, 64, 28, 0.99);
+  --r-link-color: #42affa;
+  --r-link-color-dark: #068de9;
+  --r-link-color-hover: #8dcffc;
+  --r-selection-background-color: rgba(66, 175, 250, 0.75);
   --r-selection-color: #fff;
-  --r-overlay-element-bg-color: 0, 0, 0;
-  --r-overlay-element-fg-color: 240, 240, 240;
+  --r-overlay-element-bg-color: 240, 240, 240;
+  --r-overlay-element-fg-color: 0, 0, 0;
 }
 
 .reveal-viewport {
-  background: rgb(247, 242, 211);
-  background: -moz-radial-gradient(center, circle cover, rgb(255, 255, 255) 0%, rgb(247, 242, 211) 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgb(255, 255, 255)), color-stop(100%, rgb(247, 242, 211)));
-  background: -webkit-radial-gradient(center, circle cover, rgb(255, 255, 255) 0%, rgb(247, 242, 211) 100%);
-  background: -o-radial-gradient(center, circle cover, rgb(255, 255, 255) 0%, rgb(247, 242, 211) 100%);
-  background: -ms-radial-gradient(center, circle cover, rgb(255, 255, 255) 0%, rgb(247, 242, 211) 100%);
-  background: radial-gradient(center, circle cover, rgb(255, 255, 255) 0%, rgb(247, 242, 211) 100%);
+  background: #191919;
   background-color: var(--r-background-color);
 }
 
@@ -389,1136 +380,6 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 </style>
 
 <style type="text/css">
-
-/**
-ZENIKA COLORS :
-rouge / deep carmine : 177/30/62 #B11E3E
-vert / android green : 141/191/68 #8DBF44
-bleu / carolina blue : #53A3DA
-gris clair / davy's grey : #888888
-gris foncé / arsenic : #444444
-rose / sunset orange : 239/82/91 #EF525B =>
-vermillon : #E43238
-violet : #9D145F
-
-rose 2 / indian red : #E8575C
-blue ciel / colombia blue : BFDCD0
-beige pastel gray : #D6D6B1
-black olive : #3F3F37
-orange : #F58231
-jaune / vivid yellow : #FFE119
-menthe / polished pine : #56A29A
-bleu nuit / navy : #000075
-
-rouge - gris foncé - beige - bleu - vert
-https://coolors.co/B11E3E-444444-D6D6B1-53A3DA-8DBF44
-
-violet - jaune - bleu nuit - rose - menthe
-https://coolors.co/9D145F-FFE119-000075-E8575C-56A29A
-
-**/
-
-/*********************************************
- * GLOBAL STYLES
- *********************************************/
-
-/* FOR A ZENIKA LOGO IN TOP RIGHT
-body {
-  background: no-repeat center url('./logo-zenika.png'), no-repeat 98% 5% url('./favicon.png');
-  background-size: 60%, 3%;
-  background-color: black;
-}
-*/
-
-/* When using the shorthand property the order of the property values is: background-color, background-image, background-repeat, background-attachment, background-position */
-/* body { */
-/*   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
-/*             black url('../containers.jpg') no-repeat center; */
-/*   background-size: cover, 30%; */
-/* } */
-
-
-/* Apply Noto Color Emoji for emojis only*/
-.reveal .emoji {
-    font-family: "Noto Color Emoji", sans-serif;
-}
-
-.reveal {
-    font-family:  "Lato", Arial, sans-serif;
-    font-size: 24px;
-    font-weight: normal;
-}
-
-.reveal .slides {
-    text-align: left;
-}
-
-.reveal .slides section {
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    padding: 30px 30px;
-}
-
-/* stack of sub slides, must be hidden, and references should not have shadow */
-.reveal .slides section.stack,
-.reveal .slides section[id="references"] {
-    background: transparent;
-    box-shadow: none;
-}
-
-/* general borders in slides */
-.reveal .slides section[data-state="title"],
-.reveal .slides section > section {
-    padding: 30px;
-}
-
-.reveal .slides section > section.full-page-image {
-    padding: 0 0;
-}
-
-/* trick for vertical align of full page image */
-.reveal .slides section > section.full-page-image div {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-/* [.title-vcenter] - trick for vertical align whole slide content */
-.reveal section > section.title-vcenter {
-    padding-top: 220px;
-}
-
-/* [.halign-center] -center horizontally if explicited asked */
-.reveal .halign-center {
-    text-align: center;
-}
-
-/* moves the whole section slightly to the left */
-.reveal .slides section > section {
-    margin-left: -30px;
-}
-
-.reveal.overview .slides section {
-    height: 650px;
-}
-
-.reveal .slide-background {
-    background-size: contain;
-}
-
-::selection {
-    text-shadow: none;
-}
-
-/**** TABLES ****/
-
-.reveal table th,
-.reveal table td {
-    text-align: left;
-    padding: 0.2em 0.5em 0.2em 0.5em;
-    border-bottom: 1px solid;
-}
-
-/* center column horizontally if explicited asked */
-.reveal table td.halign-center {
-    text-align: center;
-}
-
-/* center column vertically if explicited asked */
-.reveal table td.valign-middle {
-    vertical-align: middle;
-}
-
-/* titles always centered */
-.reveal table th {
-    font-weight: bold;
-    text-align: center;
-    color: rgb(141, 191, 68);
-}
-
-.reveal table tbody tr:last-child th,
-.reveal table tbody tr:last-child td {
-    border-bottom: none;
-}
-
-.reveal .slides table.no-border,
-.reveal .slides table.no-border tr td,
-.reveal .slides table.no-border tr th {
-    border: none;
-}
-
-/*********************************************
- * HEADERS
- *********************************************/
-
-.reveal h1,
-.reveal h2,
-.reveal h3,
-.reveal h4,
-.reveal h5,
-.reveal h6,
-.reveal h[level="3"],
-#toctitle {
-    color: #b11e3e;
-    font-family: "OpenSans Bold", sans-serif;
-    font-weight: bold;
-    letter-spacing: 0.04em;
-}
-
-.reveal h1 {
-    height: 40%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    float: none;
-    font-size: 60px;
-}
-
-/* slide title */
-.reveal h2,
-.reveal h3,
-#toctitle {
-    margin: 0px 0px 40px -20px;
-    padding: 0 0 0px 20px;
-    text-align: left;
-    font-size: 40px;
-}
-
-/** subtitle in slide **/
-.reveal h[level="3"] {
-    margin: 0.6em 0 0.8em -0.4em;
-    display: inline-block;
-}
-
-/** Title slide's subtitle **/
-.reveal section.title h2 {
-    text-align: center;
-    font-style: italic;
-}
-
-.reveal p.author {
-    height: 20%;
-    display: flex;
-    align-items: center;
-    font-size: 30px;
-    justify-content: flex-end;
-    text-align: right;
-    color: #888;
-    font-style: italic;
-}
-
-/*********************************************
- * CONTENT
- *********************************************/
-
-/** bold **/
-.reveal strong {
-    /* font-weight: bold; => bold is not visible, a color is better */
-    /*color: rgb(81,155,200);  blue */
-    font-weight: bold;
-}
-
-/** comments in italic **/
-span.hljs-comment,
-span.hljs-emphasis {
-    font-style: italic;
-}
-
-/* explicitely pushed to bottom */
-.reveal .bottom {
-    position: absolute;
-    bottom: 20px;
-}
-
-/** forced colors **/
-
-.reveal .green {
-    color: rgb(141, 191, 68); /* green */
-}
-
-.reveal .blue {
-    color: rgb(81, 155, 200); /* blue */
-}
-
-.reveal .orange {
-    color: #bf6900; /* orange */
-}
-
-.reveal .red {
-    color: #b11e3e; /* red */
-}
-
-.reveal .pink {
-    color: rgb(239, 82, 91); /* pink */
-}
-
-/** italic **/
-.reveal em {
-    font-style: italic;
-}
-
-.reveal li {
-    margin: 0.29em 0 0 0;
-}
-
-/* moving text not to have bullet points outside current zone */
-.reveal ul,
-.reveal ol {
-    margin-left: 1em;
-}
-
-/** QUOTE **/
-
-.quoteblock {
-    margin: 0 1em 1.25em 1.5em;
-    display: table;
-}
-
-.quoteblock > .title {
-    margin-left: -1.5em;
-    margin-bottom: 0.75em;
-}
-
-.reveal div.quoteblock {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    margin-left: 3rem;
-}
-
-.quoteblock blockquote {
-    font-size: 120%;
-    word-spacing: 0.1em;
-    letter-spacing: 0;
-    font-style: italic;
-    text-align: justify;
-}
-
-.quoteblock blockquote:before {
-    content: "\201c";
-    float: left;
-    font-size: 2.75em;
-    font-weight: bold;
-    line-height: 0.6em;
-    margin-left: -0.6em;
-    color: rgb(141, 191, 68); /* green */
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-}
-
-.quoteblock .attribution {
-    margin-top: 0.5em;
-    margin-right: 0.5ex;
-    text-align: right;
-}
-
-/* author */
-.quoteblock .attribution,
-.verseblock .attribution {
-    font-style: italic;
-    color: #888;
-}
-
-.quoteblock .attribution cite,
-.verseblock .attribution cite {
-    display: block;
-    letter-spacing: -0.025em;
-}
-
-/** SPECIAL TEXT **/
-
-.reveal .small {
-    font-size: smaller;
-}
-
-.reveal .x-small {
-    font-size: 20px;
-}
-
-.reveal .big {
-    font-size: larger;
-}
-
-.reveal .underline {
-    text-decoration: underline;
-}
-
-.reveal span.line-through {
-    text-decoration: line-through;
-}
-
-/** FONT AWESOME **/
-
-/* Font awesome images are blue by default */
-.reveal a.image i.fa,
-.reveal span.icon i.fa:not(.fa-check-circle):not(.fa-times-circle) {
-    color: rgb(81, 155, 200); /* blue */
-}
-
-/* OK symbol is green */
-.reveal i.fa-check-circle {
-    color: rgb(141, 191, 68); /* green */
-}
-
-/* KO symbol is red */
-.reveal i.fa-times-circle {
-    color: #b11e3e; /* red */
-}
-
-/**** MARGINS ****/
-
-.reveal .exampleblock table {
-    margin-bottom: 0;
-}
-
-/* paragraphs margin */
-.reveal table,
-.reveal .listingblock,
-.reveal .paragraph,
-.reveal .exampleblock > div.content,
-.reveal section > .ulist,
-.reveal .olist,
-.reveal .dlist,
-.reveal .literalblock {
-    margin-bottom: 1.25rem;
-}
-
-.reveal .exampleblock .content > .ulist > ul,
-.reveal .qlist > ol,
-.reveal .dlist,
-.reveal .olist {
-    margin-left: 20px;
-}
-
-/** CODE **/
-
-.reveal code {
-    font-family: "M+ 1m";
-    font-size: 80%;
-    padding: 10px;
-    font-weight: bold;
-}
-
-.reveal pre:not(.ght) {
-    font-family: "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace;
-    font-weight: normal;
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding: 0.5em;
-    font-size: 80%;
-    margin-bottom: 0.75rem;
-}
-
-/* code should bot have the large border of other listing blocks */
-.reveal pre.listingblock {
-    padding: 0.1em;
-}
-
-/* title of code/image block */
-.reveal div.title,
-.reveal table > caption.title {
-    font-size: 26px;
-    font-style: italic;
-    font-weight: bold;
-    margin-bottom: 0.25rem;
-    color: #b11e3e;
-    text-align: left;
-}
-
-/* keywords */
-.reveal *:not(pre) > code {
-    font-family: "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace;
-    font-size: 0.9em;
-    font-style: normal !important;
-    letter-spacing: 0;
-    word-spacing: -0.15em;
-    line-height: 120%;
-    text-rendering: optimizeSpeed;
-    word-wrap: break-word;
-    padding: 0;
-    font-weight: normal;
-}
-
-/* lead paragraph is bigger */
-.reveal div.paragraph.lead {
-    font-size: 120%;
-}
-
-/** Super and sub **/
-
-.reveal sup {
-    vertical-align: super;
-    font-size: smaller;
-}
-
-.reveal sub {
-    vertical-align: sub;
-    font-size: smaller;
-}
-
-/** EXAMPLE BLOC **/
-
-.exampleblock > .content {
-    border-style: solid;
-    border-width: 2px;
-    border-color: #888;
-    padding: 0.5em;
-    border-radius: 4px;
-    padding-bottom: 0.25em;
-}
-
-/** to override a large space surrounding p's added in reveal.js 3.8.0 **/
-.reveal p {
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-
-/*********************************************
- * TITLE PAGE
- *********************************************/
-
-#sec-title-slide h1 {
-    margin-bottom: 20px;
-}
-#sec-title-slide h2 {
-    align-items: center;
-    margin: auto;
-    text-align: center;
-    font-size: 19px;
-    font-style: italic;
-    color: #888;
-}
-
-#sec-title-slide p.author {
-    height: 90%;
-    display: flex;
-    align-items: center;
-    font-size: 25px;
-    justify-content: flex-end;
-    text-align: right;
-    color: #888;
-    font-style: italic;
-}
-
-/*********************************************
- * OVERVIEW
- *********************************************/
-
-.reveal.overview .slides section:not(.stack):hover,
-.reveal.overview .slides section:not(.stack).present {
-    outline: 10px solid #8dbf44; /* green */
-    outline-offset: 10px;
-}
-
-/*********************************************
- * ADMONITION BLOCK (NOTE, TOP, WARNING, CAUTION)
- *********************************************/
-
-.reveal .admonitionblock table td.icon,
-.reveal .admonitionblock table td.content {
-    vertical-align: middle;
-}
-
-.reveal .admonitionblock td.icon .fa {
-    font-size: 40px;
-}
-
-/* text in admonition blocks */
-.reveal .admonitionblock td.content {
-    color: #888888; /* grey */
-    border-left: 1px solid #888888;
-}
-
-/* Multiple DIV in an admonition block : give them some space */
-.reveal .admonitionblock table td > div:not(:last-child),
-.reveal .exampleblock .content > *:not(:last-child) {
-    margin-bottom: 1.25rem;
-}
-
-/* a light bulb anything else than yellow is weird */
-.reveal .admonitionblock.tip td.icon {
-    text-shadow: 0px 0px 10px black;
-    color: yellow;
-}
-
-/* NOTE icon */
-.reveal .admonitionblock.note td.icon {
-    color: rgb(81, 155, 200); /* blue */
-}
-
-/* WARNING icon */
-.reveal .admonitionblock.warning td.icon {
-    color: #bf6900;
-}
-
-/* IMPORTANT icon */
-.reveal .admonitionblock.important td.icon {
-    color: #b11e3e;
-}
-
-/* CAUTION icon */
-.reveal .admonitionblock.caution td.icon {
-    color: rgb(239, 82, 91); /* pink */
-}
-
-/*********************************************
- * LINKS
- *********************************************/
-
-.reveal .slides a:not(.image),
-.chalkboard-button a,
-.slide-menu-button a {
-    color: rgb(81, 155, 200);
-}
-
-.reveal a:not(.image):hover {
-    color: #b11e3e;
-    text-shadow: none;
-    border: none;
-}
-
-/*********************************************
- * SLIDES NUMBERS, MENU & CHALKBOARD
- *********************************************/
-
-.reveal .slide-number,
-.reveal .slide-number-wrapper {
-    left: 8px;
-    right: 85%; /* without this shift, down arrow is visible but not clickable */
-    background-color: transparent;
-}
-
-.reveal .chalkboard-button[id="toggle-chalkboard"] {
-    left: 15px !important;
-    bottom: 140px !important;
-}
-
-.reveal .chalkboard-button[id="toggle-notes"] {
-    left: 17px !important;
-    bottom: 100px !important;
-}
-
-.reveal .slide-menu-button {
-    left: 15px !important;
-    bottom: 60px !important;
-}
-
-/* Slide number and other clickable objects */
-.reveal .slide-number a,
-.reveal .slide-number-wrapper a,
-.reveal .chalkboard-button a,
-.reveal .slide-menu-button a {
-    position: unset; /* default is "relative" on "a", and then the slide numbers are out of the view */
-    font-size: 30px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Slide number color */
-.reveal .slide-number a {
-    color: #b11e3e;
-}
-
-/*********************************************
- * IMAGES
- *********************************************/
-
-/* block image */
-.reveal .imageblock img {
-    display: block;
-    margin: 0px auto;
-    padding: 20px;
-}
-
-/* inline image : strangely shifted down so we perform a small adjustement */
-.reveal span.image img {
-    margin-bottom: -3px;
-}
-
-/* [.maxed-image] on section or image block */
-.reveal section.maxed-image > div > img,
-.imageblock.maxed-image img {
-    object-fit: contain;
-    height: 540px;
-    width: 1040px;
-    padding: 0px; /* to disable padding that else gives space around images */
-}
-
-/* [.half-image] on section or image block */
-.reveal section.half-image > div > img,
-.imageblock.half-image img {
-    object-fit: contain;
-    height: 300px;
-    width: 1040px;
-    padding: 0px; /* to disable padding that else gives space around images */
-}
-
-/* [.big-image] on section or image block */
-.reveal section.big-image > div > img,
-.imageblock.big-image img {
-    object-fit: contain;
-    height: 420px;
-    width: 1040px;
-    /* we define margin instead of padding, because we need space for text */
-    margin: 20px 0px;
-    padding: 0px;
-}
-
-.reveal section img.with-border {
-    border: 1px solid black;
-}
-
-.reveal figcaption {
-    text-align: center;
-}
-
-.reveal section.full-page-image img {
-    margin: 0;
-}
-
-/*********************************************
- * NAVIGATION CONTROLS
- *********************************************/
-
-.reveal .controls .enabled {
-    color: #b11e3e;
-}
-
-/*********************************************
- * PROGRESS BAR
- *********************************************/
-
-.reveal .progress {
-    background: rgba(0, 0, 0, 0.2);
-    height: 1%;
-}
-
-.reveal .progress span {
-    background: #b11e3e;
-}
-
-/* DESCRIPTION NUMBERS */
-.conum[data-value] {
-    background-color: rgb(141, 191, 68) !important;
-}
-
-/*********************************************
- * LAST SLIDE
- *********************************************/
-
-/* .questions */
-
-.reveal section.questions {
-    background: no-repeat center url("../question-mark.svg") !important;
-    background-size: 40% !important;
-    box-shadow: none !important;
-}
-
-/* .bubbles */
-
-.reveal section.bubbles {
-    background: no-repeat center url("../speak-bubbles.svg") !important;
-    background-size: 60% !important;
-    box-shadow: none !important;
-}
-
-/* .hands */
-
-.reveal section.hands {
-    background: none !important;
-    box-shadow: none !important;
-}
-
-/* foreground in ::before (needs to go outside the div) */
-.reveal section.hands:before {
-    content: "";
-    display: inline-block;
-    width: 180%;
-    height: 180%;
-    background: no-repeat center url(../real-hands.png);
-    background-size: 50%;
-    position: inherit;
-    left: -45%;
-    bottom: -30%;
-    opacity: 1;
-}
-
-/* .red-hands (.layers) */
-
-.reveal section.red-hands {
-    background: none;
-    box-shadow: none;
-}
-
-/* foreground in ::before (needs to go outside the div) */
-.reveal section.red-hands:before {
-    content: "";
-    display: inline-block;
-    width: 180%;
-    height: 180%;
-    background: no-repeat center url(../red-hands.png);
-    background-size: 50%;
-    position: inherit;
-    left: -40%;
-    bottom: -75%;
-    opacity: 1;
-}
-
-/* background in ::after (needs to go outside the div) */
-.reveal section.red-hands.layers:after {
-    content: "";
-    display: inline-block;
-    width: 180%;
-    height: 200%;
-    background: no-repeat center url(../red-hands.png);
-    background-size: 55%;
-    position: relative;
-    left: -45%;
-    bottom: 25%;
-    opacity: 0.4;
-}
-
-/*********************************************
- * C3.JS
- *********************************************/
-
-.c3 svg g {
-    font-size: 18px;
-}
-g.c3-legend-item text,
-g.c3-chart-arc text {
-    font-size: 20px;
-}
-table.c3-tooltip td {
-    font-size: 25px;
-    color: black;
-}
-table.c3-tooltip th {
-    background-color: #aaa;
-    font-size: 25px;
-    padding: 2px 5px;
-    text-align: left;
-    color: #fff;
-}
-text.c3-axis-y-label,
-text.c3-axis-y2-label {
-    font-size: 12px;
-}
-.c3-lines path {
-    stroke-width: 3px;
-}
-
-/*********************************************
- * Timeline-as-code
- *********************************************/
-
-.timeline ul {
-    position: relative;
-    overflow: auto;
-}
-
-/* vertical bar */
-.timeline ul:before {
-    content: "";
-    background: #b11e3e;
-    width: 5px;
-    position: absolute;
-    height: 98%;
-    left: 50%;
-}
-
-/* arrow */
-.timeline ul:after {
-    content: "";
-    border: solid #b11e3e;
-    border-width: 0 5px 5px 0;
-    padding: 10px;
-    transform: rotate(45deg);
-    position: absolute;
-    left: 49.05%;
-    bottom: 2%;
-}
-
-/* bubble list */
-.timeline ul {
-    list-style: none;
-    padding: 0 0 0 1em;
-    z-index: 1;
-    padding-left: 0;
-    margin: 0;
-}
-
-/* bubble */
-.timeline li {
-    border-radius: 0.4em;
-    padding: 0.5em;
-    margin-top: 0.8em;
-    margin-bottom: 1em;
-    position: relative;
-    width: 44%;
-}
-
-/* special shift for first right bubble */
-.timeline li:nth-of-type(2) {
-    margin-top: 2em;
-}
-
-.timeline li:nth-child(even) {
-    float: right;
-    clear: right;
-}
-
-.timeline li:nth-child(odd) {
-    float: left;
-    clear: left;
-}
-
-/* bubble arrow */
-.timeline ul li:before {
-    content: "";
-    position: absolute;
-    top: 28px;
-    width: 0;
-    height: 0;
-    border: 20px solid transparent;
-    margin-top: -20px;
-    margin-right: -20px;
-}
-
-/* right bubble arrow */
-.timeline ul li:nth-child(even):before {
-    left: -18px;
-    border-left: 0;
-}
-
-/* left bubble arrow */
-.timeline ul li:nth-child(odd):before {
-    right: 1px;
-    border-right: 0;
-}
-
-/* point on timeline */
-.timeline ul li:after {
-    content: "";
-    position: absolute;
-    transform: translateX(-50%);
-    border: 4px solid;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background: inherit;
-    top: 16px;
-}
-
-/* right bubble point on timeline */
-.timeline ul li:nth-child(even):after {
-    left: -32px;
-}
-
-/* left bubble point on timeline */
-.timeline ul li:nth-child(odd):after {
-    left: 522px;
-}
-
-/*********************************************
- * Footer
- *********************************************/
-
-.reveal footer {
-    text-shadow: 0 0 10px black;
-    opacity: 1;
-    position: fixed;
-    top: 0;
-    height: 22px;
-    z-index: 0; /* "next slide down" button has to be in front */
-    width: 100%;
-    font-size: 3vh;
-    text-align: center;
-    letter-spacing: 0em;
-    padding-top: 0.5vh;
-    background: none !important;
-}
-
-/* footer text */
-.reveal footer > p > a {
-    margin-bottom: 2px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 18px;
-    color: white;
-}
-
-/* Make Title-Footer invisible if explicitly indicated, no-toc, overview mode */
-.no-title-footer #title-footer,
-.no-toc-progress #title-footer,
-.overview #title-footer {
-    opacity: 0;
-}
-
-/*********************************************
- * Table of content
- *********************************************/
-
-/* in our reveal.js setup, last slide has no title, so we hide the "!" title in TOC */
-.toc ol li:last-child {
-    display: none;
-}
-
-/*********************************************
- * Pyramid-as-code
- *********************************************/
-
-/* bubble arrow */
-.pyramid li {
-    display: block;
-    border-radius: 0.4em;
-    padding: 0.4em;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.pyramid li:nth-child(1) {
-    width: 50%;
-}
-.pyramid li:nth-child(2) {
-    width: 55%;
-}
-.pyramid li:nth-child(3) {
-    width: 60%;
-}
-.pyramid li:nth-child(4) {
-    width: 65%;
-}
-.pyramid li:nth-child(5) {
-    width: 70%;
-}
-.pyramid li:nth-child(6) {
-    width: 75%;
-}
-.pyramid li:nth-child(7) {
-    width: 80%;
-}
-.pyramid li:nth-child(8) {
-    width: 85%;
-}
-.pyramid li:nth-child(9) {
-    width: 90%;
-}
-.pyramid li:nth-child(10) {
-    width: 95%;
-}
-
-/*********************************************
- * Slide menu
- *********************************************/
-.reveal .slide-menu-wrapper .slide-menu {
-    width: 500px;
-}
-
-/*********************************************
- * Base64 figures
- *********************************************/
-.reveal section .figure img {
-    width: 90%;
-    display: block;
-    margin: auto;
-}
-
-</style>
-
-<style type="text/css">
-@import "reveal-zenika-light.css";
-
-body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-              center url('../backgrounds/la-so-unsplash.jpg');
-  background-size: 3%, cover, cover;
-  font-size: 100%;
-}
-
-.present h2 {
-    margin-inline: auto;
-    text-align: center;
-    padding: 1em 0 0 0;
-}
-
-.present p{
-    margin: 1em 0 1em 0;
-    font-size: 200%;
-}
-
-.present table{
-    margin-inline: auto;
-    text-align: center;
-}
-
-.centered dl dt{
-    font-size: 150%;
-    font-weight: bold;
-}
-
-.centered dl dd{
-    font-size: 120%;
-}
-
-.leftcol p {
-    margin: 0.5em 1em 0em 0;
-}
-
-.rightcol p {
-    margin: 0.5em 1em 0em 0;
-}
-
-.large p {
-    font-size: 150%;
-}
-
-.bigh2 h2{
-  font-size: 90px !important;
-  height: 60%;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  float: none;
-}
-
-h1{
-  font-size: 90px !important;
-  height: 60% !important;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  float: none;
-}
-
-/* .reveal .slides section:not(.title):not(.stack), */
-/* .reveal .slides section > section,   */
-/* .reveal .slides section.stack > section.stack { */
-/*   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); */
-/*   background: transparent; */
-/* } */
-
-.nobox {
-    width: fit-content;
-    position: absolute;
-    top: 0%;
-}
-
-.reveal .slides section:has(h2.nobox) {
-    background: none !important;
-}
-
-img {
-    max-height: 500px;
-}
-
-figcaption {
-    margin-top: 20px;
-}
-
-</style>
-
-<style type="text/css">
 /* Phase out container and col for begin and end blocks of a single class (no nested) in org mode TODO*/
 /* @import url(../css/theme/reveal-code-relax.css); */
 /* @import url(../css/theme/reveal-zenika-light.css); */
@@ -1711,6 +572,11 @@ span[class|=section-number] {
     width: 10%;
 }
 
+.transparentbox {
+    background-color: black;
+    opacity: 0.6;
+}
+
 /* @font-face{ */
 /*     font-family: "Font Awesome 5 Free"; */
 /*     font-style: normal; */
@@ -1852,12 +718,15 @@ div.boardhandle > ul > li {
 <body>
 <div class="reveal">
 <div class="slides">
-<section id="sec-title-slide">
-<h1 class="title">Hello</h1><h2 class="author">Teacher Darris</h2>
+<section id="sec-title-slide" data-background="../images/off-to-school.gif" data-background-size="contain">
+
 </section>
 <section>
-<section id="slide-1">
-<h2 id="1"><span class="section-number-2">1.</span> Rules</h2>
+<section id="slide-1" data-background="../images/rules.gif" data-background-size="contain" data-background-transition="zoom">
+<h2 id="1"><span class="section-number-2">1.</span> </h2>
+</section>
+<section id="slide-1-1">
+<h3 id="1-1"><span class="section-number-3">1.1.</span> Rules</h3>
 <ol>
 <li class="fragment fade-up">When I say &ldquo;Class,&rdquo; you say &ldquo;Yes?&rdquo;</li>
 
@@ -1867,70 +736,47 @@ div.boardhandle > ul > li {
 
 <li class="fragment fade-up">Be nice to me and others</li>
 
-<li class="fragment fade-up">Only speak English
-<ul>
-<li>If you speak Chinese 4 times, I will give you homework :)</li>
-
-</ul></li>
+<li class="fragment fade-up">If you speak Chinese 4 times, I will give you homework
+¯\<sub>(ツ)</sub>_/¯</li>
 
 </ol>
 </section>
-<section id="slide-1-1">
-<h3 id="1-1"><span class="section-number-3">1.1.</span> If I say a fact, you can say</h3>
-<div class="large" id="org67dfb05">
-<div class="centered" id="org9115f84">
-<ul>
-<li>Ohh!</li>
-<li>Ahh!</li>
-<li>Wow!</li>
-<li>Marvelous!</li>
-<li>Stupendous!</li>
-<li>Amazing!</li>
-<li>Wonderful!</li>
-
-</ul>
-
-</div>
-
-</div>
+</section>
+<section>
+<section id="slide-2" data-background="../images/antarctica.gif" data-background-transition="zoom">
+<h2 id="2" class="transparentbox"><span class="section-number-2">2.</span> Last week, someone lived in Antarctica</h2>
 </section>
 </section>
 <section>
-<section id="slide-2">
-<h2 id="2"><span class="section-number-2">2.</span> Who used to live in Antarctica?</h2>
-<div class="centered" id="org66c5a0f">
-
-<div id="org5f4a7ce" class="figure">
-<p><img src="data:image/jpg;base64,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" />
-</p>
-</div>
-
-</div>
+<section id="slide-3" data-background="../images/penguin-ear.gif" data-background-size="contain" data-background-transition="zoom">
+<h2 id="3" class="transparentbox"><span class="section-number-2">3.</span> English <br> Ear</h2>
 </section>
 </section>
 <section>
-<section id="slide-3">
-<h2 id="3"><span class="section-number-2">3.</span> English Ear</h2>
-
-</section>
-</section>
-<section>
-<section id="slide-4">
-<h2 id="4"><span class="section-number-2">4.</span> Story Time Rule</h2>
-<div class="centered" id="orgfaae6d9">
-<div class="large" id="org83cf181">
-<p>
-Actors do only what I say.
-</p>
-
-</div>
-
-</div>
+<section id="slide-4" data-background="../images/words-trump.gif" data-background-size="contain" data-background-transition="zoom">
+<h2 id="4" class="transparentbox"><span class="section-number-2">4.</span> Vocabulary</h2>
 </section>
 <section id="slide-4-1">
-<h3 id="4-1"><span class="section-number-3">4.1.</span> When I say&#x2026;</h3>
-<div class="centered" id="orgc6ae8c1">
-<div class="large" id="orga077e63">
+<h3 id="4-1"><span class="section-number-3">4.1.</span> Vocabulary</h3>
+<ol>
+<li class="fragment fade-up">famous</li>
+<li class="fragment fade-up">countryside</li>
+<li class="fragment fade-up">during</li>
+<li class="fragment fade-up">pretty/handsome</li>
+<li class="fragment fade-up">go on a date (去约会)</li>
+
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-5" data-background="../images/first-day-of-school.gif" data-background-size="contain" data-background-transition="zoom">
+<h2 id="5" class="transparentbox"><span class="section-number-2">5.</span> Story Time</h2>
+</section>
+<section id="slide-5-1" data-background="../images/counting.gif" data-background-transition="zoom">
+<h3 id="5-1" class="transparentbox"><span class="section-number-3">5.1.</span> Counting</h3>
+</section>
+<section id="slide-5-2">
+<h3 id="5-2"><span class="section-number-3">5.2.</span> Vocabulary</h3>
 <ol>
 <li>famous</li>
 <li>countryside</li>
@@ -1938,50 +784,28 @@ Actors do only what I say.
 <li>pretty/handsome</li>
 
 </ol>
-
-</div>
-
-</div>
 </section>
-<section id="slide-4-2">
-<h3 id="4-2"><span class="section-number-3">4.2.</span> Date</h3>
-<div class="large" id="org9a9242a">
+<section id="slide-5-3">
+<h3 id="5-3"><span class="section-number-3">5.3.</span> First Day of School</h3>
 <p>
-There is a boy. The boy has a date (去约会) with a famous person tonight.
+It is someone&rsquo;s first day of school.
 </p>
-
-<p>
-Who is the boy?
-</p>
-
-</div>
 </section>
 </section>
 <section>
-<section id="slide-5">
-<h2 id="5"><span class="section-number-2">5.</span> Activity</h2>
+<section id="slide-6" data-background="../images/cute-talking.gif" data-background-size="contain" data-background-transition="zoom">
+<h2 id="6"><span class="section-number-2">6.</span> Activity</h2>
+</section>
+<section id="slide-6-1">
+<h3 id="6-1"><span class="section-number-3">6.1.</span> Partner 1</h3>
 <p>
-Darris is a teacher in Shenzhen. He used to live in Scotland, so he is not used to the heat in Shenzhen. He wakes up at 4 A.M. and drinks 25 cups of coffee. When there is no water, he eats coffee with a spoon instead. It is very crunchy.
+You are a little child. Tell the story.
 </p>
 </section>
-<section id="slide-5-1">
-<h3 id="5-1"><span class="section-number-3">5.1.</span> Questions</h3>
-<ol>
-<li class="fragment fade-up">When does Darris wake up every morning?</li>
-<li class="fragment fade-up">Does Darris drink coffee every morning?</li>
-<li class="fragment fade-up">How much coffee does he drink? How many cups?</li>
-<li class="fragment fade-up">Does Darris like the heat in Shenzhen?</li>
-<li class="fragment fade-up">Where did Darris live before Shenzhen? (Where did Darris &ldquo;use to&rdquo; live?)</li>
-<li class="fragment fade-up">What does Darris do when there is no water?</li>
-
-</ol>
-</section>
-</section>
-<section>
-<section id="slide-6">
-<h2 id="6"><span class="section-number-2">6.</span> Partner Activity</h2>
+<section id="slide-6-2">
+<h3 id="6-2"><span class="section-number-3">6.2.</span> Partner 2</h3>
 <p>
-Darris is a teacher in Shenzhen. He used to live in Scotland, so he is not used to the heat in Shenzhen. He wakes up at 4 A.M. and drinks 25 cups of coffee. When there is no water, he eats coffee with a spoon instead. It is very crunchy.
+You are the mother/father. Your child&rsquo;s story is fun! Say &ldquo;Oooh. Ahhh. Wow! Cool!&rdquo;
 </p>
 </section>
 </section>

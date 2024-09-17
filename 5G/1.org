@@ -18,73 +18,61 @@
 # #+REVEAL_HEAD_PREAMBLE: <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
 :end:
 
-* Rules
+* 
+    :PROPERTIES:
+    :reveal_background: ../images/rules.gif
+    :reveal_background_trans: zoom
+    :reveal_background_size: contain
+    :END:
+# to put a nonbreaking space, C-q M-SPC
+** Rules
 #+ATTR_REVEAL: :frag (fade-up)
 1. When I say "Class," you say "Yes?"
-2. Only speak English
-   - If you speak Chinese 4 times, I will give you homework :)
+
+2. When I say a fact, you say something like "Ohh", "Wow!", "Marvelous!"
+
 3. Pay attention
+
 4. Be nice to me and others
 
-** If I say a fact, you can say
-#+BEGIN_large
-#+BEGIN_centered
+5. If you speak Chinese 4 times, I will give you homework
+   ¯\_(ツ)_/¯
+
+* English @@html:<br>@@ Ear
+    :PROPERTIES:
+    :reveal_background: ../images/penguin-ear.gif
+    :reveal_background_size: contain
+    :reveal_background_trans: zoom
+    :html_headline_class: transparentbox
+    :END:
+* Vocabulary
+    :PROPERTIES:
+    :reveal_background: ../images/words-trump.gif
+    :reveal_background_size: contain
+    :reveal_background_trans: zoom
+    :html_headline_class: transparentbox
+    :END:
+** Vocabulary
 #+ATTR_REVEAL: :frag (fade-up)
-   - Ohh!
-   - Ahh!
-   - Wow!
-   - Marvelous!
-   - Stupendous!
-   - Amazing!
-   - Wonderful!
-#+END_centered
-#+END_large
+1. on foot, by car, by bus
+2. Ms.
+3. after
+4. far from
+5. get off
+
+* Activity
+    :PROPERTIES:
+    :reveal_background: ../images/cute-talking.gif
+    :reveal_background_trans: zoom
+    :reveal_background_size: contain
+    :END:
+
+** Partner 1
+You are a little child. Tell the story.
 
 
-** Three Types of Question
-#+BEGIN_large
-#+BEGIN_leftcol
-#+ATTR_REVEAL: :frag (fade-up)
-- Open Questions
- - Who?
- - What?
- - When?
- - Where?
- - Why?
- - How?
-#+END_leftcol
-
-#+BEGIN_rightcol
-#+ATTR_REVEAL: :frag (fade-up)
-- Yes/No
-- This/That
-#+END_rightcol
-#+END_large
-
-* English Ear
-* Story Time Rule
-#+BEGIN_centered
-#+BEGIN_large
-Actors do only what I say.
-#+END_large
-#+END_centered
-#+REVEAL: split
-#+BEGIN_centered
-#+BEGIN_large
-There is a boy. Today is his first day of school.
-#+END_large
-#+END_centered
-
-* COMMENT Frog Prince
-#+BEGIN_leftcol
-[[../images/frog-prince01.jpg]]
-#+END_leftcol
-
-#+BEGIN_rightcol
-This is the story of an ugly frog that turns into a handsome prince.
-#+END_rightcol
-
-* Partner Activity
+** Partner 2
+You are the mother/father. Your child's story is fun! Say "Oooh. Ahhh. Wow! Cool!"
 
 * Setup                                                     :noexport:
 # Local variables:
