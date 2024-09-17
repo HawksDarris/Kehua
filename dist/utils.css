@@ -13,6 +13,11 @@ body {
     justify-content: space-around;
 }
 
+.transparentbox {
+    background-color: black;
+    opacity: 0.6;
+}
+
 .col {
     padding-bottom: -2vh;
 }
@@ -189,6 +194,7 @@ span[class|=section-number] {
     font-family: 'Noto Emoji', sans-serif;
     width: 10%;
 }
+
 
 /* @font-face{ */
 /*     font-family: "Font Awesome 5 Free"; */
