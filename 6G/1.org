@@ -8,8 +8,7 @@
 #+REVEAL_HISTORY: true
 #+OPTIONS: timestamp:nil toc:nil
 #+OPTIONS: reveal_embed_local_resources:t
-#+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css ../plugin/menu/font-awesome/css/all.css
-#+REVEAL_ADD_PLUGIN: customcontrol RevealCustomControls /plugin/customcontrols/plugin.js /plugin/customcontrols/style.css
+# #+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard plugin/chalkboard/plugin.js plugin/chalkboard/style.css plugins/all.min.js plugins/all.min.css
 #+REVEAL_EXTRA_CSS: ../dist/utils.css
 #+REVEAL_THEME: black
 #+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE: contain
@@ -64,7 +63,6 @@
 2. countryside
 3. during
 4. pretty/handsome
-5. go on a date (去约会)
 
 * Story Time
     :PROPERTIES:
@@ -95,6 +93,7 @@ It is someone's first day of school.
     :reveal_background: ../images/cute-talking.gif
     :reveal_background_trans: zoom
     :reveal_background_size: contain
+    :html_headline_class: transparentbox
     :END:
 
 ** Partner 1

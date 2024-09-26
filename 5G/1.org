@@ -1,22 +1,22 @@
-#+TITLE: Wow, so pretty
+#+TITLE:
 #+SUBTITLE:
-#+AUTHOR: Teacher Darris
+#+AUTHOR:
 #+STARTUP: inlineimages
 :reveal_properties:
 #+PROPERTY: HEADER-ARGS+ :eval no-export
 #+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
-#+REVEAL_THEME: beige
 #+REVEAL_HISTORY: true
 #+OPTIONS: timestamp:nil toc:nil
 #+OPTIONS: reveal_embed_local_resources:t
-#+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css ../plugin/menu/font-awesome/css/all.css
-#+REVEAL_ADD_PLUGIN: customcontrol RevealCustomControls /plugin/customcontrols/plugin.js /plugin/customcontrols/style.css
-# #+REVEAL_ADD_PLUGIN: menu RevealMenu /plugin/menu/plugin.js /plugin/menu/menu.css /plugin/menu/menu.js /plugin/menu/font-awesome/css/all.css
-#+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
-#+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
+# #+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css ../plugin/menu/font-awesome/css/all.css
+# #+REVEAL_ADD_PLUGIN: customcontrol RevealCustomControls /plugin/customcontrols/plugin.js /plugin/customcontrols/style.css
+# #+REVEAL_ADD_PLUGIN: menu RevealMenu plugin/menu/menu.js
 #+REVEAL_EXTRA_CSS: ../dist/utils.css
-# #+REVEAL_HEAD_PREAMBLE: <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+#+REVEAL_THEME: black
+#+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE: contain
 :end:
+
+#+REVEAL_TITLE_SLIDE_BACKGROUND: ../images/off-to-school.gif
 
 * 
     :PROPERTIES:
@@ -45,6 +45,7 @@
     :reveal_background_trans: zoom
     :html_headline_class: transparentbox
     :END:
+
 * Vocabulary
     :PROPERTIES:
     :reveal_background: ../images/words-trump.gif
@@ -55,24 +56,26 @@
 ** Vocabulary
 #+ATTR_REVEAL: :frag (fade-up)
 1. on foot, by car, by bus
-2. Ms.
-3. after
-4. far from
-5. get off
+2. after
+3. far from
+4. get off
 
-* Activity
+** First Day of School
+It is someone's first day of school.
+
+** Counting
     :PROPERTIES:
-    :reveal_background: ../images/cute-talking.gif
+    :reveal_background: ../images/counting.gif
     :reveal_background_trans: zoom
-    :reveal_background_size: contain
+    :html_headline_class: transparentbox
     :END:
 
-** Partner 1
-You are a little child. Tell the story.
-
-
-** Partner 2
-You are the mother/father. Your child's story is fun! Say "Oooh. Ahhh. Wow! Cool!"
+** Vocabulary
+#+ATTR_REVEAL: :frag (fade-up)
+1. on foot, by car, by bus
+2. after
+3. far from
+4. get off
 
 * Setup                                                     :noexport:
 # Local variables:

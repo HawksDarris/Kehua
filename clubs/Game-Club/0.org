@@ -18,6 +18,7 @@
 # #+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
 #+REVEAL_EXTRA_CSS: ../../dist/utils.css
 #+REVEAL_DEFAULT_SLIDE_BACKGROUND_TRANSITION: zoom
+#+REVEAL_DEFAULT_SLIDE_BACKGROUND_SIZE: contain
 #+REVEAL_SPEED: slow
 :end:
 
@@ -26,6 +27,76 @@
 #+REVEAL_TITLE_SLIDE_BACKGROUND_REPEAT: repeat
 
 
+* ?
+    :PROPERTIES:
+    :reveal_background: ./images/what-am-i-carly.gif
+    :END:
+** How to play
+    :PROPERTIES:
+    :reveal_background: ./images/what-am-I.jpg
+    :reveal_background_size: contain
+    :END:
+** How to play
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+** How to play
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+1. Put on the headband
+** How to play
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+1. Put on the headband
+2. I put the card in the headband
+** How to play
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+1. Put on the headband
+2. I put the card in the headband
+3. You a ask yes/no question.
+** How to play
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+1. Put on the headband
+2. I put the card in the headband
+3. You a ask yes/no question.
+   - If the answer is "no," the next person goes.
+** How to play
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+1. Put on the headband
+2. I put the card in the headband
+3. You a ask yes/no question.
+   - If the answer is "no," the next person goes.
+   - If the answer is not "no," you can ask another question
+** How to play
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+1. Put on the headband
+2. I put the card in the headband
+3. You a ask yes/no question.
+   - If the answer is "no," the next person goes.
+   - If the answer is not "no," you can ask another question
+4. You win if you say what you are.
+** Questions
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+** Questions
+  :PROPERTIES:
+  :reveal_extra_attr: data-auto-animate
+  :END:
+- Am I an object?
+- Can you hold me in one hand?
+- Am I a person?
+- Am I an animal?
 * Charades
     :PROPERTIES:
     :reveal_background: ./images/charades-look.gif
@@ -74,36 +145,43 @@ How many colors are in the rainbow?
   :reveal_extra_attr: data-auto-animate
   :END:
 What is the slowest animal?
+
 ** Lies!
   :PROPERTIES:
   :reveal_extra_attr: data-auto-animate
   :END:
 How many teeth do humans have?
+
 ** Lies!
   :PROPERTIES:
   :reveal_extra_attr: data-auto-animate
   :END:
 What food do pandas eat?
+
 ** Lies!
   :PROPERTIES:
   :reveal_extra_attr: data-auto-animate
   :END:
 What do cows drink?
+
 ** Lies!
   :PROPERTIES:
   :reveal_extra_attr: data-auto-animate
   :END:
 How many bones do humans have?
+
 ** Lies!
   :PROPERTIES:
   :reveal_extra_attr: data-auto-animate
   :END:
 What do caterpillars turn into?
+
 ** Lies!
   :PROPERTIES:
   :reveal_extra_attr: data-auto-animate
   :END:
 What do you use to cut paper?
+
 ** Lies!
   :PROPERTIES:
   :reveal_extra_attr: data-auto-animate
@@ -130,7 +208,7 @@ What is this?
 3. One person draws the word. (一个人画出这个词。)
 4. Guess the word. (各队猜这个词。)
 
-* Apples to Apples
+* COMMENT Apples to Apples
 
 * Setup                                                     :noexport:
 # Local variables:

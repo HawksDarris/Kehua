@@ -1,0 +1,113 @@
+#+TITLE:Healthy
+#+SUBTITLE:
+#+AUTHOR:
+#+STARTUP: inlineimages
+:reveal_properties:
+#+PROPERTY: HEADER-ARGS+ :eval no-export
+#+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
+#+REVEAL_HISTORY: true
+#+OPTIONS: timestamp:nil toc:nil
+#+OPTIONS: reveal_embed_local_resources:t
+# #+OPTIONS: reveal_single_file:t
+# #+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css ../plugin/menu/font-awesome/css/all.css
+#+REVEAL_ADD_PLUGIN: customcontrol RevealCustomControls /plugin/customcontrols/plugin.js /plugin/customcontrols/style.css
+#+REVEAL_EXTRA_CSS: ../dist/utils.css
+#+REVEAL_THEME: black
+#+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE: contain
+:end:
+
+#+REVEAL_TITLE_SLIDE_BACKGROUND: ../images/healthy.gif
+
+* 
+    :PROPERTIES:
+    :reveal_background: ../images/rules.gif
+    :reveal_background_trans: zoom
+    :reveal_background_size: contain
+    :END:
+# to put a nonbreaking space, C-q M-SPC
+** Rules
+#+ATTR_REVEAL: :frag (fade-up)
+1. When I say "Class," you say "Yes?"
+
+2. When I say a fact, you say something like "Ohh", "Wow!", "Marvelous!"
+
+3. Pay attention
+
+4. Be nice to me and others
+
+5. If you speak Chinese 4 times, I will give you homework
+   ¯\_(ツ)_/¯
+
+* Last week
+    :PROPERTIES:
+    :reveal_background: ../images/off-to-school.gif
+    :reveal_background_size: contain
+    :reveal_background_trans: zoom
+    :html_headline_class: transparentbox
+    :END:
+
+* English @@html:<br>@@ Ear
+    :PROPERTIES:
+    :reveal_background: ../images/penguin-ear.gif
+    :reveal_background_size: contain
+    :reveal_background_trans: zoom
+    :html_headline_class: transparentbox
+    :END:
+* Vocabulary
+    :PROPERTIES:
+    :reveal_background: ../images/words-trump.gif
+    :reveal_background_size: contain
+    :reveal_background_trans: zoom
+    :html_headline_class: transparentbox
+    :END:
+** Vocabulary
+#+ATTR_REVEAL: :frag (fade-up)
+1. famous
+2. countryside
+3. during
+4. pretty/handsome
+
+* Story Time
+    :PROPERTIES:
+    :reveal_background: ../images/first-day-of-school.gif
+    :reveal_background_size: contain
+    :reveal_background_trans: zoom
+    :html_headline_class: transparentbox
+    :END:
+
+** Counting
+    :PROPERTIES:
+    :reveal_background: ../images/counting.gif
+    :reveal_background_trans: zoom
+    :html_headline_class: transparentbox
+    :END:
+
+** Vocabulary
+1. famous
+2. countryside
+3. during
+4. pretty/handsome
+
+** First Day of School
+It is someone's first day of school.
+
+* Activity
+    :PROPERTIES:
+    :reveal_background: ../images/cute-talking.gif
+    :reveal_background_trans: zoom
+    :reveal_background_size: contain
+    :html_headline_class: transparentbox
+    :END:
+
+** Partner 1
+You are a little child. Tell the story.
+
+
+** Partner 2
+You are the mother/father. Your child's story is fun! Say "Oooh. Ahhh. Wow! Cool!"
+
+* Setup                                                     :noexport:
+# Local variables:
+# after-save-hook: org-re-reveal-export-to-html
+# org-re-reveal-progress: true
+# end:

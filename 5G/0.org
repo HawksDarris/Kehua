@@ -1,99 +1,143 @@
-#+TITLE: Introduction
+#+TITLE:
 #+SUBTITLE:
-#+AUTHOR: Teacher Darris
+#+AUTHOR:
 #+STARTUP: inlineimages
 :reveal_properties:
 #+PROPERTY: HEADER-ARGS+ :eval no-export
 #+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
-#+REVEAL_THEME: beige
 #+REVEAL_HISTORY: true
 #+OPTIONS: timestamp:nil toc:nil
 #+OPTIONS: reveal_embed_local_resources:t
-#+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css ../plugin/menu/font-awesome/css/all.css
-#+REVEAL_ADD_PLUGIN: customcontrol RevealCustomControls /plugin/customcontrols/plugin.js /plugin/customcontrols/style.css
-# #+REVEAL_ADD_PLUGIN: menu RevealMenu /plugin/menu/plugin.js /plugin/menu/menu.css /plugin/menu/menu.js /plugin/menu/font-awesome/css/all.css
-#+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
-#+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
+# #+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css ../plugin/menu/font-awesome/css/all.css
+# #+REVEAL_ADD_PLUGIN: customcontrol RevealCustomControls /plugin/customcontrols/plugin.js /plugin/customcontrols/style.css
+# #+REVEAL_ADD_PLUGIN: menu RevealMenu plugin/menu/menu.js
 #+REVEAL_EXTRA_CSS: ../dist/utils.css
-# #+REVEAL_HEAD_PREAMBLE: <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+#+REVEAL_THEME: black
+#+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE: contain
 :end:
 
+#+REVEAL_TITLE_SLIDE_BACKGROUND: ../images/new-teacher.gif
 
-* Rules
-
+* 
+    :PROPERTIES:
+    :reveal_background: ../images/rules.gif
+    :reveal_background_trans: zoom
+    :reveal_background_size: contain
+    :END:
+# to put a nonbreaking space, C-q M-SPC
+** Rules
 #+ATTR_REVEAL: :frag (fade-up)
 1. When I say "Class," you say "Yes?"
-2. Only speak English
-   - If you speak Chinese 4 times, I will give you homework :)
+
+2. When I say a fact, you say something like "Ohh", "Wow!", "Marvelous!"
+
 3. Pay attention
+
 4. Be nice to me and others
 
-** If I say a fact, you can say
-#+BEGIN_large
-#+BEGIN_centered
-#+ATTR_REVEAL: :frag (fade-up)
-   - Ohh!
-   - Ahh!
-   - Wow!
-   - Marvelous!
-   - Stupendous!
-   - Amazing!
-   - Wonderful!
-#+END_centered
-#+END_large
+5. If you speak Chinese 4 times, I will give you homework
+   ¯\_(ツ)_/¯
+
+* Vocabulary
+    :PROPERTIES:
+    :reveal_background: ../images/words-trump.gif
+    :reveal_background_size: contain
+    :reveal_background_trans: zoom
+    :html_headline_class: transparentbox
+    :END:
+
+** 
+    :PROPERTIES:
+    :reveal_background: ../images/g5u1v.png
+    :reveal_background_size: contain
+    :reveal_background_trans: zoom
+    :END:
+
+* Dialogue
+:PROPERTIES:
+   :reveal_extra_attr: data-auto-animate
+:END:
+* Dialogue
+:PROPERTIES:
+   :reveal_extra_attr: data-auto-animate
+:END:
+Did you meet our new classmate today?
+
+* Dialogue
+:PROPERTIES:
+   :reveal_extra_attr: data-auto-animate
+:END:
+
+Did you meet our new classmate today?
+
+No! I wanted to meet her this morning. What is her name?
 
 
-** Three Types of Question
-#+BEGIN_large
+
+
+* Dialogue
+:PROPERTIES:
+   :reveal_extra_attr: data-auto-animate
+:END:
+
 #+BEGIN_leftcol
-#+ATTR_REVEAL: :frag (fade-up)
-- Open Questions
- - Who?
- - What?
- - When?
- - Where?
- - Why?
- - How?
+Did you meet our new classmate today?
 #+END_leftcol
 
 #+BEGIN_rightcol
-#+ATTR_REVEAL: :frag (fade-up)
-- Yes/No
-- This/That
-#+END_rightcol
-#+END_large
-
-* Turn = become
-#+BEGIN_leftcol
-[[../images/turn-banana.jpg]]
-#+END_leftcol
-
-#+BEGIN_rightcol
-Green bananas turn yellow. Yellow bananas turn brown. Brown bananas turn black.
+No! I wanted to meet her this morning. What is her name?
 #+END_rightcol
 
-* Grammar
-#+BEGIN_centered
-turn /[adj.]/
+#+REVEAL_HTML: <br><br><br><br><br>
 
-turn into /[n.]/
-#+END_centered
+Her name is Sarah. She sits next to John. You can meet her this afternoon.
 
 
-** Grammar
-A yellow banana _turns brown_
 
+
+* Meet your new teacher
+    :PROPERTIES:
+    :reveal_background: ../images/pink-cat.jpeg
+    :reveal_background_size: contain
+    :reveal_background_trans: zoom
+    :html_headline_class: transparentbox
+    :END:
+
+** There is a pink cat.
+    :PROPERTIES:
+    :html_headline_class: transparentbox
+    :END:
+    #+BEGIN_leftcol
+[[../images/pink-cat.jpeg]]
+    #+END_leftcol
+    #+BEGIN_rightcol
+This is the pink cat. /His/ /name/ is Darris. I am the cat.
+    #+END_rightcol
+
+** There is a pink cat.
+    :PROPERTIES:
+    :html_headline_class: transparentbox
+    :END:
+    #+BEGIN_leftcol
+[[../images/pink-cat.jpeg]]
+    #+END_leftcol
+    #+BEGIN_rightcol
+He is a pink cat in the /morning/. He is your /new/ teacher.
+    #+END_rightcol
+
+** There is also a student...
 #+BEGIN_large
-*OR*
+/Who is a student?/
 #+END_large
 
+** I like this student because she always sits down.
+    #+BEGIN_leftcol
+[[../images/pink-cat-angry.jpeg]]
+    #+END_leftcol
+    #+BEGIN_rightcol
+    Pink cats do not like students who stand up. 😡
+    #+END_rightcol
 
-A yellow banana _turns into a brown banana_
-
-
-
-* Partner Activity
-Darris is a pink cat. Pink cats are special because they eat only yellow food. If there is no yellow food, Darris turns brown. Darris likes being a pink cat, so he always has yellow food.
 
 * Homework for 4x Chinese
 1. Translate to Chinese (翻译)

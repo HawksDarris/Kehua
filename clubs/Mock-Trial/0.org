@@ -10,13 +10,7 @@
 #+REVEAL_HISTORY: true
 #+OPTIONS: timestamp:nil toc:nil num:nil
 #+OPTIONS: reveal_embed_local_resources:t
-# #+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css ../plugin/menu/font-awesome/css/all.css
-# #+REVEAL_ADD_PLUGIN: customcontrol RevealCustomControls /plugin/customcontrols/plugin.js /plugin/customcontrols/style.css
-# #+REVEAL_ADD_PLUGIN: menu RevealMenu /plugin/menu/plugin.js /plugin/menu/menu.css /plugin/menu/menu.js /plugin/menu/font-awesome/css/all.css
-# #+REVEAL_EXTRA_CSS: ../css/theme/reveal-zenika.css
-# #+REVEAL_EXTRA_CSS: ../css/theme/reveal-code-relax.css
 #+REVEAL_EXTRA_CSS: ../../dist/utils.css
-# #+REVEAL_HEAD_PREAMBLE: <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
 :end:
 
 * Rumpelstiltskin
@@ -334,7 +328,6 @@ The Queen "guesses" again, "Is your name Stefanapolous?"
 #+BEGIN_rightcol
 He gets so mad he grabs his foot and rips himself in half.
 #+END_rightcol
-
 
 ** The End
 
