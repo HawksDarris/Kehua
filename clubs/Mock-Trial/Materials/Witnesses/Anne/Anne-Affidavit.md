@@ -6,6 +6,7 @@ geometry: "letterpaper, margin=1in"
 header-includes:
   - \usepackage{lineno}
   - \usepackage{fancyhdr}
+  - \usepackage{fontspec}
   - \pagestyle{fancy}
   - \fancyhead[L]{Affidavit of Anne Miller}
   - \fancyhead[C]{}
@@ -17,12 +18,18 @@ header-includes:
   - \usepackage{titlesec}
   - \titleformat{\section}{\normalfont\Large\bfseries\centering}{\thesection}{1em}{}
   - \titleformat{\subsection}{\normalfont\bfseries}{\thesubsection}{1em}{}
+  - \usepackage[slantfont, boldfont]{xeCJK}
+  - \setmainfont{TeX Gyre Schola}
+  - \XeTeXlinebreaklocale "zh"
+  - \XeTeXlinebreakskip = 0pt plus 1pt
+  - \AtBeginDocument{ \XeTeXcharclass`^^^^2026=0 \XeTeXcharclass`^^^^2019=0 }
 linestretch: 1.5
 ---
 # Affidavit of Anne Miller
 
 ```{=latex}
 \linenumbers
+
 ```
 
 My name is **Queen** Anne Miller. I am the Queen. You probably know who I am because I am so rich and famous. I do not have a job because I am the Queen, so people will bring me anything I want. I am here because that ugly, weird, little creep$\footnote{怪人}$, Rumpelstiltskin, is suing$\footnote{起诉}$ me after he tried to take my baby. 
@@ -31,7 +38,7 @@ My father and my husband, King Theo, are very good friends. When my father intro
 
 Some people are saying that my father told the King that I could spin straw into gold, but that is not true. My father never said that. The King wanted gold, and there was a lot of straw, but I had no idea how to turn it into gold. That’s when Rumpelstiltskin showed up. I didn’t ask for his help--he appeared on his own and asked me for my name. I did not ask him what his name was because I did not care. He told me he could spin the straw into gold, but I think he did it because he wanted to impress me. He looked at me like he was in love with me because I’m so beautiful. I didn’t think much of him at first because, well, he’s a bit strange and not very handsome, but I let him do it.
 
-Rumpelstiltskin did spin the straw into gold, but then he asked for something in return. The first night, I gave him my necklace. The second night, I gave him my ring. I wasn’t really sure why he wanted these things, but I just wanted to get through it. He seemed happy to help me because of how much he liked me because I am so pretty. Maybe he wanted to help me because he knew Teddy-poo liked me. 
+Rumpelstiltskin did spin the straw into gold, but then he asked for something in return. The first night, I gave him my necklace. The second night, I gave him my ring. I wasn’t really sure why he wanted these things, but I just wanted him to go away (he is ugly and weird). I did not care about the necklace and ring because I knew my Teddy-poo would give me anything I wanted. Rumpelstiltskin seemed happy to help me because of how much he liked me because I am so pretty. Maybe he wanted to help me because he knew Teddy-poo liked me.
 
 Then, on the third night, he asked for something completely crazy--he said he wanted my first child! I thought he was joking, so I said yes, but I thought it would never actually happen. After my baby was born, I was so happy. But then Rumpelstiltskin came back! He said he wanted to take my baby, like we agreed. I couldn’t believe it. I would never let anyone take my child. I begged him not to, and that’s when he gave me a chance to guess his name. He said if I could guess his name, he would not take my baby. I started guessing names because it was the only way to keep my baby safe.
 
