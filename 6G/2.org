@@ -16,6 +16,7 @@
 #+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE: contain
 :end:
 
+
 #+REVEAL_TITLE_SLIDE_BACKGROUND: ../images/healthy.gif
 
 * 
@@ -71,13 +72,6 @@
     :PROPERTIES:
     :reveal_background: ../images/first-day-of-school.gif
     :reveal_background_size: contain
-    :reveal_background_trans: zoom
-    :html_headline_class: transparentbox
-    :END:
-
-** Counting
-    :PROPERTIES:
-    :reveal_background: ../images/counting.gif
     :reveal_background_trans: zoom
     :html_headline_class: transparentbox
     :END:

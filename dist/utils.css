@@ -207,3 +207,7 @@ span[class|=section-number] {
 /* 	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.ttf") format("truetype"), */
 /* 	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.svg#fontawesome") format("svg"); */
 /* } */
+
+.make-it-pop {
+  filter: drop-shadow(0 0 10px purple);
+}
