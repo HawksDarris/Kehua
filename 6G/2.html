@@ -578,6 +578,10 @@ span[class|=section-number] {
     width: 10%;
 }
 
+.invisible {
+    display: none;
+}
+
 
 /* @font-face{ */
 /*     font-family: "Font Awesome 5 Free"; */
@@ -679,7 +683,7 @@ span[class|=section-number] {
 </section>
 <section>
 <section id="slide-1" data-background="../images/rules.gif" data-background-size="contain" data-background-transition="zoom">
-<h2 id="1"><span class="section-number-2">1.</span> </h2>
+<h2 id="1" class="invisible"><span class="section-number-2">1.</span> Rules</h2>
 </section>
 <section id="slide-1-1">
 <h3 id="1-1"><span class="section-number-3">1.1.</span> Rules</h3>
@@ -917,7 +921,7 @@ plugins: [ RevealMarkdown, RevealNotes, RevealSearch, RevealZoom, RevealCustomCo
 dependencies: [
 ]
 
-,hash: true, hashOneBasedIndex: true, respondToHashChanges: true, fragmentInURL: true, touch: true});
+,hash: true, hashOneBasedIndex: true, respondToHashChanges: true, fragmentInURL: true, touch: true, dependencies: [ {src: '../node_modules/revealjs-animated/dist/revealjs-animated.js', async: true} ]});
 </script>
 </body>
 </html>

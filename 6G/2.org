@@ -16,16 +16,22 @@
 #+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE: contain
 :end:
 
-
 #+REVEAL_TITLE_SLIDE_BACKGROUND: ../images/healthy.gif
 
-* 
+* Test :noexport:
+:PROPERTIES:
+:html_headline_class: fragment animated move-to-middle-top
+:END:
+#+REVEAL_HTML: <p class="fragment animated scale-up">Let me Grow!</p>
+
+* Rules
     :PROPERTIES:
     :reveal_background: ../images/rules.gif
+    :html_headline_class: invisible
     :reveal_background_trans: zoom
     :reveal_background_size: contain
     :END:
-# to put a nonbreaking space, C-q M-SPC
+    # to put a nonbreaking space, C-q M-SPC
 ** Rules
 #+ATTR_REVEAL: :frag (fade-up)
 1. When I say "Class," you say "Yes?"
