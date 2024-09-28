@@ -195,6 +195,10 @@ span[class|=section-number] {
     width: 10%;
 }
 
+.invisible {
+    display: none;
+}
+
 
 /* @font-face{ */
 /*     font-family: "Font Awesome 5 Free"; */
