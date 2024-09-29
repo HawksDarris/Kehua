@@ -1,0 +1,16 @@
+#+STARTUP: inlineimages
+#+SUBTITLE:
+#+AUTHOR:
+:reveal_properties:
+#+PROPERTY: HEADER-ARGS+ :eval no-export
+#+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
+#+REVEAL_HISTORY: true
+#+OPTIONS: timestamp:nil toc:nil
+#+OPTIONS: reveal_embed_local_resources:t
+# #+OPTIONS: reveal_single_file:t
+# #+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css ../plugin/menu/font-awesome/css/all.css
+#+REVEAL_ADD_PLUGIN: customcontrol RevealCustomControls /plugin/customcontrols/plugin.js /plugin/customcontrols/style.css
+#+REVEAL_EXTRA_CSS: ../dist/utils.css
+#+REVEAL_THEME: black
+#+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE: contain
+:end:

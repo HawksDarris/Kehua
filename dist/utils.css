@@ -5,39 +5,40 @@
 /* @import url(../dist/headerfooter.css); */
 
 body {
-    font-family: "NotoColorEmoji", "Lato Regular" "OpenSans Bold","OpenSans Regular", "M+ 1m", Arial, sans-serif; /* Fallback fonts */
+  font-family: "NotoColorEmoji", "Lato Regular" "OpenSans Bold","OpenSans Regular", "M+ 1m", Arial, sans-serif; /* Fallback fonts */
 }
 
 .container{
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
-.transparentbox {
-    background-color: black;
-    opacity: 0.6;
+.transparentbox h1,h2 {
+  opacity: 0.8;
+  background: rgb(0 0 0 / 60%);
 }
 
 .col {
-    padding-bottom: -2vh;
+  padding-bottom: -2vh;
 }
 
 * .figure{
-    margin-bottom: -3vh;
-    margin-top: -4vh;
-    width: fit-content;
+  margin-bottom: -3vh;
+  margin-top: -4vh;
+  width: fit-content;
 }
 
 * .figure img{
-    width:100%;
+  width:100%;
 }
 
 img {
-    width:100%;
+  max-width:100%;
+  object-fit: contain;
 }
 
 p img {
-    margin-bottom: 10%;
+  margin-bottom: 10%;
 }
 
 span[class|=section-number] {
@@ -45,81 +46,81 @@ span[class|=section-number] {
 }
 
 .reveal table{
-    margin-bottom: 4vh;
+  margin-bottom: 4vh;
 }
 
 .left-column {
-    float: left;
-    width: fit-content;
+  float: left;
+  width: fit-content;
 }
 
 .right-column {
-    float: right;
-    width: 50%;
+  float: right;
+  width: 50%;
 }
 
 .center-bottom {
-    clear: both;
-    padding-top: 1em;
+  clear: both;
+  padding-top: 1em;
 }
 
 .reveal .leftcol {
-    float: left;
-    width: 50%;
+  float: left;
+  width: 50%;
 }
 
 .reveal .rightcol {
-    float: right;
-    margin-inline: auto;
-    width: 50%;
-    /* justify-content: center; */
-    /* justify-items: center; */
-    /* align-content: center; */
-    /* align-items: center; */
+  float: right;
+  margin-inline: auto;
+  width: 50%;
+  /* justify-content: center; */
+  /* justify-items: center; */
+  /* align-content: center; */
+  /* align-items: center; */
 }
 
 .reveal .rightcol .figure{
-    margin-inline: auto;
+  margin-inline: auto;
 }
 
 .reveal .leftcol30 {
-    float: left;
-    width: 28%;
+  float: left;
+  width: 28%;
 }
 
 .reveal .rightcol30 {
-    float: right;
-    width: 28%;
+  float: right;
+  width: 28%;
 }
 
 .reveal .leftcol40 {
-    float: left;
-    width: 38%;
+  float: left;
+  width: 38%;
 }
 
 .reveal .rightcol40 {
-    float: right;
-    width: 38%;
+  float: right;
+  width: 38%;
 }
 
 .reveal .leftcol60 {
-    float: left;
-    width: 58%;
+  float: left;
+  width: 58%;
 }
 
 .reveal .rightcol60 {
-    float: right;
-    width: 58%;
+  float: right;
+  width: 58%;
 }
 
 .reveal .leftcol70 {
-    float: left;
-    width: 68%;
+  float: left;
+  width: 68%;
 }
 
 .reveal .rightcol70 {
-    float: right;
-    width: 68%;
+  float: right;
+  width: 68%;
 }
 
 
@@ -135,26 +136,26 @@ span[class|=section-number] {
 }
 
 .centered audio{
-    padding-top: 200px;
+  padding-top: 200px;
 }
 
 .center-text {
-    text-align: center;
-    width: 70%;
-    margin-inline: auto;
+  text-align: center;
+  width: 70%;
+  margin-inline: auto;
 }
 
 
 .story em{
-    color: darkgoldenrod;
+  color: darkgoldenrod;
 }
 
 * i{
-    color: darkgoldenrod;
+  color: darkgoldenrod;
 }
 
 .story figcaption{
-    padding-top: 0.5em;
+  padding-top: 0.5em;
 }
 
 .story .figure {
@@ -162,41 +163,49 @@ span[class|=section-number] {
 }
 
 .large {
-    font-size: 200%;
+  font-size: 150%;
+}
+
+.larger {
+  font-size: 200%;
+}
+
+.small {
+  font-size: 80%;
 }
 
 @font-face {
-    font-family: "NotoColorEmoji";
-    src:
-	url("../css/fonts/Noto_Color_Emoji/NotoColorEmoji-Regular.ttf") format("truetype"),
-	url("../css/fonts/Noto_Emoji/static/NotoEmoji-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+  font-family: "NotoColorEmoji";
+  src:
+    url("../css/fonts/Noto_Color_Emoji/NotoColorEmoji-Regular.ttf") format("truetype"),
+    url("../css/fonts/Noto_Emoji/static/NotoEmoji-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-    font-family: "OpenSans Bold", sans-serif;
-    src: url("../fonts/Open_sans/OpenSans-Bold.ttf") format("truetype");
+  font-family: "OpenSans Bold", sans-serif;
+  src: url("../css/fonts/Open_sans/OpenSans-Bold.ttf") format("truetype");
 }
 @font-face {
-    font-family: "OpenSans Regular";
-    src: url("../fonts/Open_sans/OpenSans-Regular.ttf") format("truetype");
+  font-family: "OpenSans Regular";
+  src: url("../css/fonts/Open_sans/OpenSans-Regular.ttf") format("truetype");
 }
 @font-face {
-    font-family: "Lato Regular";
-    src: url("../fonts/Lato2/Lato-Regular.ttf") format("truetype");
+  font-family: "Lato Regular";
+  src: url("../css/fonts/Lato2/Lato-Regular.ttf") format("truetype");
 }
 @font-face {
-    font-family: "M+ 1m";
-    src: url("../fonts/M+1m/mplus-1m-regular.ttf") format("truetype");
+  font-family: "M+ 1m";
+  src: url("../css/fonts/M+1m/mplus-1m-regular.ttf") format("truetype");
 }
 
 .emoji {
-    font-family: 'Noto Emoji', sans-serif;
-    width: 10%;
+  font-family: 'Noto Emoji', sans-serif;
+  width: 10%;
 }
 
 .invisible {
-    display: none;
+  display: none;
 }
 
 
@@ -214,4 +223,19 @@ span[class|=section-number] {
 
 .make-it-pop {
   filter: drop-shadow(0 0 10px purple);
+}
+
+.fill-in-the-blank {
+  border-top: 1px solid #FFF;
+  display: inline-block;
+  width: 200px;
+  margin: 0;
+}
+
+.reveal.reveal img
+{
+    border: none;
+    box-shadow: none;
+    max-height: calc(66vh);
+    max-width: calc(66vw);
 }

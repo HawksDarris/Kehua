@@ -1,0 +1,12 @@
+#+MACRO: move-left-img #+REVEAL_HTML:<img data-animated-move-to-left="-500px" class="fragment animated move-to figure" src="$1"/>
+#+MACRO: move-right-img #+REVEAL_HTML:<img data-animated-move-to-left="500px" class="fragment animated move-to figure" src="$1"/>
+
+#+MACRO: bounce-left-img #+REVEAL_HTML:<img data-animated-move-to-left="1200px" data-animated-iterations="20" data-animated-fill="backwards" class="fragment animated move-to figure" src="$1"/>
+
+#+MACRO: bounce-right-img #+REVEAL_HTML:<img data-animated-move-to-left="-500px" data-animated-iterations="20" data-animated-fill="backwards" class="fragment animated move-to figure" src="$1"/>
+
+#+MACRO: blank @@html:<span style="display:inline-block; width:$1; border-top:1px solid #FFF; margin: 0;"></span>@@
+
+#+MACRO: move-right #+REVEAL_HTML:<$1 data-animated-move-to-left="500px" class="fragment animated move-to" $2>$3</$1>
+
+#+MACRO: fly-ltr #+REVEAL_HTML: <span style="margin-left:-1200px"><$1 data-animated-move-to-left="$2" data-animated-iterations="$3" data-animated-fill="$4" class="fragment animated move-to figure" src="$5"/></span>

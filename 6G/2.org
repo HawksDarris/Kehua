@@ -1,22 +1,33 @@
-#+TITLE:Healthy
-#+SUBTITLE:
-#+AUTHOR:
-#+STARTUP: inlineimages
-:reveal_properties:
-#+PROPERTY: HEADER-ARGS+ :eval no-export
-#+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
-#+REVEAL_HISTORY: true
-#+OPTIONS: timestamp:nil toc:nil
-#+OPTIONS: reveal_embed_local_resources:t
-# #+OPTIONS: reveal_single_file:t
-# #+REVEAL_ADD_PLUGIN: chalkboard RevealChalkboard /plugin/chalkboard/plugin.js /plugin/chalkboard/style.css ../plugin/menu/font-awesome/css/all.css
-#+REVEAL_ADD_PLUGIN: customcontrol RevealCustomControls /plugin/customcontrols/plugin.js /plugin/customcontrols/style.css
-#+REVEAL_EXTRA_CSS: ../dist/utils.css
-#+REVEAL_THEME: black
-#+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE: contain
-:end:
+#+TITLE: Cool Unicorn
+#+INCLUDE: ../dist/setup.org
+#+INCLUDE: ../dist/macros.org
+# #+TITLE: Healthy
+# #+REVEAL_TITLE_SLIDE_BACKGROUND: ../images/healthy.gif
+#+REVEAL_TITLE_SLIDE:
 
-#+REVEAL_TITLE_SLIDE_BACKGROUND: ../images/healthy.gif
+* Cool Unicorn
+:PROPERTIES:
+:html_headline_class: invisible
+:reveal_extra_attr: data-auto-animate
+:END:
+#+BEGIN_rightcol
+{{{bounce-left-img(../images/chubbicorns.gif)}}}
+#+END_rightcol
+
+** Cool Unicorn
+:PROPERTIES:
+:html_headline_class: invisible
+:reveal_extra_attr: data-auto-animate
+:END:
+#+BEGIN_leftcol
+#+BEGIN_large
+Wow! What a cool unicorn.
+#+END_large
+#+END_leftcol
+
+#+BEGIN_rightcol
+{{{bounce-left-img(../images/chubbicorns.gif)}}}
+#+END_rightcol
 
 * Test :noexport:
 :PROPERTIES:
@@ -25,13 +36,14 @@
 #+REVEAL_HTML: <p class="fragment animated scale-up">Let me Grow!</p>
 
 * Rules
-    :PROPERTIES:
-    :reveal_background: ../images/rules.gif
-    :html_headline_class: invisible
-    :reveal_background_trans: zoom
-    :reveal_background_size: contain
-    :END:
-    # to put a nonbreaking space, C-q M-SPC
+:PROPERTIES:
+:html_headline_class: fragment animated move-to-middle-top
+:reveal_background: ../images/rules.gif
+:html_headline_class: invisible
+:reveal_background_trans: zoom
+:reveal_background_size: contain
+:END:
+
 ** Rules
 #+ATTR_REVEAL: :frag (fade-up)
 1. When I say "Class," you say "Yes?"
@@ -46,65 +58,113 @@
    ¯\_(ツ)_/¯
 
 * Last week
-    :PROPERTIES:
-    :reveal_background: ../images/off-to-school.gif
-    :reveal_background_size: contain
-    :reveal_background_trans: zoom
-    :html_headline_class: transparentbox
-    :END:
+:PROPERTIES:
+:reveal_background: ../images/off-to-school.gif
+:reveal_background_size: contain
+:reveal_background_trans: zoom
+:html_headline_class: transparentbox
+:END:
 
 * English @@html:<br>@@ Ear
-    :PROPERTIES:
-    :reveal_background: ../images/penguin-ear.gif
-    :reveal_background_size: contain
-    :reveal_background_trans: zoom
-    :html_headline_class: transparentbox
-    :END:
+:PROPERTIES:
+:reveal_background: ../images/penguin-ear.gif
+:reveal_background_size: contain
+:reveal_background_trans: zoom
+:html_headline_class: transparentbox
+:END:
 * Vocabulary
-    :PROPERTIES:
-    :reveal_background: ../images/words-trump.gif
-    :reveal_background_size: contain
-    :reveal_background_trans: zoom
-    :html_headline_class: transparentbox
-    :END:
+:PROPERTIES:
+:reveal_background: ../images/vocabulary.gif
+:reveal_background_size: contain
+:reveal_background_trans: zoom
+:html_headline_class: invisible
+:END:
 ** Vocabulary
-#+ATTR_REVEAL: :frag (fade-up)
+#+ATTR_REVEAL: :frag (highlight-current-red)
 1. famous
 2. countryside
 3. during
 4. pretty/handsome
+* Quiz
+:PROPERTIES:
+:reveal_background: ../images/quiz.gif
+:reveal_background_size: contain
+:reveal_background_trans: zoom
+:html_headline_class: invisible
+:reveal_extra_attr: data-auto-animate
+:END:
+** Quiz
+:PROPERTIES:
+:reveal_extra_attr: data-auto-animate
+:END:
+#+ATTR_REVEAL: :frag (fade-in-then-out)
+1. The artist became {{{blank(200px)}}} after painting a mural that everyone loved.
+2. We went for a walk in the {{{blank(200px)}}} to see the beautiful flowers and animals.
+3. {{{blank(200px)}}} the summer, I like to go swimming in the lake.
+4. My neighbor is very {{{blank(200px)}}}; people often ask him for fashion advice.
+5. The {{{blank(200px)}}} landscape was filled with rolling hills and bright blue skies.
+** Quiz
+:PROPERTIES:
+:reveal_extra_attr: data-auto-animate
+:END:
+#+ATTR_REVEAL: :frag (fade-in-then-out)
+1. She sang beautifully {{{blank(200px)}}} the concert, and everyone clapped.
+2. My sister has a {{{blank(200px)}}} smile that makes everyone happy.
+3. The {{{blank(200px)}}} farm was famous for its delicious apples.
+4. He was {{{blank(200px)}}} because of his charming personality and good looks.
+5. We like to have picnics in the {{{blank(200px)}}} whenever the weather is nice.
+* Discussion
+Do famous people usually live in the countryside?
 
 * Story Time
-    :PROPERTIES:
-    :reveal_background: ../images/first-day-of-school.gif
-    :reveal_background_size: contain
-    :reveal_background_trans: zoom
-    :html_headline_class: transparentbox
-    :END:
+:PROPERTIES:
+:reveal_background: ../images/chubbicorns.gif
+:reveal_background_size: contain
+:reveal_background_trans: zoom
+:html_headline_class: transparentbox
+:END:
 
-** Vocabulary
-1. famous
-2. countryside
-3. during
-4. pretty/handsome
+** Today
+# {{{bounce-left-img(../images/chubbicorns.gif)}}}
 
-** First Day of School
-It is someone's first day of school.
-
-* Activity
-    :PROPERTIES:
-    :reveal_background: ../images/cute-talking.gif
-    :reveal_background_trans: zoom
-    :reveal_background_size: contain
-    :html_headline_class: transparentbox
-    :END:
-
-** Partner 1
-You are a little child. Tell the story.
+{{{fly-ltr(img,1400px,500,backwards,../images/chubbicorns.gif)}}}
+Who is my very cool unicorn?
 
 
-** Partner 2
-You are the mother/father. Your child's story is fun! Say "Oooh. Ahhh. Wow! Cool!"
+** Famously pretty countryside
+:PROPERTIES:
+:html_headline_class: transparentbox
+:reveal_background: ../images/dancing-tree.gif
+:reveal_background_size: contain
+:END:
+#+BEGIN_leftcol
+{{{bounce-left-img(../images/flying pig.gif)}}}
+#+END_leftcol
+
+
+** Rainbow sneezing
+:PROPERTIES:
+:html_headline_class: invisible
+:reveal_extra_attr: data-auto-animate
+:reveal_background: ../images/rainbow.png
+:reveal_background_size: contain
+:END:
+
+** Rainbow sneezing
+:PROPERTIES:
+:html_headline_class: invisible
+:reveal_extra_attr: data-auto-animate
+:reveal_background: ../images/sneeze.gif
+:reveal_background_size: contain
+:END:
+
+** Rainbow sneezing
+:PROPERTIES:
+:html_headline_class: invisible
+:reveal_extra_attr: data-auto-animate
+:reveal_background: ../images/chubbicorns.gif
+:reveal_background_size: contain
+:END:
 
 * Setup                                                     :noexport:
 # Local variables:
