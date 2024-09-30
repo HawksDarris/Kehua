@@ -65,65 +65,6 @@ span[class|=section-number] {
   padding-top: 1em;
 }
 
-.reveal .leftcol {
-  float: left;
-  width: 50%;
-}
-
-.reveal .rightcol {
-  float: right;
-  margin-inline: auto;
-  width: 50%;
-  /* justify-content: center; */
-  /* justify-items: center; */
-  /* align-content: center; */
-  /* align-items: center; */
-}
-
-.reveal .rightcol .figure{
-  margin-inline: auto;
-}
-
-.reveal .leftcol30 {
-  float: left;
-  width: 28%;
-}
-
-.reveal .rightcol30 {
-  float: right;
-  width: 28%;
-}
-
-.reveal .leftcol40 {
-  float: left;
-  width: 38%;
-}
-
-.reveal .rightcol40 {
-  float: right;
-  width: 38%;
-}
-
-.reveal .leftcol60 {
-  float: left;
-  width: 58%;
-}
-
-.reveal .rightcol60 {
-  float: right;
-  width: 58%;
-}
-
-.reveal .leftcol70 {
-  float: left;
-  width: 68%;
-}
-
-.reveal .rightcol70 {
-  float: right;
-  width: 68%;
-}
-
 
 .centered{
   max-width: fit-content;
