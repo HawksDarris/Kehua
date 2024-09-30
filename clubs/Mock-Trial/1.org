@@ -1,0 +1,167 @@
+#+TITLE:
+#+SUBTITLE:
+#+AUTHOR:
+# Teacher Darris
+#+STARTUP: inlineimages
+#+INCLUDE: ../../dist/macros.org
+:reveal_properties:
+#+PROPERTY: HEADER-ARGS+ :eval no-export
+#+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
+#+REVEAL_THEME: black
+#+REVEAL_HISTORY: true
+#+OPTIONS: timestamp:nil toc:nil num:nil
+#+OPTIONS: reveal_embed_local_resources:t
+#+REVEAL_EXTRA_CSS: ../../dist/utils.css
+#+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE: contain
+:end:
+# #+REVEAL_TITLE_SLIDE_BACKGROUND: ../../images/faaf.gif
+#+REVEAL_TITLE_SLIDE_BACKGROUND: ../../images/law.gif
+
+* First, choose a team
+5 people each.
+
+7 teams?
+
+One team has 6?
+
+Yes, I think so.
+* Vocabulary review
+#+ATTR_REVEAL: :frag (highlight-current-red)
+- Contract
+- Legal/illegal
+- Offer
+- Acceptance
+- Persuade/persuasive/persuasion
+- Sue
+
+* Last week
+** Law Questions for Anne
+1. Anne says she didn't _REALLY_ accept the contract.
+2. Anne says she completed the contract because she "guessed" Rumpelstiltskin's name.
+3. Anne says the contract is illegal.
+
+** Law Questions for Rumpelstiltskin
+1. Rumpelstiltskin says Anne _DID REALLY_ accept the contract
+2. Rumpelstiltskin says the contract is legal
+
+* So what is the law?
+** The Laws I Made
+1. Contracts with extraordinarily unequal exchange are not valid.
+2. Contracts with extraordinarily unethical terms are not valid
+3. A contract is invalid if acceptance is forced by another person, and both sides know about it.
+
+
+** That's the law
+:PROPERTIES:
+    :reveal_background: ../../images/faaf.gif
+    :reveal_background_trans: zoom
+    :reveal_background_size: contain
+    :html_headline_class: invisible
+:END:
+
+** (Write this down)
+#+ATTR_REVEAL: :frag (highlight-current-red)
+1. Extraordinary = 非同寻常
+   - "extrordinary"
+2. Unequal = 不等
+3. Unethical = 不道德
+4. Terms = 条款
+5. Exchange = 交换
+6. Valid = 合法
+7. Forced = 被迫
+# 7. Invalid = 作废 (not 不合法?)
+
+* Fact Questions
+#+ATTR_REVEAL: :frag (highlight-current-red)
+1. What is "extraordinarily unequal exchange"?
+2. What is an "extraordinarily unethical term"?
+3. Was Anne's acceptance forced by another person?
+   - Did both sides know about it?
+
+* What we will do
+1. Opening statements
+2. Questioning
+   - Direct questions
+     - 3x for each team
+   - Cross questions
+     - 3x for each team
+   - MAYBE re-direct
+   - MAYBE re-cross
+3. Closing statements
+
+** 哈?
+
+
+** Opening statement
+#+REVEAL_HTML: <p style=color:red>Tell me about the case. Tell me what you are going to show and how you are going to show it. Tell me why the other side is wrong. It's a map.</p>
+
+"You are going to hear Anne say she was FORCED to agree to give away her BABY! Next, you will hear from..."
+
+** Direct
+#+REVEAL_HTML: <p style=color:red>Ask questions from people who are with you. Help them tell the story.</p>
+
+"What is your name?"
+
+"My name is Anne"
+
+"Why are you here today, Anne?"
+
+"I AM HERE BECAUSE HE WANTS TO TAKE MY BABY!?!?"
+
+** Cross
+#+REVEAL_HTML: <p style=color:red>Ask questions from people who are against you. Make them look bad.</p>
+
+"You were scared the king was going to kill you, right?"
+
+"Yes."
+
+"But you married him."
+
+"Well, I love him"
+
+"So you didn't think he's going to kill you?"
+
+"I did! But I don't think so now..."
+
+** Cross
+"Now, you love him."
+
+"Right"
+
+"He has lots of gold, right?"
+
+"Yes, but that's not why I love him!"
+
+"But you did marry him because he is the king"
+
+"That is part of the reason"
+
+"And you are not afraid of him."
+
+"Not now..."
+
+
+** Closing statement
+#+REVEAL_HTML: <p style=color:red>Tell me what you showed me. Make me remember what you want me to remember</p>
+
+"Today, you heard Anne say she was not afraid of the King! You heard her say she married him because he was the King!"
+
+
+* Time
+#+BEGIN_small
+1. Opening statement + closing statement ≤ 12 minutes
+2. All questioning ≤ 38 minutes
+#+END_small
+* Next Time
+:PROPERTIES:
+    :reveal_background: ../../images/objection.gif
+    :reveal_background_trans: zoom
+    :reveal_background_size: contain
+    :html_headline_class: transparentbox
+:END:
+
+* Setup                                                     :noexport:
+# Local variables:
+# after-save-hook: org-re-reveal-export-to-html
+# org-re-reveal-progress: true
+# end:
