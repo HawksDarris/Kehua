@@ -18,9 +18,6 @@ body {
   background: rgb(0 0 0 / 60%);
 }
 
-.col {
-  padding-bottom: -2vh;
-}
 
 * .figure{
   margin-bottom: -3vh;
@@ -49,14 +46,18 @@ span[class|=section-number] {
   margin-bottom: 4vh;
 }
 
-.left-column {
-  float: left;
-  width: fit-content;
+.columns {
+  display: flex;
+  flex-direction: row; /* Arrange children in columns (side-by-side) */
+  height: 100vh; /* Full viewport height */
 }
 
-.right-column {
-  float: right;
-  width: 50%;
+.col {
+  flex: 1; /* Distribute space evenly among columns */
+  display: flex;
+  justify-content: center; /* Horizontal centering (optional) */
+  align-items: center; /* Vertical centering */
+  text-align: left;
 }
 
 .center-bottom {
@@ -241,6 +242,6 @@ span[class|=section-number] {
 {
     border: none;
     box-shadow: none;
-    max-height: calc(63vh);
-    max-width: calc(63vw);
+    max-height: calc(66vh);
+    max-width: calc(66vw);
 }
