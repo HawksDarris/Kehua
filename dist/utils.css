@@ -208,6 +208,11 @@ span[class|=section-number] {
   display: none;
 }
 
+.invisible h1,h2 {
+  display: none;
+}
+
+
 
 /* @font-face{ */
 /*     font-family: "Font Awesome 5 Free"; */
@@ -236,6 +241,6 @@ span[class|=section-number] {
 {
     border: none;
     box-shadow: none;
-    max-height: calc(66vh);
-    max-width: calc(66vw);
+    max-height: calc(63vh);
+    max-width: calc(63vw);
 }
