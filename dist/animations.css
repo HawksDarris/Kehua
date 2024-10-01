@@ -1,0 +1,85 @@
+.ltr {
+  position: absolute;
+  left: 0; /* Start at the left edge */
+  top: 50%; /* Vertically centered */
+  animation: move-flip 10s infinite;
+  animation-fill-mode: forwards;
+  transform: translateY(-50%); /* Adjust vertical centering */
+}
+
+@keyframes move-flip {
+  0% {
+    transform: translateX(0) rotateY(0deg);
+  }
+  40% {
+    transform: translateX(calc(100vw)) rotateY(0deg); /* Move right, no flip */
+  }
+  50% {
+    transform: translateX(calc(100vw)) rotateY(180deg); /* Flip */
+  }
+  90% {
+    transform: translateX(0) rotateY(180deg); /* Move back left */
+  }
+  100% {
+    transform: translateX(0) rotateY(360deg); /* Flip back to original */
+  }
+}
+
+
+.flip-x {
+  position: relative;
+  animation-name: flip-x;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+.flip-forever {
+  position: relative;
+  animation: flip-forever 4s infinite;
+}
+
+@keyframes flip-x {
+  0% {
+    transform: rotateX(0deg); 
+  }
+  100% {
+    transform: rotateX(180deg); 
+  }
+}
+
+@keyframes flip-forever {
+  0% {
+    transform: rotateX(0deg); 
+  }
+  25% {
+    transform: rotateX(180deg); 
+  }
+  50% {
+    transform: rotateX(0deg); 
+  }
+  75% {
+    transform: rotateX(180deg); 
+  }
+  100% {
+    transform: rotateX(0deg); 
+  }
+}
+
+.move-to-top {
+  position: absolute; /* Position the element */
+  bottom: 50px; /* Start position */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center alignment */
+  animation: moveToTop 2s forwards; /* Animation with duration and fill mode */
+  animation-delay: 1s; /* Delay before starting the animation */
+}
+
+@keyframes moveToTop {
+  0% {
+    top: calc(100vh - 50px); /* Start position */
+  }
+  100% {
+    top: 0; /* Move to the top of the viewport */
+  }
+}
