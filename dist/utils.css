@@ -4,6 +4,7 @@
 /* @import url(../css/theme/reveal-zenika.css); */
 /* @import url(../dist/headerfooter.css); */
 
+@import url(../dist/animations.css);
 body {
   font-family: "NotoColorEmoji", "Lato Regular" "OpenSans Bold","OpenSans Regular", "M+ 1m", Arial, sans-serif; /* Fallback fonts */
 }
@@ -21,10 +22,9 @@ body {
 
 .col {
   flex: 1; 
-  display: flex;
+  align-content: center;
   text-align: left;
 }
-
 
 .transparentbox h1,h2 {
   opacity: 0.8;
@@ -86,23 +86,6 @@ span[class|=section-number] {
   margin-inline: auto;
 }
 
-
-.story em{
-  color: darkgoldenrod;
-}
-
-* i{
-  color: darkgoldenrod;
-}
-
-.story figcaption{
-  padding-top: 0.5em;
-}
-
-.story .figure {
-  width: 60%;
-}
-
 .large {
   font-size: 150%;
 }
@@ -148,21 +131,6 @@ span[class|=section-number] {
 .invisible {
   display: none;
 }
-
-
-
-
-/* @font-face{ */
-/*     font-family: "Font Awesome 5 Free"; */
-/*     font-style: normal; */
-/*     font-weight: 900; */
-/*     src: url("../plugin/menu/font-awesome/webfonts/fa-solid-900.eot"); */
-/*     src: url("../plugin/menu/font-awesome/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), */
-/* 	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.woff2") format("woff2"), */
-/* 	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.woff") format("woff"), */
-/* 	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.ttf") format("truetype"), */
-/* 	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.svg#fontawesome") format("svg"); */
-/* } */
 
 .make-it-pop {
   filter: drop-shadow(0 0 10px purple);
