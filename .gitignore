@@ -11,6 +11,7 @@
 *~
 images/
 out/
+Other/
 .DS_Store
 .svn
 log/*.log
