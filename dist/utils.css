@@ -8,10 +8,23 @@ body {
   font-family: "NotoColorEmoji", "Lato Regular" "OpenSans Bold","OpenSans Regular", "M+ 1m", Arial, sans-serif; /* Fallback fonts */
 }
 
+.grid {
+  display: grid;
+}
+
 .container{
   display: flex;
+  flex-direction: row; 
   justify-content: space-around;
+  max-height: calc(66vh); 
 }
+
+.col {
+  flex: 1; 
+  display: flex;
+  text-align: left;
+}
+
 
 .transparentbox h1,h2 {
   opacity: 0.8;
@@ -44,20 +57,6 @@ span[class|=section-number] {
 
 .reveal table{
   margin-bottom: 4vh;
-}
-
-.columns {
-  display: flex;
-  flex-direction: row; /* Arrange children in columns (side-by-side) */
-  height: 100vh; /* Full viewport height */
-}
-
-.col {
-  flex: 1; /* Distribute space evenly among columns */
-  display: flex;
-  justify-content: center; /* Horizontal centering (optional) */
-  align-items: center; /* Vertical centering */
-  text-align: left;
 }
 
 .center-bottom {
