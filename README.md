@@ -3,3 +3,8 @@
 # [Grade 6](G6)
 
 - [Lesson 1](G6/0.html)
+
+# [Test](./2.html)
+
+
+
