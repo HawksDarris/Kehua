@@ -7,6 +7,7 @@
 @import url(../dist/animations.css);
 body {
   font-family: "NotoColorEmoji", "Lato Regular" "OpenSans Bold","OpenSans Regular", "M+ 1m", Arial, sans-serif; /* Fallback fonts */
+  font-size: 100%;
 }
 
 .grid {
@@ -51,10 +52,6 @@ p img {
   margin-bottom: 10%;
 }
 
-span[class|=section-number] {
-  display: none;
-}
-
 .reveal table{
   margin-bottom: 4vh;
 }
@@ -65,7 +62,7 @@ span[class|=section-number] {
 }
 
 
-.centered{
+.centered, .centered * {
   max-width: fit-content;
   margin-inline: auto;
   display: flex;
@@ -87,15 +84,28 @@ span[class|=section-number] {
 }
 
 .large {
+  width: 150%;
   font-size: 150%;
 }
 
 .larger {
+  width: 200%;
   font-size: 200%;
 }
 
 .small {
+  width: 80%;
   font-size: 80%;
+}
+
+.smaller {
+  width: 50%;
+  font-size: 50%;
+}
+
+.smallest {
+  width: 10%;
+  font-size: 20%;
 }
 
 @font-face {
@@ -128,7 +138,9 @@ span[class|=section-number] {
   width: 10%;
 }
 
-.invisible {
+
+
+span[class|=section-number], .invisible, .invisible h1, .invisible h2 {
   display: none;
 }
 
@@ -143,8 +155,7 @@ span[class|=section-number] {
   margin: 0;
 }
 
-.reveal.reveal img
-{
+.reveal.reveal img {
     border: none;
     box-shadow: none;
     max-height: calc(66vh);

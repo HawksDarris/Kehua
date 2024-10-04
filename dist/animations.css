@@ -1,30 +1,81 @@
-.ltr {
-  position: absolute;
-  left: 0; /* Start at the left edge */
-  top: 50%; /* Vertically centered */
-  animation: move-flip 10s infinite;
-  animation-fill-mode: forwards;
-  transform: translateY(-50%); /* Adjust vertical centering */
+/* imported by ../dist/utils.css  */
+/* SCALING CLASSES {*/
+scale-up {
+  display: inline-block; 
+  animation: grow .5s ease-in-out forwards; 
+  font-size: 100rm;
 }
+/* SCALING CLASSES }*/
+
+/* MOVEMENT CLASSES {*/
+.ltr {
+  animation: move-flip 7s infinite;
+}
+
+.rtl {
+  animation: move-flip 7s infinite;
+  animation-direction: reverse;
+}
+
+.ltr-noflip {
+  animation: move-noflip 7s infinite;
+}
+
+.rtl-noflip {
+  /* todo: This is broken, fix it. */
+  animation: move-noflip 7s infinite;
+  animation-direction: reverse;
+}
+/* MOVEMENT CLASSES }*/
+
+@keyframes grow {
+from {
+  transform: scale(0); 
+}
+to  {
+  transform: scale(1.5); 
+}
+}
+
+@keyframes shrink {
+0% {
+  transform: scale(1);
+}
+100% {
+  transform: scale(0.5); 
+}
+}
+
 
 @keyframes move-flip {
   0% {
-    transform: translateX(0) rotateY(0deg);
+    transform: translateX(calc(-50vw + 50%)) rotateY(180deg); 
   }
-  40% {
-    transform: translateX(calc(100vw)) rotateY(0deg); /* Move right, no flip */
+  45% {
+    transform: translateX(calc(50vw - 50%)) rotateY(180deg); 
   }
   50% {
-    transform: translateX(calc(100vw)) rotateY(180deg); /* Flip */
+    transform: translateX(calc(50vw - 50%)) rotateY(0deg); 
   }
-  90% {
-    transform: translateX(0) rotateY(180deg); /* Move back left */
+  95% {
+    transform: translateX(calc(-50vw + 50%)) rotateY(0deg); 
   }
   100% {
-    transform: translateX(0) rotateY(360deg); /* Flip back to original */
+    transform: translateX(calc(-50vw + 50%)) rotateY(180deg); 
   }
 }
 
+@keyframes move-noflip {
+  0% {
+    transform: translateX(calc(-50vw + 50%)); 
+  }
+  50% {
+    transform: translateX(calc(50vw - 50%)); 
+  }
+  100% {
+    transform: translateX(calc(-50vw + 50%)); 
+  }
+}
 
 .flip-x {
   position: relative;
@@ -35,7 +86,7 @@
 }
 
 .flip-forever {
-  position: relative;
+  position: absolute;
   animation: flip-forever 4s infinite;
 }
 
@@ -83,3 +134,104 @@
     top: 0; /* Move to the top of the viewport */
   }
 }
+
+.glitch {
+  position: relative; /* Set position relative for the parent */
+  overflow: hidden; /* Hide overflow to prevent text bleed */
+}
+
+.glitch:before,
+.glitch:after {
+  content: attr(title); /* Use the title attribute for content */
+  position: absolute; /* Position them absolutely */
+  left: 0; /* Align left */
+  width: 100%; /* Make sure it covers the parent */
+  height: 100%; /* Make sure it covers the parent */
+  color: inherit; /* Inherit color from the parent */
+}
+
+.glitch:before {
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%); /* Top part clip */
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+.glitch:after {
+  animation: glitchBottom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%); /* Bottom part clip */
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitch {
+  2%, 64% {
+    transform: translate(2px, 0) skew(0deg);
+  }
+  4%, 60% {
+    transform: translate(-2px, 0) skew(0deg);
+  }
+  62% {
+    transform: translate(0, 0) skew(5deg);
+  }
+}
+
+@keyframes glitchTop {
+  2%, 64% {
+    transform: translate(2px, -2px);
+  }
+  4%, 60% {
+    transform: translate(-2px, 2px);
+  }
+  62% {
+    transform: translate(13px, -1px) skew(-13deg);
+  }
+}
+
+@keyframes glitchBottom {
+  2%, 64% {
+    transform: translate(-2px, 0);
+  }
+  4%, 60% {
+    transform: translate(-2px, 0);
+  }
+  62% {
+    transform: translate(-22px, 5px) skew(21deg);
+  }
+}/* .glitch { */
+/*   font-weight: bold; */
+/*   position: relative; */
+/*   text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff, */
+/*     0.025em 0.04em 0 #fffc00; */
+/*   animation: glitch 725ms infinite; */
+/* } */
+/**/
+/**/
+/* @keyframes glitch { */
+/* 0% { */
+/*   text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff, */
+/*     0.025em 0.04em 0 #fffc00; */
+/* } */
+/* 15% { */
+/*   text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff, */
+/*     0.025em 0.04em 0 #fffc00; */
+/* } */
+/* 16% { */
+/*   text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff, */
+/*     -0.05em -0.05em 0 #fffc00; */
+/* } */
+/* 49% { */
+/*   text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff, */
+/*     -0.05em -0.05em 0 #fffc00; */
+/* } */
+/* 50% { */
+/*   text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff, */
+/*     0 -0.04em 0 #fffc00; */
+/* } */
+/* 99% { */
+/*   text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff, */
+/*     0 -0.04em 0 #fffc00; */
+/* } */
+/* 100% { */
+/*   text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff, */
+/*     -0.04em -0.025em 0 #fffc00; */
+/* } */
+/* } */
