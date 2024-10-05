@@ -5,3 +5,7 @@
 ## [G6 Lesson 1](60.html)
 ## [G6 Lesson 2](61.html)
 ## [G6 Lesson 3](62.html)
+
+# Games
+
+- [Exploding Kittens](Exploding-Kittens.html)
