@@ -33,15 +33,15 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     const cardConfig = {
-      './images/Games/GrenadeCat.png': 5,
-      './images/Games/TnTCat.png': 11,
-      './images/Games/3ptCat.png': 9,
-      './images/Games/tacocat.png': 6,
-      './images/Games/AvocadoCat.png': 5,
-      './images/Games/Nuclear.png': 2,
-      './images/Games/LosePoints.png': 3,
-      './images/Games/ChangePoints.png': 2,
-      './images/Games/Bomb.png': 9,
+      './Games/Exploding-Kittens/GrenadeCat.png': 5,
+      './Games/Exploding-Kittens/TnTCat.png': 11,
+      './Games/Exploding-Kittens/3ptCat.png': 9,
+      './Games/Exploding-Kittens/tacocat.png': 6,
+      './Games/Exploding-Kittens/AvocadoCat.png': 5,
+      './Games/Exploding-Kittens/Nuclear.png': 2,
+      './Games/Exploding-Kittens/LosePoints.png': 3,
+      './Games/Exploding-Kittens/ChangePoints.png': 2,
+      './Games/Exploding-Kittens/Bomb.png': 9,
     };
 
     let cards = [];
