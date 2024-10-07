@@ -31,6 +31,8 @@
     document.body.appendChild(modal);
   };
 
+
+
   document.addEventListener("DOMContentLoaded", function () {
     const cardConfig = {
       './Games/Exploding-Kittens/GrenadeCat.png': 5,
@@ -61,15 +63,28 @@
       const revealBtn = document.getElementById('reveal');
       const fivePointsBtn = document.getElementById('fivePoints');
 
-      revealBtn.addEventListener('click', () => {
+      // Create a wrapper function that removes the event listeners after execution
+      function revealHandler() {
         modal.style.display = 'none';
         callback(true); // Reveal
-      });
+        removeModalListeners();
+      }
 
-      fivePointsBtn.addEventListener('click', () => {
+      function fivePointsHandler() {
         modal.style.display = 'none';
         callback(false); // Five points
-      });
+        removeModalListeners();
+      }
+
+      // Add event listeners
+      revealBtn.addEventListener('click', revealHandler);
+      fivePointsBtn.addEventListener('click', fivePointsHandler);
+
+      // Function to remove the event listeners
+      function removeModalListeners() {
+        revealBtn.removeEventListener('click', revealHandler);
+        fivePointsBtn.removeEventListener('click', fivePointsHandler);
+      }
     }
     function shuffle(array) {
       let currentIndex = array.length, temporaryValue, randomIndex;
@@ -108,7 +123,7 @@
     function flipCard(index) {
       const card = document.querySelector(`.card[data-index="${index}"]`);
 
-      if (shuffledCards[index] === './Games/Exploding-Kittens/LosePoints.png' || shuffledCards[index] === 'ChangePoints.png') {
+      if (shuffledCards[index] === './Games/Exploding-Kittens/LosePoints.png' || shuffledCards[index] === './Games/Exploding-Kittens/ChangePoints.png') {
         showModal(choice => {
           if (choice) {
             // Player chose to reveal the card
@@ -151,17 +166,33 @@
       }
     }
 
+    // function playCardSound(index) {
+    //   if (shuffledCards[index] === './Games/Exploding-Kittens/LosePoints.png') {
+    //     document.getElementById('losePoints').play();
+    //   } else if (shuffledCards[index] === './Games/Exploding-Kittens/ChangePoints.png') {
+    //     document.getElementById('changePoints').play();
+    //   } else if (shuffledCards[index] === './Games/Exploding-Kittens/Bomb.png') {
+    //     document.getElementById('bombSound').play();
+    //   } else if (shuffledCards[index] === './Games/Exploding-Kittens/Nuclear.png') {
+    //     document.getElementById('nuclearSound').play();
+    //   }
+    //   else {
+    //     document.getElementById('draw').play();
+    //   }
+    // }
+    //
     function playCardSound(index) {
-      if (shuffledCards[index] === './Games/Exploding-Kittens/LosePoints.png') {
+      const card = shuffledCards[index];
+
+      if (card === './Games/Exploding-Kittens/LosePoints.png') {
         document.getElementById('losePoints').play();
-      } else if (shuffledCards[index] === './Games/Exploding-Kittens/ChangePoints.png') {
+      } else if (card === './Games/Exploding-Kittens/ChangePoints.png') {
         document.getElementById('changePoints').play();
-      } else if (shuffledCards[index] === './Games/Exploding-Kittens/Bomb.png') {
+      } else if (card === './Games/Exploding-Kittens/Bomb.png') {
         document.getElementById('bombSound').play();
-      } else if (shuffledCards[index] === './Games/Exploding-Kittens/Nuclear.png') {
+      } else if (card === './Games/Exploding-Kittens/Nuclear.png') {
         document.getElementById('nuclearSound').play();
-      }
-      else {
+      } else {
         document.getElementById('draw').play();
       }
     }
