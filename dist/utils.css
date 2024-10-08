@@ -150,6 +150,7 @@ span[class|=section-number], .invisible, .invisible h1, .invisible h2 {
 
 .fill-in-the-blank {
   border-top: 1px solid #FFF;
+  height: 1px;
   display: inline-block;
   width: 200px;
   margin: 0;
