@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Stories</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .class-list {
+            margin: 20px;
+            padding: 10px;
+        }
+        .class-section {
+            margin-bottom: 20px;
+        }
+        a {
+            display: block;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Class Stories</h1>
+    <div class="class-list">
+        <div class="class-section">
+            <h2>Grade 6</h2>
+            <ul id="g6-links"></ul>
+        </div>
+        <div class="class-section">
+            <h2>Grade 5</h2>
+            <ul id="g5-links"></ul>
+        </div>
+    </div>
+
+    <script>
+        // Function to generate links for a grade
+        function generateClassLinks(grade, classCount, containerId) {
+            const container = document.getElementById(containerId);
+            for (let i = 1; i <= classCount; i++) {
+                let className = `G${grade}C${i}`;
+                let storyFile = `${className}.html`; // Each story file named as G6C1.html, G5C1.html, etc.
+                let link = document.createElement("a");
+                link.href = storyFile;
+                link.textContent = `Story for Class ${className}`;
+                container.appendChild(link);
+            }
+        }
+
+        // Generate links for Grade 6 (G6C1 - G6C10)
+        generateClassLinks(6, 10, 'g6-links');
+
+        // Generate links for Grade 5 (G5C1 - G5C10)
+        generateClassLinks(5, 10, 'g5-links');
+    </script>
+</body>
+</html>
