@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beep Button</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        button {
+            padding: 20px 40px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="beepButton">Press to Beep</button>
+
+    <script>
+        // Function to generate and play a beep sound for 3 seconds
+        function playBeep() {
+            // Create a new audio context
+            const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+
+            // Create an oscillator node (for generating sound)
+            const oscillator = audioContext.createOscillator();
+            oscillator.type = 'square'; // A square wave produces a buzzer-like sound
+            oscillator.frequency.setValueAtTime(600, audioContext.currentTime); // Frequency in Hz (440Hz is the A note)
+
+            // Create a gain node (to control the volume)
+            const gainNode = audioContext.createGain();
+            gainNode.gain.setValueAtTime(1, audioContext.currentTime); // Set volume to 1 (full volume)
+
+            // Connect the oscillator to the gain node, and the gain node to the audio context's destination (speakers)
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+
+            // Start the oscillator (beep sound)
+            oscillator.start();
+
+            // Stop the beep after 3 seconds
+            setTimeout(() => {
+                oscillator.stop();
+                audioContext.close(); // Close the audio context to free up resources
+            }, 3000);
+        }
+
+        // Add event listener to the button
+        document.getElementById('beepButton').addEventListener('click', playBeep);
+    </script>
+
+</body>
+</html>
