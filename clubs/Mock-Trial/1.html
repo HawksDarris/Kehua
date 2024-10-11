@@ -386,13 +386,27 @@ section.has-light-background, section.has-light-background h1, section.has-light
 /* @import url(../css/theme/reveal-zenika.css); */
 /* @import url(../dist/headerfooter.css); */
 
+@import url(../dist/animations.css);
 body {
   font-family: "NotoColorEmoji", "Lato Regular" "OpenSans Bold","OpenSans Regular", "M+ 1m", Arial, sans-serif; /* Fallback fonts */
+  font-size: 100%;
+}
+
+.grid {
+  display: grid;
 }
 
 .container{
   display: flex;
+  flex-direction: row; 
   justify-content: space-around;
+  max-height: calc(66vh); 
+}
+
+.col {
+  flex: 1; 
+  align-content: center;
+  text-align: left;
 }
 
 .transparentbox h1,h2 {
@@ -420,26 +434,8 @@ p img {
   margin-bottom: 10%;
 }
 
-span[class|=section-number] {
-  display: none;
-}
-
 .reveal table{
   margin-bottom: 4vh;
-}
-
-.columns {
-  display: flex;
-  flex-direction: row; /* Arrange children in columns (side-by-side) */
-  height: 100vh; /* Full viewport height */
-}
-
-.col {
-  flex: 1; /* Distribute space evenly among columns */
-  display: flex;
-  justify-content: center; /* Horizontal centering (optional) */
-  align-items: center; /* Vertical centering */
-  text-align: left;
 }
 
 .center-bottom {
@@ -448,7 +444,7 @@ span[class|=section-number] {
 }
 
 
-.centered{
+.centered, .centered * {
   max-width: fit-content;
   margin-inline: auto;
   display: flex;
@@ -469,33 +465,29 @@ span[class|=section-number] {
   margin-inline: auto;
 }
 
-
-.story em{
-  color: darkgoldenrod;
-}
-
-* i{
-  color: darkgoldenrod;
-}
-
-.story figcaption{
-  padding-top: 0.5em;
-}
-
-.story .figure {
-  width: 60%;
-}
-
 .large {
+  width: 150%;
   font-size: 150%;
 }
 
 .larger {
+  width: 200%;
   font-size: 200%;
 }
 
 .small {
+  width: 80%;
   font-size: 80%;
+}
+
+.smaller {
+  width: 50%;
+  font-size: 50%;
+}
+
+.smallest {
+  width: 10%;
+  font-size: 20%;
 }
 
 @font-face {
@@ -528,24 +520,11 @@ span[class|=section-number] {
   width: 10%;
 }
 
-.invisible {
+
+
+span[class|=section-number], .invisible, .invisible h1, .invisible h2 {
   display: none;
 }
-
-
-
-
-/* @font-face{ */
-/*     font-family: "Font Awesome 5 Free"; */
-/*     font-style: normal; */
-/*     font-weight: 900; */
-/*     src: url("../plugin/menu/font-awesome/webfonts/fa-solid-900.eot"); */
-/*     src: url("../plugin/menu/font-awesome/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), */
-/* 	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.woff2") format("woff2"), */
-/* 	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.woff") format("woff"), */
-/* 	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.ttf") format("truetype"), */
-/* 	 url("../plugin/menu/font-awesome/webfonts/fa-solid-900.svg#fontawesome") format("svg"); */
-/* } */
 
 .make-it-pop {
   filter: drop-shadow(0 0 10px purple);
@@ -553,13 +532,13 @@ span[class|=section-number] {
 
 .fill-in-the-blank {
   border-top: 1px solid #FFF;
+  height: 1px;
   display: inline-block;
   width: 200px;
   margin: 0;
 }
 
-.reveal.reveal img
-{
+.reveal.reveal img {
     border: none;
     box-shadow: none;
     max-height: calc(66vh);
@@ -575,8 +554,8 @@ span[class|=section-number] {
 
 </section>
 <section>
-<section id="slide-org0738908">
-<h2 id="org0738908">First, choose a team</h2>
+<section id="slide-orgdefeb01">
+<h2 id="orgdefeb01">First, choose a team</h2>
 <p>
 5 people each.
 </p>
@@ -595,8 +574,8 @@ Yes, I think so.
 </section>
 </section>
 <section>
-<section id="slide-orgce7d70c">
-<h2 id="orgce7d70c">Vocabulary review</h2>
+<section id="slide-org8485b0b">
+<h2 id="org8485b0b">Vocabulary review</h2>
 <ul>
 <li class="fragment highlight-current-red">Contract</li>
 <li class="fragment highlight-current-red">Legal/illegal</li>
@@ -609,13 +588,13 @@ Yes, I think so.
 </section>
 </section>
 <section>
-<section id="slide-orgca06f19">
-<h2 id="orgca06f19">Last week</h2>
-<div class="outline-text-2" id="text-orgca06f19">
+<section id="slide-org98232ac">
+<h2 id="org98232ac">Last week</h2>
+<div class="outline-text-2" id="text-org98232ac">
 </div>
 </section>
-<section id="slide-org558f309">
-<h3 id="org558f309">Law Questions for Anne</h3>
+<section id="slide-org5968282">
+<h3 id="org5968282">Law Questions for Anne</h3>
 <ol>
 <li>Anne says she didn&rsquo;t <span class="underline">REALLY</span> accept the contract.</li>
 <li>Anne says she completed the contract because she &ldquo;guessed&rdquo; Rumpelstiltskin&rsquo;s name.</li>
@@ -623,8 +602,8 @@ Yes, I think so.
 
 </ol>
 </section>
-<section id="slide-org74e5318">
-<h3 id="org74e5318">Law Questions for Rumpelstiltskin</h3>
+<section id="slide-org1f03f2f">
+<h3 id="org1f03f2f">Law Questions for Rumpelstiltskin</h3>
 <ol>
 <li>Rumpelstiltskin says Anne <span class="underline">DID REALLY</span> accept the contract</li>
 <li>Rumpelstiltskin says the contract is legal</li>
@@ -633,13 +612,13 @@ Yes, I think so.
 </section>
 </section>
 <section>
-<section id="slide-orga80b7a5">
-<h2 id="orga80b7a5">So what is the law?</h2>
-<div class="outline-text-2" id="text-orga80b7a5">
+<section id="slide-orgbc1e36f">
+<h2 id="orgbc1e36f">So what is the law?</h2>
+<div class="outline-text-2" id="text-orgbc1e36f">
 </div>
 </section>
-<section id="slide-org38e9438">
-<h3 id="org38e9438">The Laws I Made</h3>
+<section id="slide-org8c8a41c">
+<h3 id="org8c8a41c">The Laws I Made</h3>
 <ol>
 <li>Contracts with extraordinarily unequal exchange are not valid.</li>
 <li>Contracts with extraordinarily unethical terms are not valid</li>
@@ -647,11 +626,11 @@ Yes, I think so.
 
 </ol>
 </section>
-<section id="slide-org703f195" data-background="../../images/faaf.gif" data-background-size="contain" data-background-transition="zoom">
-<h3 id="org703f195" class="invisible">That&rsquo;s the law</h3>
+<section id="slide-org08fba34" data-background="../../images/faaf.gif" data-background-size="contain" data-background-transition="zoom">
+<h3 id="org08fba34" class="invisible">That&rsquo;s the law</h3>
 </section>
-<section id="slide-org55237dc">
-<h3 id="org55237dc">(Write this down)</h3>
+<section id="slide-org399ae48">
+<h3 id="org399ae48">(Write this down)</h3>
 <ol>
 <li class="fragment highlight-current-red">Extraordinary = 非同寻常
 <ul>
@@ -669,8 +648,8 @@ Yes, I think so.
 </section>
 </section>
 <section>
-<section id="slide-org4f6f58c">
-<h2 id="org4f6f58c">Fact Questions</h2>
+<section id="slide-org715b2f7">
+<h2 id="org715b2f7">Fact Questions</h2>
 <ol>
 <li class="fragment highlight-current-red">What is &ldquo;extraordinarily unequal exchange&rdquo;?</li>
 <li class="fragment highlight-current-red">What is an &ldquo;extraordinarily unethical term&rdquo;?</li>
@@ -684,8 +663,8 @@ Yes, I think so.
 </section>
 </section>
 <section>
-<section id="slide-org8defa64">
-<h2 id="org8defa64">What we will do</h2>
+<section id="slide-orgf10ecb4">
+<h2 id="orgf10ecb4">What we will do</h2>
 <ol>
 <li>Opening statements</li>
 <li>Questioning
@@ -708,21 +687,21 @@ Yes, I think so.
 
 </ol>
 </section>
-<section id="slide-orgeae09e7">
-<h3 id="orgeae09e7">哈?</h3>
+<section id="slide-org1075a39">
+<h3 id="org1075a39">哈?</h3>
 
 
 </section>
-<section id="slide-orgeeb0e3c">
-<h3 id="orgeeb0e3c">Opening statement</h3>
+<section id="slide-orgaa482e0">
+<h3 id="orgaa482e0">Opening statement</h3>
 <p style=color:red>Tell me about the case. Tell me what you are going to show and how you are going to show it. Tell me why the other side is wrong. It's a map.</p>
 
 <p>
 &ldquo;You are going to hear Anne say she was FORCED to agree to give away her BABY! Next, you will hear from&#x2026;&rdquo;
 </p>
 </section>
-<section id="slide-orgda21a38">
-<h3 id="orgda21a38">Direct</h3>
+<section id="slide-orgde453c6">
+<h3 id="orgde453c6">Direct</h3>
 <p style=color:red>Ask questions from people who are with you. Help them tell the story.</p>
 
 <p>
@@ -741,8 +720,8 @@ Yes, I think so.
 &ldquo;I AM HERE BECAUSE HE WANTS TO TAKE MY BABY!?!?&rdquo;
 </p>
 </section>
-<section id="slide-org4e2f3ab">
-<h3 id="org4e2f3ab">Cross</h3>
+<section id="slide-orgb1bb225">
+<h3 id="orgb1bb225">Cross</h3>
 <p style=color:red>Ask questions from people who are against you. Make them look bad.</p>
 
 <p>
@@ -769,8 +748,8 @@ Yes, I think so.
 &ldquo;I did! But I don&rsquo;t think so now&#x2026;&rdquo;
 </p>
 </section>
-<section id="slide-orgb57bbf1">
-<h3 id="orgb57bbf1">Cross</h3>
+<section id="slide-org4a4d598">
+<h3 id="org4a4d598">Cross</h3>
 <p>
 &ldquo;Now, you love him.&rdquo;
 </p>
@@ -803,8 +782,8 @@ Yes, I think so.
 &ldquo;Not now&#x2026;&rdquo;
 </p>
 </section>
-<section id="slide-org72d6b0a">
-<h3 id="org72d6b0a">Closing statement</h3>
+<section id="slide-orgb1c40af">
+<h3 id="orgb1c40af">Closing statement</h3>
 <p style=color:red>Tell me what you showed me. Make me remember what you want me to remember</p>
 
 <p>
@@ -813,9 +792,9 @@ Yes, I think so.
 </section>
 </section>
 <section>
-<section id="slide-orga723a41">
-<h2 id="orga723a41">Time</h2>
-<div class="small" id="orge09c711">
+<section id="slide-org6373c99">
+<h2 id="org6373c99">Time</h2>
+<div class="small" id="org8d729cf">
 <ol>
 <li>Opening statement + closing statement ≤ 12 minutes</li>
 <li>All questioning ≤ 38 minutes</li>
@@ -826,8 +805,8 @@ Yes, I think so.
 </section>
 </section>
 <section>
-<section id="slide-org27a44f8" data-background="../../images/objection.gif" data-background-size="contain" data-background-transition="zoom">
-<h2 id="org27a44f8" class="transparentbox">Next Time</h2>
+<section id="slide-orgd22031c" data-background="../../images/objection.gif" data-background-size="contain" data-background-transition="zoom">
+<h2 id="orgd22031c" class="transparentbox">Next Time</h2>
 </section>
 </section>
 </div>

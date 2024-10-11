@@ -30,16 +30,16 @@ linestretch: 1.5
 
 ```
 
-# Expert Witness Statement: Dr. Alex Goldsmith
+# Witness Statement: Dr. Alex Goldsmith
 
-My name is **Dr. Alex Goldsmith**, and I am an expert in valuation. I have a Ph.D. in Economics from Tsinghua University and have spent over twenty years researching valuation of goods and services. I have prepared a report entitled "Evaluating the Value of Rumpelstiltskin’s Straw to Gold Service: An Analysis of Extraordinary Inequality."
+My name is **Dr. Alex Goldsmith**, and I am an expert in Unequal Exchange. I have a Ph.D. in Economics from Tsinghua University and have spent over twenty years researching the cost of goods and services. I have prepared a report titled "The Value$\footnote{价值}$ of Rumpelstiltskin’s Straw to Gold Service."
 
-In my report, I analyze the transaction between Rumpelstiltskin and Anne Miller concerning the exchange of straw into gold for a human baby. It is my expert opinion that this arrangement is indeed "extraordinarily unequal." The value of a human life, especially a royal baby, is immeasurable in moral and ethical terms. 
+In my report, I look at Rumpelstiltskin and Anne Miller's exchange of one baby for turning straw into gold. It is my expert opinion that this exchange is "extraordinarily unequal." A human life, especially a royal$\footnote{皇家}$ baby's life, is worth so much more than gold in moral. 
 
-Using common economic principles, I attempted to quantify the value of the straw-to-gold service. The cost of materials, time, and effort in producing gold from straw does not come close to the value of a human child. Even if one were to estimate the monetary value of gold produced, it would be significantly lower than the inherent value of a life. 
+I tried to measure how much the straw-to-gold service is worth using basic economic ideas. I was not able to find the worth of his service because it is so rare, but the price of straw and time to make gold is nowhere near to the price of a human child. Even if we guessed how much the gold is worth in money, it would still be much less than the true value of a life.
 
-However, I must concede, with reservations, that my calculations might not fully apply to a royal baby. The social, political, and emotional value placed on a royal heir could elevate the perceived worth far beyond standard economic measures. In royal contexts, the value of a child encompasses not just material wealth but also legacy, power, and future governance.
+I have read Dr. Worthington's report, and I am surprised$\footnote{我很惊讶} that it says a baby's life can be valued just by adding up how much money the baby would earn. There are so many other things to think about. For example, what is the price of holding your baby? How much does it cost to hear your baby's laugh?
 
-In conclusion, while my analysis supports the claim that the transaction was extraordinarily unequal, I acknowledge that the unique circumstances of royal lineage may complicate a straightforward valuation. Therefore, it is essential to consider both the ethical implications and the specific context of such an exchange.
+I admit that my calculations might not completely work for a royal baby. The importance of a royal heir goes beyond regular money values. In a royal family, the value of a child includes not just wealth but also things like future leadership of the country.
 
-I am prepared to enter my report into evidence for this trial.
+My analysis shows that the deal was extraordinarily unequal. I am prepared to enter my report into evidence for this trial.

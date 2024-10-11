@@ -146,7 +146,6 @@ Yes, I think so.
 
 "Today, you heard Anne say she was not afraid of the King! You heard her say she married him because he was the King!"
 
-
 * Time
 #+BEGIN_small
 1. Opening statement + closing statement ≤ 12 minutes

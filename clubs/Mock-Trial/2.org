@@ -1,0 +1,20 @@
+#+TITLE:
+#+SUBTITLE:
+#+AUTHOR:
+# Teacher Darris
+#+STARTUP: inlineimages
+#+INCLUDE: ../../dist/macros.org
+:reveal_properties:
+#+PROPERTY: HEADER-ARGS+ :eval no-export
+#+REVEAL_ROOT: ~/share/Teaching/reveal.js-master/
+#+REVEAL_THEME: black
+#+REVEAL_HISTORY: true
+#+OPTIONS: timestamp:nil toc:nil num:nil
+#+OPTIONS: reveal_embed_local_resources:t
+#+REVEAL_EXTRA_CSS: ../../dist/utils.css
+#+REVEAL_TITLE_SLIDE_BACKGROUND_SIZE: contain
+:end:
+# #+REVEAL_TITLE_SLIDE_BACKGROUND: ../../images/faaf.gif
+#+REVEAL_TITLE_SLIDE_BACKGROUND: ../../images/law.gif
+
+* Giving a Speech
