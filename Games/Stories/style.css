@@ -1,0 +1,57 @@
+/* Olivetti-inspired with Modus Operandi Tinted color scheme */
+body {
+  font-family: "Georgia", serif;
+  font-size: 100%;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4e2d1; /* Light pinkish-brownish background */
+  color: #1a1a1a; /* Black text */
+}
+
+.container {
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 4em 2em;
+  background-color: #fae7de; /* Slightly lighter background for the container */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-size: 150%;
+  margin-bottom: 1.5em;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #1a1a1a; /* Dark text for headings */
+  margin-bottom: 1em;
+}
+
+/* body { */
+/*     font-family: "Georgia", serif; */
+/*     font-size: 18px; */
+/*     line-height: 1.6; */
+/*     margin: 0; */
+/*     padding: 0; */
+/*     background-color: #f5f5f5; */
+/*     color: #333; */
+/* } */
+/**/
+/* .container { */
+/*     max-width: 40em; /* Narrow text width for focus */ */
+/*     margin: 0 auto; */
+/*     padding: 4em 2em; */
+/*     background-color: #fff; */
+/*     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+/* } */
+/**/
+/* p { */
+/*     margin-bottom: 1.5em; */
+/* } */
+/**/
+/* h1, h2, h3 { */
+/*     text-align: center; */
+/*     line-height: 1.4; */
+/*     margin-bottom: 1em; */
+/* } */
